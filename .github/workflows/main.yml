@@ -29,14 +29,14 @@ jobs:
           PAR_state: "unread"
           PAR_sort: "oldest"
         with:
-          - url: https://getpocket.com/v3/get
-          - method: POST
-          - payload: '{"consumer_key": "${{ env.POCKET_CONSUMER_KEY }}", "access_token": "${{ env.POCKET_TOKEN }}", "state": "${{ env.PAR_state }}", "sort": "${{ env.PAR_sort }}", "since": "${{ env.SINCE }}"}'
+          url: https://getpocket.com/v3/get
+          method: POST
+          payload: '{"consumer_key": "${{ env.POCKET_CONSUMER_KEY }}", "access_token": "${{ env.POCKET_TOKEN }}", "state": "${{ env.PAR_state }}", "sort": "${{ env.PAR_sort }}", "since": "${{ env.SINCE }}"}'
       - name: Create weekly file
         uses: finnp/create-file-action@1.0.0
-          env:
-            FILE_NAME: $(date +'%Y-%M-%D')
-            FILE_DATA: '${{ steps.archive.outputs.output }}' | ConvertFrom-Json
+        env:
+          FILE_NAME: $(date +'%Y-%M-%D')
+          FILE_DATA: '${{ steps.archive.outputs.output }}'
       - name: Commit changes
         uses: elstudio/actions-js-build/commit@v3
         with:
