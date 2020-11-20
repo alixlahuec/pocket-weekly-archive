@@ -16,7 +16,7 @@ jobs:
         run: echo "::set-output name=NOW::$(date +%s)"
       - name: Calculate Unix timestamp from a week ago
         id: since
-        run: echo "::set-output name=SINCE::$(date -d "${{ steps.date.outputs.NOW }} - 7 days" +%s)"
+        run: echo "::set-output name=SINCE::$(date --date=${{ steps.date.outputs.NOW }}'-7 days' +%s)"
       - name: Web Request Action
         id: archive
         uses: Satak/webrequest-action@v1.2.3
@@ -31,10 +31,11 @@ jobs:
           method: POST
           payload: '{"consumer_key": "${{ env.POCKET_CONSUMER_KEY }}", "access_token": "${{ env.POCKET_TOKEN }}", "state": "${{ env.PAR_state }}", "sort": "${{ env.PAR_sort }}", "since": "${{ env.PAR_since }}"}'
       - name: Create weekly file
-        uses: finnp/create-file-action@1.0.0
-        env:
-          FILE_NAME: $(date +'%Y-%M-%D')
-          FILE_DATA: '${{ steps.archive.outputs.output }}'
+        uses: jsdaniell/create-json@1.1.2
+        with:
+          name: '$(date + "%Y-%M-%D").json'
+          json: '${{ steps.archive.outputs.output }}'
+          dir: 'json/'
       - name: Commit changes
         uses: elstudio/actions-js-build/commit@v3
         with:
