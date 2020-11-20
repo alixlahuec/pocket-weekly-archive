@@ -13,10 +13,10 @@ jobs:
       - uses: actions/checkout@v2
       - name: Get Unix timestamp
         id: date
-        run: echo "::set-env name=NOW::$(date +%s)"
+        run: echo "::set-output name=NOW::$(date +%s)"
       - name: Calculate Unix timestamp from a week ago
         id: since
-        run: echo "::set-env name=SINCE::$(date -d "$NOW - 7 days" +%s)"
+        run: echo "::set-output name=SINCE::$(date -d "${{ steps.date.outputs.NOW }} - 7 days" +%s)"
       - name: Web Request Action
         id: archive
         uses: Satak/webrequest-action@v1.2.3
@@ -25,10 +25,11 @@ jobs:
           POCKET_TOKEN: ${{ secrets.POCKET_TOKEN }}
           PAR_state: "unread"
           PAR_sort: "oldest"
+          PAR_since: ${{ steps.since.outputs.SINCE }}
         with:
           url: https://getpocket.com/v3/get
           method: POST
-          payload: '{"consumer_key": "${{ env.POCKET_CONSUMER_KEY }}", "access_token": "${{ env.POCKET_TOKEN }}", "state": "${{ env.PAR_state }}", "sort": "${{ env.PAR_sort }}", "since": "${{ env.SINCE }}"}'
+          payload: '{"consumer_key": "${{ env.POCKET_CONSUMER_KEY }}", "access_token": "${{ env.POCKET_TOKEN }}", "state": "${{ env.PAR_state }}", "sort": "${{ env.PAR_sort }}", "since": "${{ env.PAR_since }}"}'
       - name: Create weekly file
         uses: finnp/create-file-action@1.0.0
         env:
