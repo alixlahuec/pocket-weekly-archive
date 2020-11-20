@@ -16,7 +16,7 @@ jobs:
         run: echo "::set-output name=NOW::$(date +%s)"
       - name: Calculate Unix timestamp from a week ago
         id: since
-        run: echo "::set-output name=SINCE::$(date --date=${{ steps.date.outputs.NOW }}'-7 days' +%s)"
+        run: echo "::set-output name=SINCE::$(date --date='1 week ago' +%s)"
       - name: Web Request Action
         id: archive
         uses: Satak/webrequest-action@v1.2.3
