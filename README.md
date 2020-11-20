@@ -11,7 +11,7 @@ This repository uses a GitHub Action to make a weekly API call to Pocket, reques
 
 ### Step 2 : Add the GitHub action for the weekly archive
 
- - [x] The cron job can be set to any desired frequency. By default, it's set to run every Sunday at 08:11 UTC. If the frequency is changed to something other than weekly, make sure to change the calculation of the "since" parameter for the API call : by default, the workflow requests items added in the last 7 days.
+ - [x] The cron job can be set to any desired frequency. By default, it's set to run every Sunday at 08:11 UTC ; a good tool to easily generate CRON settings is [crontab.guru](https://crontab.guru#11_8_*_*_SUN). If the frequency is changed to something other than weekly, make sure to change the calculation of the "since" parameter for the API call : by default, the workflow requests items added in the last 7 days.
  - [x] API requests are made using [Satak's Web Request Action](https://github.com/marketplace/actions/web-request-action).
  - [x] The workflow makes use of a few request parameters, but doesn't explicitly set all of them. A complete list is available [on the Pocket API 'Retrieve' documentation page](https://getpocket.com/developer/docs/v3/retrieve).
 
