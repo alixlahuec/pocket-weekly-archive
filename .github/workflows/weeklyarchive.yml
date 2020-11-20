@@ -17,7 +17,7 @@ jobs:
       - name: Calculate Unix timestamp from a week ago
         id: since
         run: echo "::set-output name=SINCE::$(date --date='1 week ago' +%s)"
-      - name: Web Request Action
+      - name: Request the data from the Pocket API (POST)
         id: archive
         uses: Satak/webrequest-action@v1.2.3
         env:
@@ -35,7 +35,6 @@ jobs:
         with:
           name: '${{ steps.date.outputs.TODAY }}.json'
           json: '${{ steps.archive.outputs.output }}'
-          dir: 'json/'
       - name: Commit changes
         uses: elstudio/actions-js-build/commit@v3
         with:
