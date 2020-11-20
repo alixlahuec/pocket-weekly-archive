@@ -1,0 +1,43 @@
+name: "Pocket weekly reading list"
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    -   cron: "11 3 * * SUN"
+
+jobs:
+  request:
+    name: API Request to Pocket
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v2
+      - name: Get Unix timestamp
+        id: date
+        run: echo "::set-env name=NOW::$(date +%s)"
+      - name: Calculate Unix timestamp from a week ago
+        id: since
+        run: echo "::set-env name=SINCE::$(date -d "$NOW - 7 days" +%s)"
+      - name: Web Request Action
+        id: archive
+        uses: Satak/webrequest-action@v1.2.3
+        env:
+          POCKET_CONSUMER_KEY: ${{ secrets.POCKET_CONSUMER_KEY }}
+          POCKET_TOKEN: ${{ secrets.POCKET_TOKEN }}
+          PAR_state: "unread"
+          PAR_sort: "oldest"
+        with:
+          - url: https://getpocket.com/v3/get
+          - method: POST
+          - payload: '{"consumer_key": "${{ env.POCKET_CONSUMER_KEY }}", "access_token": "${{ env.POCKET_TOKEN }}", "state": "${{ env.PAR_state }}", "sort": "${{ env.PAR_sort }}", "since": "${{ env.SINCE }}"}'
+      - name: Create weekly file
+        uses: finnp/create-file-action@1.0.0
+          env:
+            FILE_NAME: $(date +'%Y-%M-%D')
+            FILE_DATA: '${{ steps.archive.outputs.output }}' | ConvertFrom-Json
+      - name: Commit changes
+        uses: elstudio/actions-js-build/commit@v3
+        with:
+          commitMessage: Automated weekly archive
