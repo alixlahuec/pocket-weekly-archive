@@ -11,9 +11,6 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v2
-      - name: Get Unix timestamp
-        id: date
-        run: echo "::set-output name=NOW::$(date +%s)"
       - name: Calculate Unix timestamp from a week ago
         id: since
         run: echo "::set-output name=SINCE::$(date --date='1 week ago' +%s)"
@@ -33,9 +30,8 @@ jobs:
       - name: Create weekly file
         uses: jsdaniell/create-json@1.1.2
         with:
-          name: '$(date + "%Y-%M-%D").json'
+          name: '$(date +"%Y-%M-%D").json'
           json: '${{ steps.archive.outputs.output }}'
-          dir: 'json/'
       - name: Commit changes
         uses: elstudio/actions-js-build/commit@v3
         with:
