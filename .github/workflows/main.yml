@@ -1,6 +1,8 @@
 name: "Pocket weekly reading list"
-
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "11 8 * * SUN"
 
 jobs:
   request:
