@@ -39,6 +39,18 @@ jobs:
           name: '${{ steps.date.outputs.TODAY }}.json'
           json: '${{ steps.archive.outputs.output }}'
           dir: '${{ steps.date.outputs.TODAY }}/'
+      - name: Edit the raw JSON to avoid exposing Consumer Key
+        uses: jossef/action-set-json-field@v1
+        with:
+          file: '${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json'
+          field: payload.consumer_key
+          value: 'SECRET'
+      - name: Edit the raw JSON to avoid exposing Access Token
+        uses: jossef/action-set-json-field@v1
+        with:
+          file: '${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json'
+          field: payload.access_token
+          value: 'SECRET'
       - name: Commit changes
         uses: elstudio/actions-js-build/commit@v3
         with:
