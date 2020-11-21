@@ -38,7 +38,7 @@ jobs:
         with:
           name: '${{ steps.date.outputs.TODAY }}.json'
           json: '${{ steps.archive.outputs.output }}'
-          dir: '${{ steps.archive.outputs.TODAY }}/'
+          dir: '${{ steps.date.outputs.TODAY }}/'
       - name: Commit changes
         uses: elstudio/actions-js-build/commit@v3
         with:
