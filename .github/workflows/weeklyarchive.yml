@@ -57,19 +57,19 @@ jobs:
       - name: Commit changes
         uses: elstudio/actions-js-build/commit@v3
         with:
-          commitMessage: Automated weekly archive
+          commitMessage: Automated weekly archive (${{ env.GITHUB_EVENT_NAME }})
   scrapping:
     name: Processing JSON output into Roam format
     needs: [request]
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
+      - uses: actions/checkout@v2
       - uses: r-lib/actions/setup-r@master
-      - name: Installing packages
+      - name: Installing packages and sourcing functions
         shell: Rscript {0}
-        run: install.packages(c("dplyr", "lubridate", "scales", "rjson"))
-      - name: Running functions file
-        run: source("functions.R")
-        shell: Rscript {0}
+        run: |
+          install.packages(c("dplyr", "lubridate", "scales", "rjson"))
+          source("functions.R")
       - name: JSON wrangling
         shell: Rscript {0}
         run: |
@@ -81,3 +81,7 @@ jobs:
           roam.import[[1]][["children"]] <- unname(roam.import[[1]][["children"]])
           roam.import.json <- rjson::toJSON(roam.import)
           write(roam.import.json, "${{ needs.request.outputs.today }}/roam_import.json")
+      - name: Commit changes
+        uses: elstudio/actions-js-build/commit@v3
+        with:
+          commitMessage: Automated Roam formatting (${{ env.GITHUB_EVENT_NAME }})
