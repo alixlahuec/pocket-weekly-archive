@@ -68,7 +68,7 @@ jobs:
         shell: Rscript {0}
         run: |
           install.packages(c("dplyr", "lubridate", "scales", "rjson"))
-          source("functions.R")
+          source('${{ github.workspace }}/functions.R')
       - name: JSON wrangling
         shell: Rscript {0}
         run: |
