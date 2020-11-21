@@ -64,6 +64,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - uses: Pull changes in repo
+        run: git pull origin master
       - uses: r-lib/actions/setup-r@master
       - name: Installing packages
         shell: Rscript {0}
