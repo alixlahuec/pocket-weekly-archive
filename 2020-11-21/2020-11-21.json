@@ -7,9 +7,9 @@
     "state": "unread",
     "sort": "oldest",
     "detailType": "complete",
-    "since": "1605329039"
+    "since": "1605330371"
   },
-  "time": "04:43:59 GMT+0000 (Coordinated Universal Time)",
+  "time": "05:06:11 GMT+0000 (Coordinated Universal Time)",
   "statusCode": 200,
   "data": {
     "status": 1,
@@ -476,8 +476,9 @@
         "is_index": "0",
         "has_video": "0",
         "has_image": "1",
-        "word_count": "281",
+        "word_count": "767",
         "lang": "en",
+        "time_to_read": 3,
         "top_image_url": "https://www-images.christianitytoday.com/images/119916.jpg?w=220",
         "tags": {
           "church/theology": {
@@ -519,7 +520,7 @@
           "logo": "https://logo.clearbit.com/christianitytoday.com?size=800",
           "greyscale_logo": "https://logo.clearbit.com/christianitytoday.com?size=800&greyscale=true"
         },
-        "listen_duration_estimate": 109
+        "listen_duration_estimate": 297
       },
       "3162748477": {
         "item_id": "3162748477",
@@ -924,6 +925,6 @@
     "search_meta": {
       "search_type": "normal"
     },
-    "since": 1605933839
+    "since": 1605935171
   }
 }
