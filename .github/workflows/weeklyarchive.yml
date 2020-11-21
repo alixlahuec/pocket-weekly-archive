@@ -9,6 +9,9 @@ jobs:
     name: API Request to Pocket
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    outputs:
+      today: '${{ steps.date.outputs.TODAY }}'
+      filepath: '${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json'
     steps:
       - uses: actions/checkout@v2
       - name: Get today's date
@@ -55,3 +58,10 @@ jobs:
         uses: elstudio/actions-js-build/commit@v3
         with:
           commitMessage: Automated weekly archive
+  scrapping:
+    name: Processing JSON output into Roam format
+    needs: [request]
+    runs-on: windows-latest
+    steps:
+      - uses: actions/setup-R@v1
+      - run: Rscript -e 'print("Testing R setup")'
