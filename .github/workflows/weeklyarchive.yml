@@ -65,7 +65,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Pull changes in repo
-        run: git pull origin master
+        run: git pull --rebase
       - uses: r-lib/actions/setup-r@master
       - name: Installing packages
         shell: Rscript {0}
