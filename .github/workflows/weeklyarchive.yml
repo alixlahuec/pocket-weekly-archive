@@ -61,14 +61,14 @@ jobs:
   scrapping:
     name: Processing JSON output into Roam format
     needs: [request]
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: r-lib/actions/setup-r@master
       - name: Installing packages
         shell: Rscript {0}
         run: install.packages(c("dplyr", "lubridate", "scales", "rjson"))
       - name: Running functions file
-        run: functions.R
+        run: source("functions.R")
         shell: Rscript {0}
       - name: JSON wrangling
         shell: Rscript {0}
