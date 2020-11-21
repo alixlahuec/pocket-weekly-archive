@@ -57,7 +57,7 @@ jobs:
       - name: Commit changes
         uses: elstudio/actions-js-build/commit@v3
         with:
-          commitMessage: Automated weekly archive (${{ GITHUB_EVENT_NAME }})
+          commitMessage: Automated weekly archive (${{ github.event_name }})
   scrapping:
     name: Processing JSON output into Roam format
     needs: [request]
@@ -83,4 +83,4 @@ jobs:
       - name: Commit changes
         uses: elstudio/actions-js-build/commit@v3
         with:
-          commitMessage: Automated Roam formatting (${{ GITHUB_EVENT_NAME }})
+          commitMessage: Automated Roam formatting (${{ github.event_name }})
