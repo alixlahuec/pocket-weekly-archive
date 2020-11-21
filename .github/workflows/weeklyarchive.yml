@@ -31,11 +31,14 @@ jobs:
           url: https://getpocket.com/v3/get
           method: POST
           payload: '{"consumer_key": "${{ env.POCKET_CONSUMER_KEY }}", "access_token": "${{ env.POCKET_TOKEN }}", "state": "${{ env.PAR_state }}", "sort": "${{ env.PAR_sort }}", "detailType": "${{ env.PAR_detailType }}", "since": "${{ env.PAR_since }}"}'
+      - name: Create weekly directory
+        run: mkdir -p ${{ github.workspace }}/${{ steps.date.outputs.TODAY }}
       - name: Create weekly file
         uses: jsdaniell/create-json@1.1.2
         with:
           name: '${{ steps.date.outputs.TODAY }}.json'
           json: '${{ steps.archive.outputs.output }}'
+          dir: '${{ steps.archive.outputs.TODAY }}/'
       - name: Commit changes
         uses: elstudio/actions-js-build/commit@v3
         with:
