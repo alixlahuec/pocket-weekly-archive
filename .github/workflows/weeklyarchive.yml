@@ -68,6 +68,9 @@ jobs:
       - name: Installing packages
         shell: Rscript {0}
         run: install.packages(c("dplyr", "lubridate", "scales", "rjson"))
+      - name: Checking available locales
+        run: locale -a
+        shell: sh
       - name: JSON wrangling
         shell: Rscript {0}
         run: |
