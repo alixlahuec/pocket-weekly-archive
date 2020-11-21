@@ -14,7 +14,7 @@ unix_to_date <- function(x){
   as.Date(as.POSIXct(date, origin = '1970-01-01'))
 }
 date_to_roam <- function(x){
-  month <- lubridate::month(x, label = TRUE, abbr = FALSE, locale = "en_US")
+  month <- lubridate::month(x, label = TRUE, abbr = FALSE, locale = "en_US.utf8")
   day <- scales::ordinal(lubridate::mday(x))
   year <- lubridate::year(x)
   paste0("[[", month, " ", day, ", ", year, "]]")
