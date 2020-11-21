@@ -57,11 +57,11 @@ jobs:
       - name: Commit changes
         uses: elstudio/actions-js-build/commit@v3
         with:
-          commitMessage: Automated weekly archive (${{ env.GITHUB_EVENT_NAME }})
+          commitMessage: Automated weekly archive (${{ GITHUB_EVENT_NAME }})
   scrapping:
     name: Processing JSON output into Roam format
     needs: [request]
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: r-lib/actions/setup-r@master
@@ -83,4 +83,4 @@ jobs:
       - name: Commit changes
         uses: elstudio/actions-js-build/commit@v3
         with:
-          commitMessage: Automated Roam formatting (${{ env.GITHUB_EVENT_NAME }})
+          commitMessage: Automated Roam formatting (${{ GITHUB_EVENT_NAME }})
