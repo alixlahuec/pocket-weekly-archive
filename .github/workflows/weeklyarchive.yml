@@ -63,5 +63,5 @@ jobs:
     needs: [request]
     runs-on: windows-latest
     steps:
-      - uses: actions/setup-R@v1
+      - uses: r-lib/actions/setup-r@v1
       - run: Rscript -e 'print("Testing R setup")'
