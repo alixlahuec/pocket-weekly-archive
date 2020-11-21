@@ -65,14 +65,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: r-lib/actions/setup-r@master
-      - name: Installing packages and sourcing functions
+      - name: Installing packages
         shell: Rscript {0}
-        run: |
-          install.packages(c("dplyr", "lubridate", "scales", "rjson"))
-          source("functions.R")
+        run: install.packages(c("dplyr", "lubridate", "scales", "rjson"))
       - name: JSON wrangling
         shell: Rscript {0}
         run: |
+          source("functions.R")
           library(rjson)
           weekly.data <- rjson::fromJSON(file = '${{ needs.request.outputs.filepath }}')
           week.items <- weekly.data[["data"]][["list"]]
