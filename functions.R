@@ -5,8 +5,6 @@ require(scales)
 
 
 # Custom functions -----------------------------------------------------------------------------------
-### 0. Utilities ----
-#------------- Remove empty lists, recursively
 ### 1. Manipulating dates ----------------------------------------------------
 unix_to_date <- function(x){
   date <- x
@@ -28,9 +26,9 @@ unix_to_roam <- function(x){
 md_link <- function(title, url){
   paste0("[", title, "](", url, ")")
 }
-#------------- Make Roam tag ----
+#------------- Make Roam tag, with format #[[tag]] to accomodate multi-word tags ----
 roam_tags <- function(tags){
-  paste0("#", tags, collapse = " ")
+  paste0("#[[", tags, "]]", collapse = " ")
 }
 
 #------------- Make Roam page ref ----
