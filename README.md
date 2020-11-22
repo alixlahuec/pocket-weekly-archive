@@ -32,14 +32,14 @@ This repository uses a GitHub Action to make a weekly API call to Pocket, reques
     | ------------- | ------------ |
     | `unix_to_date(x)` | Converts Unix timestamp into a Date, with default format `YYYY-MM-DD` |
     | `date_to_roam(x)` | Converts a Date into the format used by Roam, `Month DD(ordinal suffix), YYYY` |
-    | `unix_to_roam(x)` | Converts Unix timestamp into a Roam date. Combines the two functions above, for convenience | 
+    | `unix_to_roam(x)` | Converts Unix timestamp into a Roam date, by calling `unix_to_date` and `date_to_roam` in succession | 
 
     - For making Roam syntax elements 
 
     | Function name | What it does |
     | ------------- | ------------ |
     | `md_link(title, url)` | Creates a Markdown-style link, from a `title` and a `URL` |
-    | `roam_tags(tags)` | Transform a string (or vector) into a string of Roam tags, separated by a space |
+    | `roam_tags(tags)` | Transform a string (or vector) into a string of Roam tags, separated by a space and with format `#[[tag]]` to accomodate multi-word tags. |
     | `wikify(x)` | Transforms a string into a wiki-style link, `[[x]]` | 
 
     - For making Roam blocks 
