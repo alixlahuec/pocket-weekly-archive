@@ -78,7 +78,7 @@ pocket_scrape_nested <- function(item, prop, nested_prop){
 #------------- Format a Pocket item into a Roam block ----
 format_pocket_item <- function(lst){
   
-  block_string <- paste0(md_link(title = lst[["given_title"]], url = lst[["resolved_url"]]),
+  block_string <- paste0(md_link(title = lst[["resolved_title"]], url = lst[["resolved_url"]]),
                          if_else(lst[["favorite"]] == 1, " [[\u2b50]]", ""),
                          if_else("tags" %in% names(lst), paste0(" ", roam_tags(names(lst[["tags"]]))), ""))
   
