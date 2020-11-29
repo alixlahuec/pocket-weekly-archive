@@ -30,7 +30,7 @@ This repository uses a GitHub Action to make a weekly API call to Pocket, reques
 
     | Function name | What it does |
     | ------------- | ------------ |
-    | `unix_to_date(x)` | Converts Unix timestamp into a Date, with default format `YYYY-MM-DD` |
+    | `unix_to_date(x)` | Converts Unix timestamp into a Date, with default format `YYYY-MM-DD`. **The default timezone is explicitly set to Eastern Standard Time (EST) ; any timezone can be substituted by editing the code, on line 12 of functions.R.** |
     | `date_to_roam(x)` | Converts a Date into the format used by Roam, `Month DD(ordinal suffix), YYYY` |
     | `unix_to_roam(x)` | Converts Unix timestamp into a Roam date, by calling `unix_to_date` and `date_to_roam` in succession | 
 
