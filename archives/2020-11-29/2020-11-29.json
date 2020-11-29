@@ -1,0 +1,1481 @@
+{
+  "url": "https://getpocket.com/v3/get",
+  "method": "post",
+  "payload": {
+    "consumer_key": "SECRET",
+    "access_token": "SECRET",
+    "state": "unread",
+    "sort": "oldest",
+    "detailType": "complete",
+    "since": "1606033634"
+  },
+  "time": "08:27:14 GMT+0000 (Coordinated Universal Time)",
+  "statusCode": 200,
+  "data": {
+    "status": 1,
+    "complete": 0,
+    "list": {
+      "1519318727": {
+        "item_id": "1519318727",
+        "resolved_id": "1519318727",
+        "given_url": "https://www.propublica.org/article/the-vote-that-made-new-york-city-rents-so-high",
+        "given_title": "The Fateful Vote That Made New York City Rents So High — ProPublica",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606608171",
+        "time_updated": "1606608179",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 18,
+        "resolved_title": "The Fateful Vote That Made New York City Rents So High",
+        "resolved_url": "https://www.propublica.org/article/the-vote-that-made-new-york-city-rents-so-high",
+        "excerpt": "At the end of a pedestrian tunnel, down a flight of stairs from street level, a plush bar with a Prohibition motif caters to wealthy newcomers who have gentrified Manhattan's Lower East Side, displacing immigrants and blue-collar workers.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "5800",
+        "lang": "en",
+        "time_to_read": 26,
+        "top_image_url": "https://assets.propublica.org/2017-pp-open-graph-1200x630.jpg",
+        "tags": {
+          "cities": {
+            "item_id": "1519318727",
+            "tag": "cities"
+          },
+          "gentrification": {
+            "item_id": "1519318727",
+            "tag": "gentrification"
+          },
+          "real estate": {
+            "item_id": "1519318727",
+            "tag": "real estate"
+          }
+        },
+        "authors": {
+          "74872674": {
+            "item_id": "1519318727",
+            "author_id": "74872674",
+            "name": "Marcelo Rochabrun",
+            "url": "https://www.propublica.org/people/marcelo-rochabrun"
+          }
+        },
+        "image": {
+          "item_id": "1519318727",
+          "src": "https://assets.propublica.org/legacy/images/ngen/gypsy_image_630/20161215-Evictions-News-App-300x200.jpg",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "1519318727",
+            "image_id": "1",
+            "src": "https://assets.propublica.org/legacy/images/ngen/gypsy_image_630/20161215-Evictions-News-App-300x200.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          },
+          "2": {
+            "item_id": "1519318727",
+            "image_id": "2",
+            "src": "https://assets.propublica.org/legacy/images/ngen/gypsy_image_630/20161215-nyc-rent-weiner.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          },
+          "3": {
+            "item_id": "1519318727",
+            "image_id": "3",
+            "src": "https://assets.propublica.org/legacy/images/ngen/gypsy_image_630/20161215-nyc-rent-vallone-giuliani.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "domain_metadata": {
+          "name": "ProPublica",
+          "logo": "https://logo.clearbit.com/propublica.org?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/propublica.org?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 2245
+      },
+      "1669365267": {
+        "item_id": "1669365267",
+        "resolved_id": "1669365267",
+        "given_url": "https://www.versobooks.com/blogs/3145-benign-neglect-and-planned-shrinkage",
+        "given_title": "Verso",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606448901",
+        "time_updated": "1606448938",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 15,
+        "resolved_title": "Benign Neglect and Planned Shrinkage",
+        "resolved_url": "https://www.versobooks.com/blogs/3145-benign-neglect-and-planned-shrinkage",
+        "excerpt": "The frequency and scale of the spectacular fires that consumed much of the South Bronx and other areas of New York City throughout the 1970s can in large part be blamed on the recommendations for fire service reduction made by the New York City-RAND Institute and HUD between 1969 and 1976.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "8122",
+        "lang": "en",
+        "time_to_read": 37,
+        "tags": {
+          "cities": {
+            "item_id": "1669365267",
+            "tag": "cities"
+          },
+          "gentrification": {
+            "item_id": "1669365267",
+            "tag": "gentrification"
+          },
+          "infrastructure": {
+            "item_id": "1669365267",
+            "tag": "infrastructure"
+          },
+          "urban planning": {
+            "item_id": "1669365267",
+            "tag": "urban planning"
+          }
+        },
+        "authors": {
+          "71014915": {
+            "item_id": "1669365267",
+            "author_id": "71014915",
+            "name": "Authors",
+            "url": "https://www.versobooks.com/authors"
+          }
+        },
+        "image": {
+          "item_id": "1669365267",
+          "src": "https://versobooks-prod.s3.amazonaws.com/images/000011/681/BrokenPromises_JohnFekner-786bbdbc6b14a497469a5ea584a36241.jpg",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "1669365267",
+            "image_id": "1",
+            "src": "https://versobooks-prod.s3.amazonaws.com/images/000011/681/BrokenPromises_JohnFekner-786bbdbc6b14a497469a5ea584a36241.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          },
+          "2": {
+            "item_id": "1669365267",
+            "image_id": "2",
+            "src": "https://versobooks-prod.s3.amazonaws.com/images/000011/676/table_2-1-aaab1c6674dea64442715a9f852953e9.png",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          },
+          "3": {
+            "item_id": "1669365267",
+            "image_id": "3",
+            "src": "https://versobooks-prod.s3.amazonaws.com/images/000011/674/wallace_eq1-a577955bd4e7ef6575be3a7329e3afe2.png",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          },
+          "4": {
+            "item_id": "1669365267",
+            "image_id": "4",
+            "src": "https://versobooks-prod.s3.amazonaws.com/images/000011/675/wallace_eq2-6dc46c9194fb70207cf79220b83e0716.png",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          },
+          "5": {
+            "item_id": "1669365267",
+            "image_id": "5",
+            "src": "https://versobooks-prod.s3.amazonaws.com/images/000011/677/table_2-2-2b044a20daeda59ea58f690e5de8d4b8.png",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          },
+          "6": {
+            "item_id": "1669365267",
+            "image_id": "6",
+            "src": "https://versobooks-prod.s3.amazonaws.com/images/000011/678/table_2-3-46d5d2816397956bf6360d1d1f08c163.png",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          },
+          "7": {
+            "item_id": "1669365267",
+            "image_id": "7",
+            "src": "https://versobooks-prod.s3.amazonaws.com/images/000011/679/table_2-4-f02162899d0b11d35cb5a97fca66aacc.png",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          },
+          "8": {
+            "item_id": "1669365267",
+            "image_id": "8",
+            "src": "https://versobooks-prod.s3.amazonaws.com/images/000011/680/Table_2-5-dab6dd4d789c57ecf8c7ae1b82289e80.png",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "listen_duration_estimate": 3144
+      },
+      "2569461617": {
+        "item_id": "2569461617",
+        "resolved_id": "2569461617",
+        "given_url": "https://placesjournal.org/article/shade-an-urban-design-mandate/",
+        "given_title": "Shade",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606504224",
+        "time_updated": "1606504266",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 16,
+        "resolved_title": "Shade",
+        "resolved_url": "https://placesjournal.org/article/shade-an-urban-design-mandate/",
+        "excerpt": "Tony’s Barber Shop, Cypress Park, Northeast Los Angeles. [Monica Nouwens for Places Journal] As the sun rises in Los Angeles, a handful of passengers wait for a downtown bus in front of Tony’s Barber Shop, on an exposed stretch of Figueroa Street near the Pasadena Freeway.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "9025",
+        "lang": "en",
+        "time_to_read": 41,
+        "top_image_url": "https://placesjournal.org/wp-content/uploads/2019/04/bloch-00-shade.jpg",
+        "tags": {
+          "cities": {
+            "item_id": "2569461617",
+            "tag": "cities"
+          },
+          "health": {
+            "item_id": "2569461617",
+            "tag": "health"
+          },
+          "inequalities": {
+            "item_id": "2569461617",
+            "tag": "inequalities"
+          },
+          "infrastructure": {
+            "item_id": "2569461617",
+            "tag": "infrastructure"
+          },
+          "urban design": {
+            "item_id": "2569461617",
+            "tag": "urban design"
+          }
+        },
+        "authors": {
+          "110145495": {
+            "item_id": "2569461617",
+            "author_id": "110145495",
+            "name": "Full Bio",
+            "url": "https://placesjournal.org/author/sam-bloch/"
+          }
+        },
+        "image": {
+          "item_id": "2569461617",
+          "src": "https://placesjournal.org/wp-content/uploads/2019/04/bloch-a01-shade.jpg",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "2569461617",
+            "image_id": "1",
+            "src": "https://placesjournal.org/wp-content/uploads/2019/04/bloch-a01-shade.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "later Pershing Square",
+            "caption": "SlideshowCentral Park"
+          },
+          "2": {
+            "item_id": "2569461617",
+            "image_id": "2",
+            "src": "https://placesjournal.org/wp-content/uploads/2019/04/bloch-a02-shade.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "University of Southern California/California Historical Society",
+            "caption": "SlideshowPershing Square, ca. 1930s."
+          },
+          "3": {
+            "item_id": "2569461617",
+            "image_id": "3",
+            "src": "https://placesjournal.org/wp-content/uploads/2019/04/bloch-a04-shade.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "University of Southern California/California Historical Society",
+            "caption": "SlideshowConstruction begins on the 1951 redevelopment of Pershing Square."
+          },
+          "4": {
+            "item_id": "2569461617",
+            "image_id": "4",
+            "src": "https://placesjournal.org/wp-content/uploads/2019/04/bloch-a05-shade.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "University of Southern California/California Historical Society",
+            "caption": "SlideshowRemoval of the square’s trees, 1951."
+          },
+          "5": {
+            "item_id": "2569461617",
+            "image_id": "5",
+            "src": "https://placesjournal.org/wp-content/uploads/2019/04/bloch-a06-shade.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "University of Southern California/California Historical Society",
+            "caption": "SlideshowConstruction of the underground parking garage, 1951."
+          },
+          "6": {
+            "item_id": "2569461617",
+            "image_id": "6",
+            "src": "https://placesjournal.org/wp-content/uploads/2019/04/bloch-a07-shade.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "University of Southern California/California Historical Society",
+            "caption": "SlideshowThe 1951 redevelopment of Pershing Square."
+          },
+          "7": {
+            "item_id": "2569461617",
+            "image_id": "7",
+            "src": "https://placesjournal.org/wp-content/uploads/2019/04/bloch-a08-shade.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "Monica Nouwens for Places Journal",
+            "caption": "SlideshowPershing Square today."
+          }
+        },
+        "listen_duration_estimate": 3494
+      },
+      "2635813493": {
+        "item_id": "2635813493",
+        "resolved_id": "2635813493",
+        "given_url": "https://www.planning.org/blog/9177620/neil-smith-gentrification-and-the-flow-of-money/",
+        "given_title": "40 Years Ago: Neil Smith, Gentrification, and the Flow of Money",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606608401",
+        "time_updated": "1606608430",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 19,
+        "resolved_title": "40 Years Ago: Neil Smith, Gentrification, and the Flow of Money",
+        "resolved_url": "https://www.planning.org/blog/9177620/neil-smith-gentrification-and-the-flow-of-money/",
+        "excerpt": "In 1979, Neil Smith — future professor of geography and anthropology, and a young PhD candidate studying under David Harvey — reconsidered the very foundations of gentrification, elucidating the cyclical flow of capital that continues to reshape city centers today.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "566",
+        "lang": "en",
+        "time_to_read": 3,
+        "top_image_url": "https://planning-org-uploaded-media.s3.amazonaws.com:443/image/gentrification-dogpatch-san-francisco.png",
+        "tags": {
+          "cities": {
+            "item_id": "2635813493",
+            "tag": "cities"
+          },
+          "gentrification": {
+            "item_id": "2635813493",
+            "tag": "gentrification"
+          },
+          "real estate": {
+            "item_id": "2635813493",
+            "tag": "real estate"
+          },
+          "urban planning": {
+            "item_id": "2635813493",
+            "tag": "urban planning"
+          }
+        },
+        "listen_duration_estimate": 219
+      },
+      "3101125520": {
+        "item_id": "3101125520",
+        "resolved_id": "3101125520",
+        "given_url": "https://www.gothamcenter.org/blog/whose-city-fueling-the-gentrification-machine-through-bid-urbanismnbsp",
+        "given_title": "Whose City? Fueling the Gentrification Machine through BID Urbanism — The G",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606620457",
+        "time_updated": "1606620481",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 20,
+        "resolved_title": "Whose City? Fueling the Gentrification Machine through BID Urbanism — The Gotham Center for New York City History",
+        "resolved_url": "https://www.gothamcenter.org/blog/whose-city-fueling-the-gentrification-machine-through-bid-urbanismnbsp",
+        "excerpt": "In 2016, Inwood had more than 316 businesses on three of its major commercial corridors, and at least three-quarters of these mostly immigrant-owned businesses could be classified as independently-owned.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "1031",
+        "lang": "en",
+        "time_to_read": 5,
+        "top_image_url": "http://static1.squarespace.com/static/5d23a00f53f6300001f811bb/t/5f038da7b9ce1873cd14aabe/1594068409735/Inwood%2BBanner.jpg?format=1500w",
+        "tags": {
+          "cities": {
+            "item_id": "3101125520",
+            "tag": "cities"
+          },
+          "gentrification": {
+            "item_id": "3101125520",
+            "tag": "gentrification"
+          },
+          "urban planning": {
+            "item_id": "3101125520",
+            "tag": "urban planning"
+          }
+        },
+        "authors": {
+          "132771919": {
+            "item_id": "3101125520",
+            "author_id": "132771919",
+            "name": "Deena Ecker",
+            "url": "https://www.gothamcenter.org/blog?author=5e2721443893e162896a70c1"
+          }
+        },
+        "image": {
+          "item_id": "3101125520",
+          "src": "https://images.squarespace-cdn.com/content/v1/5d23a00f53f6300001f811bb/1594068391903-HLW574A3WRER5KX2ONEW/ke17ZwdGBToddI8pDm48kH_uwxGOYX5bivALGm05uZJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0o8OMvY5tuV_wqZQCqqStn4KIrOGbVMte_dx5txYAcAiYRCymfPHcwrRJHBuR8xPlA/Inwood%2BBanner.jpg",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3101125520",
+            "image_id": "1",
+            "src": "https://images.squarespace-cdn.com/content/v1/5d23a00f53f6300001f811bb/1594068391903-HLW574A3WRER5KX2ONEW/ke17ZwdGBToddI8pDm48kH_uwxGOYX5bivALGm05uZJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0o8OMvY5tuV_wqZQCqqStn4KIrOGbVMte_dx5txYAcAiYRCymfPHcwrRJHBuR8xPlA/Inwood%2BBanner.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "Creative Placemaking & Marketing, Newly Designed Inwood Banner on Broadway. Photo by author, February 24, 2018."
+          },
+          "2": {
+            "item_id": "3101125520",
+            "image_id": "2",
+            "src": "https://images.squarespace-cdn.com/content/v1/5d23a00f53f6300001f811bb/1594068477731-R80R5ZIDW7BGITCB3D98/ke17ZwdGBToddI8pDm48kBlVc-1aHijtWDslw0vnO0wUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8PaoYXhp6HxIwZIk7-Mi3Tsic-L2IOPH3Dwrhl-Ne3Z2Y_BOPnfZOuGnhNxMyNIdUSF36qkWKWgCWzNn_9L6OjKbtxPRH917Fz9Qv_NunPol/360+Announcement.JPG",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "Washington Heights BID Sponsored Meeting Announcement, October 2018."
+          },
+          "3": {
+            "item_id": "3101125520",
+            "image_id": "3",
+            "src": "https://images.squarespace-cdn.com/content/v1/5d23a00f53f6300001f811bb/1594068737842-F8OE1DHEUBQ6J2S3DURE/ke17ZwdGBToddI8pDm48kHAVC471ub8K7jOt0h3YQXhZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpx_6vb2iT9NtQmbKiRRqqZe1H4wEJNWUmX_RfTlK-MZXY84mnQj3l6VG3e6j5wknLY/WHBID+funded+Sanitation+in+Inwood.JPG",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "Washington Heights BID Sponsored Sanitation Services in Inwood, Dyckman Street, Photo by author, June 29, 2020 ."
+          }
+        },
+        "listen_duration_estimate": 399
+      },
+      "3161915655": {
+        "item_id": "3161915655",
+        "resolved_id": "3161915655",
+        "given_url": "https://censemaking.com/2020/11/03/a-designers-approach-to-decision-making/",
+        "given_title": "A Designers Approach to Decision-Making",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606347843",
+        "time_updated": "1606347843",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 13,
+        "resolved_title": "A Designers Approach to Decision-Making",
+        "resolved_url": "https://censemaking.com/2020/11/03/a-designers-approach-to-decision-making/",
+        "excerpt": "Elections, policies, and practice change all represent massive opportunities for designers to make a difference. All policy platforms aside, there is a lot of similarities between elections and pandemic management.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "746",
+        "lang": "en",
+        "time_to_read": 3,
+        "amp_url": "https://censemaking.com/2020/11/03/a-designers-approach-to-decision-making/amp/",
+        "top_image_url": "https://i0.wp.com/censemaking.com/wp-content/uploads/2020/11/tiffany-tertipes-Y2Vxsb75RVo-unsplash.jpg?fit=1200%2C800&ssl=1",
+        "tags": {
+          "inoreader": {
+            "item_id": "3161915655",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "113353325": {
+            "item_id": "3161915655",
+            "author_id": "113353325",
+            "name": "Cameron D. Norman",
+            "url": "https://censemaking.com/author/cdnorman/"
+          }
+        },
+        "image": {
+          "item_id": "3161915655",
+          "src": "https://i0.wp.com/censemaking.com/wp-content/uploads/2020/11/tiffany-tertipes-Y2Vxsb75RVo-unsplash.jpg?ssl=1",
+          "width": "800",
+          "height": "534"
+        },
+        "images": {
+          "1": {
+            "item_id": "3161915655",
+            "image_id": "1",
+            "src": "https://i0.wp.com/censemaking.com/wp-content/uploads/2020/11/tiffany-tertipes-Y2Vxsb75RVo-unsplash.jpg?ssl=1",
+            "width": "800",
+            "height": "534",
+            "credit": "",
+            "caption": ""
+          },
+          "2": {
+            "item_id": "3161915655",
+            "image_id": "2",
+            "src": "https://i0.wp.com/censemaking.com/wp-content/uploads/2020/11/image.png?ssl=1",
+            "width": "800",
+            "height": "443",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "listen_duration_estimate": 289
+      },
+      "3177770783": {
+        "item_id": "3177770783",
+        "resolved_id": "3177770783",
+        "given_url": "https://www.npr.org/sections/health-shots/2020/11/19/911909187/in-u-s-cities-the-health-effects-of-past-housing-discrimination-are-plain-to-see",
+        "given_title": "These City Maps Show The Current Health Impacts Of Redlining From Decades A",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606539419",
+        "time_updated": "1606539462",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 17,
+        "resolved_title": "In U.S. Cities, The Health Effects Of Past Housing Discrimination Are Plain To See",
+        "resolved_url": "https://www.npr.org/sections/health-shots/2020/11/19/911909187/in-u-s-cities-the-health-effects-of-past-housing-discrimination-are-plain-to-see",
+        "excerpt": "Torey Edmonds has lived in the same house in an African-American neighborhood of the East End of Richmond, Va., for all of her 61 years.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "1380",
+        "lang": "en",
+        "time_to_read": 6,
+        "top_image_url": "https://media.npr.org/assets/img/2020/11/18/richmond-maps_wide-22c0f29e8cb42a529ee294f63ebfe3f128a21c74.jpg?s=1400",
+        "tags": {
+          "cities": {
+            "item_id": "3177770783",
+            "tag": "cities"
+          },
+          "health": {
+            "item_id": "3177770783",
+            "tag": "health"
+          },
+          "inequalities": {
+            "item_id": "3177770783",
+            "tag": "inequalities"
+          },
+          "neighborhood": {
+            "item_id": "3177770783",
+            "tag": "neighborhood"
+          },
+          "redlining": {
+            "item_id": "3177770783",
+            "tag": "redlining"
+          },
+          "urban planning": {
+            "item_id": "3177770783",
+            "tag": "urban planning"
+          }
+        },
+        "authors": {
+          "78795576": {
+            "item_id": "3177770783",
+            "author_id": "78795576",
+            "name": "Maria Godoy",
+            "url": "https://www.npr.org/people/348777820/maria-godoy"
+          }
+        },
+        "image": {
+          "item_id": "3177770783",
+          "src": "https://media.npr.org/assets/img/2020/10/22/richmond-redlining-3_enl-d323a8ecd2572eb5d547c1291a530db680bb867e-s1200.jpg",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3177770783",
+            "image_id": "1",
+            "src": "https://media.npr.org/assets/img/2020/10/22/richmond-redlining-3_enl-d323a8ecd2572eb5d547c1291a530db680bb867e-s1200.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "Max Posner for NPR",
+            "caption": ""
+          },
+          "2": {
+            "item_id": "3177770783",
+            "image_id": "2",
+            "src": "https://media.npr.org/assets/img/2020/10/23/richmond-redlining-2_enl-2e53978b85859b09a60240e790fb7efeda5c2ddf-s1200.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "Max Posner for NPR",
+            "caption": ""
+          },
+          "3": {
+            "item_id": "3177770783",
+            "image_id": "3",
+            "src": "https://media.npr.org/assets/img/2020/11/18/holc-scan_custom-1139d08b5c6f9f7751572053748432ec802ff1f7-s1200.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "University of Richmond Digital Scholarship Lab",
+            "caption": ""
+          },
+          "4": {
+            "item_id": "3177770783",
+            "image_id": "4",
+            "src": "https://media.npr.org/assets/img/2020/10/22/richmond-redlining-4_enl-bbde68383beca986f4a71c324fe831ff6a4e591d-s1200.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "Max Posner for NPR",
+            "caption": ""
+          },
+          "5": {
+            "item_id": "3177770783",
+            "image_id": "5",
+            "src": "https://media.npr.org/assets/img/2020/10/23/richmond-redlining-6_enl-52fcafd0314d12b5c4cd577c0a27351de342cce8-s1200.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "Max Posner for NPR",
+            "caption": ""
+          },
+          "6": {
+            "item_id": "3177770783",
+            "image_id": "6",
+            "src": "https://media.npr.org/assets/img/2020/10/23/richmond-redlining-8_enl-b262fa88da7fa75df428d00540a23e9d1a964c08-s1200.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "Max Posner for NPR",
+            "caption": ""
+          }
+        },
+        "domain_metadata": {
+          "name": "NPR",
+          "logo": "https://logo.clearbit.com/npr.org?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/npr.org?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 534
+      },
+      "3177929445": {
+        "item_id": "3177929445",
+        "resolved_id": "3177929445",
+        "given_url": "https://www.christianitytoday.com/news/2020/november/crete-collective-church-planting-network-thabiti-anyabwile.html",
+        "given_title": "Pastors Launch Church-Planting Network for ‘Black and Brown Neighborhoods’",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606102045",
+        "time_updated": "1606102046",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 1,
+        "resolved_title": "Pastors Launch Church-Planting Network for ‘Black and Brown Neighborhoods’",
+        "resolved_url": "https://www.christianitytoday.com/news/2020/november/crete-collective-church-planting-network-thabiti-anyabwile.html",
+        "excerpt": "The network represents a move to bring more people of color into leadership for church-planting initiatives and to focus more missional attention toward poor and underserved urban areas with high concentrations of ethnic minorities.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "1389",
+        "lang": "en",
+        "time_to_read": 6,
+        "tags": {
+          "church/theology": {
+            "item_id": "3177929445",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3177929445",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "136675823": {
+            "item_id": "3177929445",
+            "author_id": "136675823",
+            "name": "Kate Shellnutt",
+            "url": "https://www.christianitytoday.com/news/search/?query=Kate%20Shellnutt"
+          }
+        },
+        "image": {
+          "item_id": "3177929445",
+          "src": "https://www-images.christianitytoday.com/images/120458.jpg?w=600",
+          "width": "600",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3177929445",
+            "image_id": "1",
+            "src": "https://www-images.christianitytoday.com/images/120458.jpg?w=600",
+            "width": "600",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "domain_metadata": {
+          "name": "Christianity Today",
+          "logo": "https://logo.clearbit.com/christianitytoday.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/christianitytoday.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 538
+      },
+      "3178173976": {
+        "item_id": "3178173976",
+        "resolved_id": "3178173976",
+        "given_url": "https://www.christianitytoday.com/edstetzer/2020/november/shifting-american-church-adapting-to-new-church-models.html",
+        "given_title": "Shifting the Church: Adapting to New Church Models",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606102048",
+        "time_updated": "1606102048",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 2,
+        "resolved_title": "Shifting the Church: Adapting to New Church Models",
+        "resolved_url": "https://www.christianitytoday.com/edstetzer/2020/november/shifting-american-church-adapting-to-new-church-models.html",
+        "excerpt": "In the “Back to the Future: Changes and Shifts within the Church” series, Josh Laxton covers changes within the church that COVID has either exposed or expedited as well as shifts that churches need to make (in light of the changes) to engage in effective ministry and mission.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "1130",
+        "lang": "en",
+        "time_to_read": 5,
+        "tags": {
+          "church/theology": {
+            "item_id": "3178173976",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3178173976",
+            "tag": "inoreader"
+          }
+        },
+        "image": {
+          "item_id": "3178173976",
+          "src": "https://www-images.christianitytoday.com/images/120463.png?w=600",
+          "width": "600",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3178173976",
+            "image_id": "1",
+            "src": "https://www-images.christianitytoday.com/images/120463.png?w=600",
+            "width": "600",
+            "height": "0",
+            "credit": "Image: Samantha Borges/Unsplash",
+            "caption": ""
+          }
+        },
+        "domain_metadata": {
+          "name": "Christianity Today",
+          "logo": "https://logo.clearbit.com/christianitytoday.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/christianitytoday.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 437
+      },
+      "3181204064": {
+        "item_id": "3181204064",
+        "resolved_id": "3181204064",
+        "given_url": "https://theglobalchurchproject.com/indigenous-women-theologians/",
+        "given_title": "Some Indigenous Women Theologians That You Should Know About",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606166006",
+        "time_updated": "1606166009",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 4,
+        "resolved_title": "Some Indigenous Women Theologians That You Should Know About",
+        "resolved_url": "https://theglobalchurchproject.com/indigenous-women-theologians/",
+        "excerpt": "Indigenous women in Abya Yala and around the world live out their life path through the weaving of their wise ancestors who have left a legacy full of layers of wisdom as the Gunadule women say as they sew their molas.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "4510",
+        "lang": "en",
+        "time_to_read": 21,
+        "top_image_url": "https://theglobalchurchproject.com/wp-content/uploads/2020/11/36188252_10160487847845142_6814648222846287872_n.jpg",
+        "authors": {
+          "47839036": {
+            "item_id": "3181204064",
+            "author_id": "47839036",
+            "name": "Indigenous Peoples",
+            "url": "https://theglobalchurchproject.com/category/indigenous-peoples/"
+          }
+        },
+        "image": {
+          "item_id": "3181204064",
+          "src": "https://theglobalchurchproject.com/wp-content/uploads/2020/11/Picture2.png",
+          "width": "218",
+          "height": "285"
+        },
+        "images": {
+          "1": {
+            "item_id": "3181204064",
+            "image_id": "1",
+            "src": "https://theglobalchurchproject.com/wp-content/uploads/2020/11/Picture2.png",
+            "width": "218",
+            "height": "285",
+            "credit": "",
+            "caption": ""
+          },
+          "2": {
+            "item_id": "3181204064",
+            "image_id": "2",
+            "src": "https://theglobalchurchproject.com/wp-content/uploads/2020/11/Picture1.png",
+            "width": "209",
+            "height": "285",
+            "credit": "",
+            "caption": ""
+          },
+          "3": {
+            "item_id": "3181204064",
+            "image_id": "3",
+            "src": "https://theglobalchurchproject.com/wp-content/uploads/2018/10/Dule-guna.jpg",
+            "width": "287",
+            "height": "191",
+            "credit": "",
+            "caption": ""
+          },
+          "4": {
+            "item_id": "3181204064",
+            "image_id": "4",
+            "src": "https://theglobalchurchproject.com/wp-content/uploads/2020/11/Drew-and-family-1-e1606019639516.jpg",
+            "width": "283",
+            "height": "283",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "listen_duration_estimate": 1746
+      },
+      "3181276856": {
+        "item_id": "3181276856",
+        "resolved_id": "3181276856",
+        "given_url": "https://theologycurator.com/daniel-hill-exposing-and-resisting-racial-systems-ep-120/",
+        "given_title": "Daniel Hill: Exposing and Resisting Racial Systems [EP-120]",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606102043",
+        "time_updated": "1606102047",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 0,
+        "resolved_title": "Daniel Hill: Exposing and Resisting Racial Systems [EP-120]",
+        "resolved_url": "https://theologycurator.com/daniel-hill-exposing-and-resisting-racial-systems-ep-120/",
+        "excerpt": "Daniel Hill chats with Kurt Willems about his latest book, White Lies: Nine Ways to Expose and Resist the Racial Systems That Divide Us.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "165",
+        "lang": "en",
+        "top_image_url": "https://theologycurator.com/wp-content/uploads/2020/11/daniel-hill-theology-curator1.jpg",
+        "tags": {
+          "church/theology": {
+            "item_id": "3181276856",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3181276856",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "68263725": {
+            "item_id": "3181276856",
+            "author_id": "68263725",
+            "name": "Kurt Willems",
+            "url": "https://theologycurator.com/author/kurtwillems/"
+          }
+        },
+        "listen_duration_estimate": 64
+      },
+      "3181575871": {
+        "item_id": "3181575871",
+        "resolved_id": "3181575871",
+        "given_url": "https://mereorthodoxy.com/befriending-books-reading-thinking-alan-jacobs-zena-hitz/",
+        "given_title": "Befriending Books: On Reading and Thinking with Alan Jacobs and Zena Hitz",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606181548",
+        "time_updated": "1606181548",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 6,
+        "resolved_title": "Befriending Books: On Reading and Thinking with Alan Jacobs and Zena Hitz",
+        "resolved_url": "https://mereorthodoxy.com/befriending-books-reading-thinking-alan-jacobs-zena-hitz/",
+        "excerpt": "We like to think, of course, that we think; but what people allow to pass for thinking is usually about 90 percent reshuffling of images.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "3792",
+        "lang": "en",
+        "time_to_read": 17,
+        "top_image_url": "https://mereorthodoxy.com/wp-content/uploads/2020/11/intellectual-life.jpg",
+        "tags": {
+          "church/theology": {
+            "item_id": "3181575871",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3181575871",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "11043000": {
+            "item_id": "3181575871",
+            "author_id": "11043000",
+            "name": "Brad East",
+            "url": ""
+          }
+        },
+        "listen_duration_estimate": 1468
+      },
+      "3181733996": {
+        "item_id": "3181733996",
+        "resolved_id": "3181733996",
+        "given_url": "https://www.wycliffecollege.ca/blog/six-gifts-st-benedicts",
+        "given_title": "Six Gifts from St. Benedict’s Rule for living in the time of Covid | Wyclif",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606142998",
+        "time_updated": "1606143006",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 3,
+        "resolved_title": "Six Gifts from St. Benedict’s Rule for living in the time of Covid",
+        "resolved_url": "https://www.wycliffecollege.ca/blog/six-gifts-st-benedicts",
+        "excerpt": "I am in the middle of reading St. Benedict’s Rule with my 30 students in the first year MDiv course at Wycliffe called, “Life Together: Living the Christian Faith in Community.” We have come to the fun part of this portion of the class.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "1362",
+        "lang": "en",
+        "time_to_read": 6,
+        "top_image_url": "https://www.wycliffecollege.ca/sites/default/files/St._Benedict_delivering_his_rule_to_the_monks_of_his_order%20rs.jpg",
+        "authors": {
+          "89023919": {
+            "item_id": "3181733996",
+            "author_id": "89023919",
+            "name": "Annette Brownlee",
+            "url": ""
+          }
+        },
+        "image": {
+          "item_id": "3181733996",
+          "src": "https://www.wycliffecollege.ca/sites/default/files/styles/360x225scalecrop/public/St._Benedict_delivering_his_rule_to_the_monks_of_his_order%20rs.jpg?itok=KjtWyHdC",
+          "width": "360",
+          "height": "225"
+        },
+        "images": {
+          "1": {
+            "item_id": "3181733996",
+            "image_id": "1",
+            "src": "https://www.wycliffecollege.ca/sites/default/files/styles/360x225scalecrop/public/St._Benedict_delivering_his_rule_to_the_monks_of_his_order%20rs.jpg?itok=KjtWyHdC",
+            "width": "360",
+            "height": "225",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "listen_duration_estimate": 527
+      },
+      "3181762051": {
+        "item_id": "3181762051",
+        "resolved_id": "3181762051",
+        "given_url": "https://www.missioalliance.org/overcoming-the-fear-of-loving-our-enemies/",
+        "given_title": "Overcoming the Fear of Loving our Enemies",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606181556",
+        "time_updated": "1606181556",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 7,
+        "resolved_title": "Overcoming the Fear of Loving our Enemies",
+        "resolved_url": "https://www.missioalliance.org/overcoming-the-fear-of-loving-our-enemies/",
+        "excerpt": "Editor’s Note: With America more polarized than ever, it is vital that Jesus’ followers take his teaching to love our enemies seriously.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "1463",
+        "lang": "en",
+        "time_to_read": 7,
+        "top_image_url": "https://www.missioalliance.org/wp-content/uploads/2020/11/ma-herald-featured.png",
+        "tags": {
+          "church/theology": {
+            "item_id": "3181762051",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3181762051",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "143044345": {
+            "item_id": "3181762051",
+            "author_id": "143044345",
+            "name": "Robert Chao Romero",
+            "url": "https://www.missioalliance.org/author/robertchaoromero/"
+          }
+        },
+        "listen_duration_estimate": 566
+      },
+      "3182209255": {
+        "item_id": "3182209255",
+        "resolved_id": "3182209255",
+        "given_url": "https://politicaltheology.com/waiting-during-a-pandemic-advent/",
+        "given_title": "Waiting During a Pandemic Advent",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606181542",
+        "time_updated": "1606181547",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 5,
+        "resolved_title": "Waiting During a Pandemic Advent",
+        "resolved_url": "https://politicaltheology.com/waiting-during-a-pandemic-advent/",
+        "excerpt": "LORD God of hosts, how long will you be angry with your people’s prayers? You have fed them with the bread of tears, and given them tears to drink in full measure. You make us the scorn of our neighbors; our enemies laugh among themselves.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "1593",
+        "lang": "en",
+        "time_to_read": 7,
+        "top_image_url": "https://politicaltheology.com/wp-content/uploads/2020/11/richard-burlton-7n6hNFagvhg-unsplash.jpeg",
+        "tags": {
+          "church/theology": {
+            "item_id": "3182209255",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3182209255",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "143185403": {
+            "item_id": "3182209255",
+            "author_id": "143185403",
+            "name": "SueJeanne Koh",
+            "url": "https://politicaltheology.com/author/suejeanne-kohgmail-com/"
+          }
+        },
+        "listen_duration_estimate": 617
+      },
+      "3182367868": {
+        "item_id": "3182367868",
+        "resolved_id": "3182367868",
+        "given_url": "https://uncommontarypodcast.com/?s=09",
+        "given_title": "",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606196965",
+        "time_updated": "1606196990",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 8,
+        "resolved_title": "Search Results for: 09",
+        "resolved_url": "https://uncommontarypodcast.com/?s=09",
+        "excerpt": "Cathleen Falsani joins Uncommontary host Marty Duren to talk about the reality of ending world hunger in the next ten years. Hussein Ibish joins Uncommontary host Marty Duren for a conversation about today’s tumultuous Middle East.",
+        "is_article": "0",
+        "is_index": "1",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "131",
+        "lang": "en",
+        "top_image_url": "https://i2.wp.com/uncommontarypodcast.com/wp-content/uploads/2018/12/cropped-Uncommontary-3000x3000-FINAL.jpg?fit=512%2C512&ssl=1",
+        "tags": {
+          "church": {
+            "item_id": "3182367868",
+            "tag": "church"
+          },
+          "podcast": {
+            "item_id": "3182367868",
+            "tag": "podcast"
+          }
+        },
+        "image": {
+          "item_id": "3182367868",
+          "src": "https://i0.wp.com/uncommontarypodcast.com/wp-content/uploads/2018/12/Screen-Shot-2018-12-30-at-4.57.09-PM.png?fit=652%2C252&ssl=1",
+          "width": "652",
+          "height": "252"
+        },
+        "images": {
+          "1": {
+            "item_id": "3182367868",
+            "image_id": "1",
+            "src": "https://i0.wp.com/uncommontarypodcast.com/wp-content/uploads/2018/12/Screen-Shot-2018-12-30-at-4.57.09-PM.png?fit=652%2C252&ssl=1",
+            "width": "652",
+            "height": "252",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "listen_duration_estimate": 51
+      },
+      "3182512454": {
+        "item_id": "3182512454",
+        "resolved_id": "3182512454",
+        "given_url": "https://www.premierchristianity.com/Blog/No-I-am-not-looking-forward-to-meeting-physically-as-a-church",
+        "given_title": "No, I am not looking forward to meeting physically as a church",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606347684",
+        "time_updated": "1606347684",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 9,
+        "resolved_title": "No, I am not looking forward to meeting physically as a church",
+        "resolved_url": "https://www.premierchristianity.com/Blog/No-I-am-not-looking-forward-to-meeting-physically-as-a-church",
+        "excerpt": "Wherever I turn on social media, I see church leaders saying how all Christians are desperately longing for the day when we can leave Zoom behind us and get back to meeting physically in our church buildings, school halls or wherever. Sorry, count me out, I’m not looking forward to it at all.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "641",
+        "lang": "en",
+        "time_to_read": 3,
+        "top_image_url": "https://www.premierchristianity.com/Blog/ http:/www.premierchristianity.com/var/ezdemo_site/storage/images/media/images/busy-audience-main/53345588-1-eng-GB/busy-audience-main_reference.jpg",
+        "tags": {
+          "church/theology": {
+            "item_id": "3182512454",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3182512454",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "2935577": {
+            "item_id": "3182512454",
+            "author_id": "2935577",
+            "name": "premier",
+            "url": ""
+          }
+        },
+        "image": {
+          "item_id": "3182512454",
+          "src": "https://www.premierchristianity.com/var/ezdemo_site/storage/images/media/images/busy-audience-main/53345588-1-eng-GB/busy-audience-main_article_image.jpg",
+          "width": "651",
+          "height": "291"
+        },
+        "images": {
+          "1": {
+            "item_id": "3182512454",
+            "image_id": "1",
+            "src": "https://www.premierchristianity.com/var/ezdemo_site/storage/images/media/images/busy-audience-main/53345588-1-eng-GB/busy-audience-main_article_image.jpg",
+            "width": "651",
+            "height": "291",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "listen_duration_estimate": 248
+      },
+      "3182766693": {
+        "item_id": "3182766693",
+        "resolved_id": "3182766693",
+        "given_url": "https://www.premierchristianity.com/Blog/Squabbling-over-who-is-really-a-Christian-is-hurting-the-Church-s-witness.-We-must-do-better",
+        "given_title": "Squabbling over who is 'really' a Christian is hurting the Church's witness",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606347687",
+        "time_updated": "1606347687",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 10,
+        "resolved_title": "Squabbling over who is 'really' a Christian is hurting the Church's witness. We must do better",
+        "resolved_url": "https://www.premierchristianity.com/Blog/Squabbling-over-who-is-really-a-Christian-is-hurting-the-Church-s-witness.-We-must-do-better",
+        "excerpt": "A woman driving on a bridge spots a man standing on the edge, preparing to jump. Pulling over, she jumps out of the car and shouts, “Stop!”  The man turns and says, “Why should I?”  The lady asks, “Are you religious?”  “Yes,” the man replies.  “Me too.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "960",
+        "lang": "en",
+        "time_to_read": 4,
+        "top_image_url": "https://www.premierchristianity.com/Blog/ http:/www.premierchristianity.com/var/ezdemo_site/storage/images/media/images/trump-sketch-main/53345505-1-eng-GB/trump-sketch-main_reference.jpg",
+        "tags": {
+          "church/theology": {
+            "item_id": "3182766693",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3182766693",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "2935577": {
+            "item_id": "3182766693",
+            "author_id": "2935577",
+            "name": "premier",
+            "url": ""
+          }
+        },
+        "image": {
+          "item_id": "3182766693",
+          "src": "https://www.premierchristianity.com/var/ezdemo_site/storage/images/media/images/trump-sketch-main/53345505-1-eng-GB/trump-sketch-main_article_image.jpg",
+          "width": "651",
+          "height": "291"
+        },
+        "images": {
+          "1": {
+            "item_id": "3182766693",
+            "image_id": "1",
+            "src": "https://www.premierchristianity.com/var/ezdemo_site/storage/images/media/images/trump-sketch-main/53345505-1-eng-GB/trump-sketch-main_article_image.jpg",
+            "width": "651",
+            "height": "291",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "listen_duration_estimate": 372
+      },
+      "3183100373": {
+        "item_id": "3183100373",
+        "resolved_id": "3183100373",
+        "given_url": "https://www.christiancentury.org/article/reflection/advent-season-sighs-especially-year",
+        "given_title": "Advent is a season of sighs, especially this year",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606347692",
+        "time_updated": "1606347693",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 11,
+        "resolved_title": "Advent is a season of sighs, especially this year",
+        "resolved_url": "https://www.christiancentury.org/article/reflection/advent-season-sighs-especially-year",
+        "excerpt": "Before Advent is a word, it is a sigh. A voice crying. A mood. And never more deeply felt than in these troubled months.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "1090",
+        "lang": "en",
+        "time_to_read": 5,
+        "top_image_url": "https://www.christiancentury.org/sites/default/files/images/detail/121620season-of-sighs.jpg",
+        "tags": {
+          "church/theology": {
+            "item_id": "3183100373",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3183100373",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "67772037": {
+            "item_id": "3183100373",
+            "author_id": "67772037",
+            "name": "Richard Lischer",
+            "url": "https://www.christiancentury.org/contributor/richard-lischer"
+          }
+        },
+        "listen_duration_estimate": 422
+      },
+      "3183450931": {
+        "item_id": "3183450931",
+        "resolved_id": "3183450931",
+        "given_url": "https://www.christiancentury.org/article/first-person/i-was-scribe-chicago-illuminated-scripture-project",
+        "given_title": "I was a scribe for the Chicago Illuminated Scripture Project",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606347695",
+        "time_updated": "1606347695",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 12,
+        "resolved_title": "I was a scribe for the Chicago Illuminated Scripture Project",
+        "resolved_url": "https://www.christiancentury.org/article/first-person/i-was-scribe-chicago-illuminated-scripture-project",
+        "excerpt": "Long before books could be printed on a mechanical press or a digital printer and delivered to your door at the click of a button, they were written and copied by hand, word by word, with hand-cut pens in homemade ink on the fussy surfaces of animal skins.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "1173",
+        "lang": "en",
+        "time_to_read": 5,
+        "top_image_url": "https://www.christiancentury.org/sites/default/files/images/detail/120220illuminated2.jpg",
+        "tags": {
+          "church/theology": {
+            "item_id": "3183450931",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3183450931",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "64750871": {
+            "item_id": "3183450931",
+            "author_id": "64750871",
+            "name": "Heidi Haverkamp",
+            "url": "https://www.christiancentury.org/contributor/heidi-haverkamp"
+          }
+        },
+        "listen_duration_estimate": 454
+      },
+      "3185024909": {
+        "item_id": "3185024909",
+        "resolved_id": "3185024929",
+        "given_url": "https://politicaltheology.com/invoking-pauls-%CE%BC%E1%BD%B4-%CE%B3%CE%AD%CE%BD%CE%BF%CE%B9%CF%84%CE%BF-and-sofias-hell-no-against-the-stubborn-whiteness-of-biblical-scholarship/",
+        "given_title": "Invoking Paul’s μὴ γένοιτο and Sofia’s “Hell No” Against the Stubborn White",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606436426",
+        "time_updated": "1606436428",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 14,
+        "resolved_title": "Invoking Paul’s μὴ γένοιτο and Sofia’s “Hell No” Against the Stubborn Whiteness of Biblical Scholarship",
+        "resolved_url": "https://politicaltheology.com/invoking-pauls-%ce%bc%e1%bd%b4-%ce%b3%ce%ad%ce%bd%ce%bf%ce%b9%cf%84%ce%bf-and-sofias-hell-no-against-the-stubborn-whiteness-of-biblical-scholarship/",
+        "excerpt": "Justice",
+        "is_article": "0",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "1",
+        "lang": "en",
+        "top_image_url": "https://politicaltheology.com/wp-content/uploads/2018/01/logo-dark-1.png",
+        "tags": {
+          "church/theology": {
+            "item_id": "3185024909",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3185024909",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "143310603": {
+            "item_id": "3185024909",
+            "author_id": "143310603",
+            "name": "Angela Parker",
+            "url": "https://politicaltheology.com/author/angela-parker/"
+          }
+        },
+        "listen_duration_estimate": 0
+      },
+      "3186908177": {
+        "item_id": "3186908177",
+        "resolved_id": "3186908177",
+        "given_url": "https://www.youtube.com/watch?v=kEhOmrwrcgM",
+        "given_title": "The government should stop gentrification - Debates of the Century - YouTub",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606625424",
+        "time_updated": "1606625442",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 21,
+        "resolved_title": "The government should stop gentrification - Debates of the Century",
+        "resolved_url": "https://www.youtube.com/watch?v=kEhOmrwrcgM",
+        "excerpt": "Gentrification. It’s complicated and controversial—an interplay of urban planning, housing, transportation, inequality, and the movement of people. It drives heated discussions in townhalls, community board meetings, and legislative bodies in New York City and urban areas around the world. The m",
+        "is_article": "0",
+        "is_index": "0",
+        "has_video": "2",
+        "has_image": "1",
+        "word_count": "0",
+        "lang": "en",
+        "tags": {
+          "cities": {
+            "item_id": "3186908177",
+            "tag": "cities"
+          },
+          "gentrification": {
+            "item_id": "3186908177",
+            "tag": "gentrification"
+          },
+          "urban planning": {
+            "item_id": "3186908177",
+            "tag": "urban planning"
+          }
+        },
+        "authors": {
+          "130855383": {
+            "item_id": "3186908177",
+            "author_id": "130855383",
+            "name": "The Century Foundation",
+            "url": "https://www.youtube.com/channel/UCn_FKi7WrR44IslAtjTwR0g"
+          }
+        },
+        "image": {
+          "item_id": "3186908177",
+          "src": "https://i.ytimg.com/vi/kEhOmrwrcgM/mqdefault.jpg",
+          "width": "320",
+          "height": "180"
+        },
+        "images": {
+          "1": {
+            "item_id": "3186908177",
+            "image_id": "1",
+            "src": "https://i.ytimg.com/vi/kEhOmrwrcgM/mqdefault.jpg",
+            "width": "320",
+            "height": "180",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "videos": {
+          "1": {
+            "item_id": "3186908177",
+            "video_id": "1",
+            "src": "http://www.youtube.com/watch?v=kEhOmrwrcgM",
+            "width": "0",
+            "height": "0",
+            "type": "1",
+            "vid": "kEhOmrwrcgM",
+            "length": "1448"
+          }
+        },
+        "domain_metadata": {
+          "name": "YouTube",
+          "logo": "https://logo.clearbit.com/youtube.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/youtube.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 0
+      }
+    },
+    "error": null,
+    "search_meta": {
+      "search_type": "normal"
+    },
+    "since": 1606638434
+  }
+}
