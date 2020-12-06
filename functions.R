@@ -10,7 +10,7 @@ unix_to_date <- function(x){
   date <- x
   if(is.character(date)){date <- as.numeric(date)}
   # SET USER TIMEZONE HERE
-  as.Date(as.POSIXct(date, origin = '1970-01-01', tz = "EST))
+  as.Date(as.POSIXct(date, origin = '1970-01-01', tz = "EST"))
 }
 date_to_roam <- function(x){
   month <- lubridate::month(x, label = TRUE, abbr = FALSE, locale = "en_US.utf8")
