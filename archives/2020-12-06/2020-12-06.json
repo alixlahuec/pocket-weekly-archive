@@ -1,0 +1,1549 @@
+{
+  "url": "https://getpocket.com/v3/get",
+  "method": "post",
+  "payload": {
+    "consumer_key": "SECRET",
+    "access_token": "SECRET",
+    "state": "unread",
+    "sort": "oldest",
+    "detailType": "complete",
+    "since": "1606638595"
+  },
+  "time": "08:29:55 GMT+0000 (Coordinated Universal Time)",
+  "statusCode": 200,
+  "data": {
+    "status": 1,
+    "complete": 0,
+    "list": {
+      "430332897": {
+        "item_id": "430332897",
+        "resolved_id": "430332897",
+        "given_url": "https://www.theguardian.com/books/2011/oct/14/jane-jacobs-death-and-life-rereading",
+        "given_title": "Rereading: The Death and Life of Great American Cities by Jane Jacobs | Boo",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1605887948",
+        "time_updated": "1607117657",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 3,
+        "resolved_title": "Rereading: The Death and Life of Great American Cities by Jane Jacobs",
+        "resolved_url": "http://www.theguardian.com/books/2011/oct/14/jane-jacobs-death-and-life-rereading",
+        "excerpt": "In Donald Barthelme's 1974 short story \"I Bought a Little City\", the narrator decides one day to purchase Galveston, Texas, where he then tears down some houses, shoots 6,000 dogs, and rearranges what remains into the shape of a giant Mona Lisa jigsaw puzzle visible only from the air.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "1820",
+        "lang": "en",
+        "time_to_read": 8,
+        "amp_url": "https://amp.theguardian.com/books/2011/oct/14/jane-jacobs-death-and-life-rereading",
+        "top_image_url": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2011/10/12/1318435704935/Jane-Jacobs-In-Washington-007.jpg?w=1200&h=630&q=55&auto=format&usm=12&fit=crop&crop=faces%2Centropy&bm=normal&ba=bottom%2Cleft&blend64=aHR0cHM6Ly91cGxvYWRzLmd1aW0uY28udWsvMjAxNi8wNS8yNS9vdmVybGF5LWxvZ28tMTIwMC05MF9vcHQucG5n&s=9730c767e884effa5a821bf0b386fc96",
+        "tags": {
+          "cities": {
+            "item_id": "430332897",
+            "tag": "cities"
+          },
+          "jane jacobs": {
+            "item_id": "430332897",
+            "tag": "jane jacobs"
+          },
+          "urban planning": {
+            "item_id": "430332897",
+            "tag": "urban planning"
+          }
+        },
+        "authors": {
+          "2819908": {
+            "item_id": "430332897",
+            "author_id": "2819908",
+            "name": "Ned Beauman",
+            "url": ""
+          }
+        },
+        "image": {
+          "item_id": "430332897",
+          "src": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2011/10/12/1318435704935/Jane-Jacobs-In-Washington-007.jpg?w=300&q=55&auto=format&usm=12&fit=max&s=a459062ebc2e31a2875009178694fbf2",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "430332897",
+            "image_id": "1",
+            "src": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2011/10/12/1318435704935/Jane-Jacobs-In-Washington-007.jpg?w=300&q=55&auto=format&usm=12&fit=max&s=a459062ebc2e31a2875009178694fbf2",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "domain_metadata": {
+          "name": "The Guardian",
+          "logo": "https://logo.clearbit.com/theguardian.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/theguardian.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 705
+      },
+      "874483006": {
+        "item_id": "874483006",
+        "resolved_id": "874483006",
+        "given_url": "https://hbr.org/1995/05/the-competitive-advantage-of-the-inner-city",
+        "given_title": "The Competitive Advantage of the Inner City",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606674059",
+        "time_updated": "1606674070",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 4,
+        "resolved_title": "The Competitive Advantage of the Inner City",
+        "resolved_url": "https://hbr.org/1995/05/the-competitive-advantage-of-the-inner-city",
+        "excerpt": "The economic distress of America’s inner cities may be the most pressing issue facing the nation. The lack of businesses and jobs in disadvantaged urban areas fuels not only a crushing cycle of poverty but also crippling social problems, such as drug abuse and crime.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "10203",
+        "lang": "en",
+        "time_to_read": 46,
+        "top_image_url": "https://hbr.org/resources/images/article_assets/2014/08/110-michael-porter.jpg",
+        "tags": {
+          "cities": {
+            "item_id": "874483006",
+            "tag": "cities"
+          },
+          "gentrification": {
+            "item_id": "874483006",
+            "tag": "gentrification"
+          },
+          "urban planning": {
+            "item_id": "874483006",
+            "tag": "urban planning"
+          }
+        },
+        "authors": {
+          "26005596": {
+            "item_id": "874483006",
+            "author_id": "26005596",
+            "name": "Michael E. Porter",
+            "url": "https://hbr.org/search?term=michael+e.+porter"
+          }
+        },
+        "image": {
+          "item_id": "874483006",
+          "src": "https://hbr.org/resources/images/covers/3953_500.png",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "874483006",
+            "image_id": "1",
+            "src": "https://hbr.org/resources/images/covers/3953_500.png",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          },
+          "2": {
+            "item_id": "874483006",
+            "image_id": "2",
+            "src": "https://hbr.org/resources/images/article_assets/hbr/9505/95310_B.gif",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "Inner City Economic Development --"
+          },
+          "3": {
+            "item_id": "874483006",
+            "image_id": "3",
+            "src": "https://hbr.org/resources/images/article_assets/2014/08/110-michael-porter.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "HBR, September 2011",
+            "caption": "Michael E. Porter is a University Professor at Harvard, based at Harvard Business School in Boston. He is a coauthor, with Robert S. Kaplan, of “How to Solve the Cost Crisis in Health Care”"
+          }
+        },
+        "domain_metadata": {
+          "name": "Harvard Business Review",
+          "logo": "https://logo.clearbit.com/hbr.org?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/hbr.org?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 3950
+      },
+      "1241671316": {
+        "item_id": "1241671316",
+        "resolved_id": "1241671316",
+        "given_url": "https://www.neweconomynyc.org/2014/04/new-york-foundation-homelessness-community-land-trusts-future-nyc-neighborhoods/",
+        "given_title": "New York Foundation: Homelessness, Community Land Trusts, and the Future of",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606864966",
+        "time_updated": "1606864972",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 14,
+        "resolved_title": "New York Foundation: Homelessness, Community Land Trusts, and the Future of NYC Neighborhoods",
+        "resolved_url": "https://www.neweconomynyc.org/2014/04/new-york-foundation-homelessness-community-land-trusts-future-nyc-neighborhoods/",
+        "excerpt": "Picture the Homeless was founded in 1999 against the backdrop of Giuliani-era policing practices that were seen by many as repressing the civil rights of poor people.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "1866",
+        "lang": "en",
+        "time_to_read": 8,
+        "top_image_url": "http://nyf.org/files/2014/04/sam-miller-better.jpg",
+        "tags": {
+          "cities": {
+            "item_id": "1241671316",
+            "tag": "cities"
+          },
+          "gentrification": {
+            "item_id": "1241671316",
+            "tag": "gentrification"
+          },
+          "housing": {
+            "item_id": "1241671316",
+            "tag": "housing"
+          }
+        },
+        "image": {
+          "item_id": "1241671316",
+          "src": "http://nyf.org/files/2014/04/sam-miller-better.jpg",
+          "width": "251",
+          "height": "303"
+        },
+        "images": {
+          "1": {
+            "item_id": "1241671316",
+            "image_id": "1",
+            "src": "http://nyf.org/files/2014/04/sam-miller-better.jpg",
+            "width": "251",
+            "height": "303",
+            "credit": "",
+            "caption": ""
+          },
+          "2": {
+            "item_id": "1241671316",
+            "image_id": "2",
+            "src": "http://nyf.org/files/2014/03/credit-grove-park-community-land-trust.jpg",
+            "width": "720",
+            "height": "540",
+            "credit": "",
+            "caption": ""
+          },
+          "3": {
+            "item_id": "1241671316",
+            "image_id": "3",
+            "src": "http://nyccli.org/wp-content/uploads/sites/14/2013/09/NYCCLI_fullpage_color.for-web-1024x791.jpg",
+            "width": "614",
+            "height": "475",
+            "credit": "",
+            "caption": "Source: NYC Community Land Initiative"
+          }
+        },
+        "listen_duration_estimate": 722
+      },
+      "1363212671": {
+        "item_id": "1363212671",
+        "resolved_id": "1363212671",
+        "given_url": "https://www.versobooks.com/blogs/2792-the-complete-subjugation-of-urban-policy-an-interview-with-raquel-rolnik",
+        "given_title": "Verso",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606704091",
+        "time_updated": "1606704096",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 9,
+        "resolved_title": "“The complete subjugation of urban policy”: An interview with Raquel Rolnik",
+        "resolved_url": "https://www.versobooks.com/blogs/2792-the-complete-subjugation-of-urban-policy-an-interview-with-raquel-rolnik",
+        "excerpt": "Raquel Rolnik is an architect and urbanist from São Paulo. Between 2008 and 2014, she was United Nations special rapporteur for the right to adequate housing. Rolnik, a professor at the University of São Paulo, is the author of several books including a book about housing forthcoming from Verso.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "1310",
+        "lang": "en",
+        "time_to_read": 6,
+        "tags": {
+          "cities": {
+            "item_id": "1363212671",
+            "tag": "cities"
+          }
+        },
+        "authors": {
+          "71014915": {
+            "item_id": "1363212671",
+            "author_id": "71014915",
+            "name": "Authors",
+            "url": "https://www.versobooks.com/authors"
+          }
+        },
+        "image": {
+          "item_id": "1363212671",
+          "src": "https://versobooks-prod.s3.amazonaws.com/images/000008/880/villa_autodromo-c5dc4d56d7d2db8b565e76d2aeaf1473.jpg",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "1363212671",
+            "image_id": "1",
+            "src": "https://versobooks-prod.s3.amazonaws.com/images/000008/880/villa_autodromo-c5dc4d56d7d2db8b565e76d2aeaf1473.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "listen_duration_estimate": 507
+      },
+      "1418131827": {
+        "item_id": "1418131827",
+        "resolved_id": "1418131827",
+        "given_url": "http://www.newyorker.com/magazine/2016/09/26/jane-jacobs-street-smarts",
+        "given_title": "Jane Jacobs’s Street Smarts | The New Yorker",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1605887939",
+        "time_updated": "1607117671",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 2,
+        "resolved_title": "Jane Jacobs’s Street Smarts",
+        "resolved_url": "https://www.newyorker.com/magazine/2016/09/26/jane-jacobs-street-smarts",
+        "excerpt": "I got to talk to Jane Jacobs once, toward the end of her life, an interview that is mentioned, in its properly Lilliputian proportion, in Robert Kanigel’s new biography, “Eyes on the Street: The Life of Jane Jacobs” (Knopf).",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "5284",
+        "lang": "en",
+        "time_to_read": 24,
+        "amp_url": "https://www.newyorker.com/magazine/2016/09/26/jane-jacobs-street-smarts/amp",
+        "top_image_url": "https://media.newyorker.com/photos/59097a2b2179605b11ad8c6c/16:9/w_1200,h_630,c_limit/160926_r28740.jpg",
+        "tags": {
+          "cities": {
+            "item_id": "1418131827",
+            "tag": "cities"
+          },
+          "jane jacobs": {
+            "item_id": "1418131827",
+            "tag": "jane jacobs"
+          },
+          "urban planning": {
+            "item_id": "1418131827",
+            "tag": "urban planning"
+          }
+        },
+        "authors": {
+          "70533374": {
+            "item_id": "1418131827",
+            "author_id": "70533374",
+            "name": "Adam Gopnik",
+            "url": "https://www.newyorker.com/contributors/adam-gopnik"
+          }
+        },
+        "image": {
+          "item_id": "1418131827",
+          "src": "https://media.newyorker.com/photos/59097a2b2179605b11ad8c6c/master/w_727,c_limit/160926_r28740.jpg",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "1418131827",
+            "image_id": "1",
+            "src": "https://media.newyorker.com/photos/59097a2b2179605b11ad8c6c/master/w_727,c_limit/160926_r28740.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "Photograph by Elliott Erwitt / Magnum and John J. Burns Library, Boston College"
+          },
+          "2": {
+            "item_id": "1418131827",
+            "image_id": "2",
+            "src": "https://media.newyorker.com/cartoons/593b67995d2f45736c34d0e6/master/w_727,c_limit/160926_a20255.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          },
+          "3": {
+            "item_id": "1418131827",
+            "image_id": "3",
+            "src": "https://media.newyorker.com/cartoons/593b679bf60db474ba953d2d/master/w_727,c_limit/160926_a20232.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "“If it wasn’t for Starbucks, I wouldn’t know any Italian at all.”"
+          }
+        },
+        "domain_metadata": {
+          "name": "The New Yorker",
+          "logo": "https://logo.clearbit.com/newyorker.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/newyorker.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 2045
+      },
+      "1504810057": {
+        "item_id": "1504810057",
+        "resolved_id": "1504810057",
+        "given_url": "http://www.harvarddesignmagazine.org/issues/42/reading-jane-jacobs-in-the-era-of-blacklivesmatter",
+        "given_title": "Harvard Design Magazine: Reading Jane Jacobs in the Era of #BlackLivesMatte",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1605887857",
+        "time_updated": "1607117690",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 1,
+        "resolved_title": "Reading Jane Jacobs in the Era of #BlackLivesMatter",
+        "resolved_url": "http://www.harvarddesignmagazine.org/issues/42/reading-jane-jacobs-in-the-era-of-blacklivesmatter",
+        "excerpt": "The #BlackLivesMatter movement put fear in the headlines. Not the fear of street crime that has garnered attention for decades in the United States, but the fear of police among black people.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "991",
+        "lang": "en",
+        "time_to_read": 5,
+        "top_image_url": "http://www.harvarddesignmagazine.org/uploads/image/attachment/1952/c8_42_Schrader_GettyImages-483574394.jpg",
+        "tags": {
+          "cities": {
+            "item_id": "1504810057",
+            "tag": "cities"
+          },
+          "jane jacobs": {
+            "item_id": "1504810057",
+            "tag": "jane jacobs"
+          },
+          "race": {
+            "item_id": "1504810057",
+            "tag": "race"
+          }
+        },
+        "authors": {
+          "20170103": {
+            "item_id": "1504810057",
+            "author_id": "20170103",
+            "name": "Contributors",
+            "url": "http://www.harvarddesignmagazine.org/browse/contributors"
+          }
+        },
+        "image": {
+          "item_id": "1504810057",
+          "src": "http://www.harvarddesignmagazine.org/uploads/image/attachment/1952/full_screen_42_Schrader_GettyImages-483574394.jpg",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "1504810057",
+            "image_id": "1",
+            "src": "http://www.harvarddesignmagazine.org/uploads/image/attachment/1952/full_screen_42_Schrader_GettyImages-483574394.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "Police officers get behind their squad cars after shots were red on West Florissant Avenue on Sunday, August 9, 2015, on the one year anniversary of Michael Brown’s death in Ferguson, Missouri."
+          },
+          "2": {
+            "item_id": "1504810057",
+            "image_id": "2",
+            "src": "http://www.harvarddesignmagazine.org/uploads/image/attachment/1953/full_screen_42_SchraderJacobsBook.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "Brooklyn, New York, March 2016."
+          }
+        },
+        "listen_duration_estimate": 384
+      },
+      "1644709471": {
+        "item_id": "1644709471",
+        "resolved_id": "1644709471",
+        "given_url": "https://www.theatlantic.com/business/archive/2017/03/gentrification-moskowitz/519057/",
+        "given_title": "Peter Moskowitz: How Gentrification Kills Cities - The Atlantic",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606679974",
+        "time_updated": "1606679986",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 6,
+        "resolved_title": "The Steady Destruction of America’s Cities",
+        "resolved_url": "https://www.theatlantic.com/business/archive/2017/03/gentrification-moskowitz/519057/",
+        "excerpt": "Peter Moskowitz’s new book on gentrification outlines how local governments cede their power over residents’ lives to private interests. To live in a city is to watch it change, sometimes quickly and in troubling ways.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "1",
+        "has_image": "1",
+        "word_count": "1322",
+        "lang": "en",
+        "time_to_read": 6,
+        "amp_url": "https://amp.theatlantic.com/amp/article/519057/",
+        "top_image_url": "https://cdn.theatlantic.com/thumbor/iE1Vz5FZ9kJWgtv6m0C3mW-26gE=/0x134:2000x1175/960x500/media/img/mt/2017/03/AP_04010805244_toned/original.jpg",
+        "tags": {
+          "cities": {
+            "item_id": "1644709471",
+            "tag": "cities"
+          },
+          "gentrification": {
+            "item_id": "1644709471",
+            "tag": "gentrification"
+          },
+          "peter moskowitz": {
+            "item_id": "1644709471",
+            "tag": "peter moskowitz"
+          }
+        },
+        "authors": {
+          "64680173": {
+            "item_id": "1644709471",
+            "author_id": "64680173",
+            "name": "Gillian B. White",
+            "url": "https://www.theatlantic.com/author/gillian-b-white/"
+          }
+        },
+        "image": {
+          "item_id": "1644709471",
+          "src": "https://cdn.theatlantic.com/thumbor/1HysdNI9gOA7fcAolZG9G5O-7WM=/0x94:2000x1219/720x405/media/img/mt/2017/03/AP_04010805244_toned/original.jpg",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "1644709471",
+            "image_id": "1",
+            "src": "https://cdn.theatlantic.com/thumbor/1HysdNI9gOA7fcAolZG9G5O-7WM=/0x94:2000x1219/720x405/media/img/mt/2017/03/AP_04010805244_toned/original.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "Construction in downtown DetroitPaul Sancya / AP",
+            "caption": "Construction in downtown Detroit"
+          },
+          "2": {
+            "item_id": "1644709471",
+            "image_id": "2",
+            "src": "https://cdn.theatlantic.com/thumbor/2EbR4UfcPly_m8v9UK3NdSxmTjY=/0x166:1047x1214/200x200/media/None/imageedit_1_3614004911/original.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          },
+          "3": {
+            "item_id": "1644709471",
+            "image_id": "3",
+            "src": "https://cdn.theatlantic.com/thumbor/CQog1sXUNtoDYSxgs_awB73P0dc=/0x166:1047x1214/400x400/media/None/imageedit_1_3614004911/original.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "domain_metadata": {
+          "name": "The Atlantic",
+          "logo": "https://logo.clearbit.com/theatlantic.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/theatlantic.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 512
+      },
+      "1703933829": {
+        "item_id": "1703933829",
+        "resolved_id": "1703933829",
+        "given_url": "https://nyf.org/balm-in-gilead/rob-robinson/",
+        "given_title": "Rob Robinson - New York Foundation",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606864778",
+        "time_updated": "1606864789",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 12,
+        "resolved_title": "Rob Robinson",
+        "resolved_url": "http://nyf.org/balm-in-gilead/rob-robinson/",
+        "excerpt": "Rob Robinson is a member of the Leadership Committee of the Take Back the Land movement and a staff volunteer at the National Economic and Social Rights Initiative (NESRI).  After losing his job in 2001, he spent two years homeless on the streets of Miami and ten months in a New York City shelter.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "1679",
+        "lang": "en",
+        "time_to_read": 8,
+        "tags": {
+          "cities": {
+            "item_id": "1703933829",
+            "tag": "cities"
+          },
+          "gentrification": {
+            "item_id": "1703933829",
+            "tag": "gentrification"
+          },
+          "politics": {
+            "item_id": "1703933829",
+            "tag": "politics"
+          }
+        },
+        "image": {
+          "item_id": "1703933829",
+          "src": "http://nyf.org/files/2015/08/RobRobinsonPhoto.jpg",
+          "width": "200",
+          "height": "200"
+        },
+        "images": {
+          "1": {
+            "item_id": "1703933829",
+            "image_id": "1",
+            "src": "http://nyf.org/files/2015/08/RobRobinsonPhoto.jpg",
+            "width": "200",
+            "height": "200",
+            "credit": "",
+            "caption": ""
+          },
+          "2": {
+            "item_id": "1703933829",
+            "image_id": "2",
+            "src": "http://nyf.org/files/2015/08/quote-11.jpg",
+            "width": "406",
+            "height": "221",
+            "credit": "",
+            "caption": ""
+          },
+          "3": {
+            "item_id": "1703933829",
+            "image_id": "3",
+            "src": "http://nyf.org/files/2015/08/quote-21.jpg",
+            "width": "701",
+            "height": "152",
+            "credit": "",
+            "caption": ""
+          },
+          "4": {
+            "item_id": "1703933829",
+            "image_id": "4",
+            "src": "http://nyf.org/files/2015/08/quote-5.jpg",
+            "width": "309",
+            "height": "78",
+            "credit": "",
+            "caption": ""
+          },
+          "5": {
+            "item_id": "1703933829",
+            "image_id": "5",
+            "src": "http://nyf.org/files/2015/08/quote-41.jpg",
+            "width": "745",
+            "height": "154",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "listen_duration_estimate": 650
+      },
+      "1829232031": {
+        "item_id": "1829232031",
+        "resolved_id": "1829232031",
+        "given_url": "https://citylimits.org/2017/07/21/cityviews-de-blasio-admins-move-on-land-trusts-reflects-good-idea-great-organizing/",
+        "given_title": "CityViews: De Blasio Admin's Move On Land Trusts Reflects Good Idea, Great ",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606864954",
+        "time_updated": "1606864961",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 13,
+        "resolved_title": "CityViews: De Blasio Admin’s Move On Land Trusts Reflects Good Idea, Great Organizing",
+        "resolved_url": "http://citylimits.org/2017/07/21/cityviews-de-blasio-admins-move-on-land-trusts-reflects-good-idea-great-organizing/",
+        "excerpt": "In the fight against gentrification and displacement, we don’t see too many big victories. But we had one this week, when the New York City department of Housing Preservation and Development announced that it will be giving $1.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "942",
+        "lang": "en",
+        "time_to_read": 4,
+        "top_image_url": "http://0d4g9qvxfl-flywheel.netdna-ssl.com/wp-content/uploads/2017/07/CLT9.jpg",
+        "tags": {
+          "cities": {
+            "item_id": "1829232031",
+            "tag": "cities"
+          },
+          "gentrification": {
+            "item_id": "1829232031",
+            "tag": "gentrification"
+          },
+          "housing": {
+            "item_id": "1829232031",
+            "tag": "housing"
+          }
+        },
+        "authors": {
+          "72538216": {
+            "item_id": "1829232031",
+            "author_id": "72538216",
+            "name": "Sam Miller",
+            "url": "http://citylimits.org/author/sam-miller/"
+          },
+          "72538217": {
+            "item_id": "1829232031",
+            "author_id": "72538217",
+            "name": "Arvernetta Henry",
+            "url": "http://citylimits.org/author/arvernetta-henry/"
+          }
+        },
+        "listen_duration_estimate": 365
+      },
+      "2449255365": {
+        "item_id": "2449255365",
+        "resolved_id": "2449255365",
+        "given_url": "https://www.plannersnetwork.org/2018/11/transformative-planning-for-community-development-part-one-moving-from-advocacy-planning-to-transformative-planning/",
+        "given_title": "TRANSFORMATIVE PLANNING FOR COMMUNITY DEVELOPMENT, Part One: Moving From Ad",
+        "favorite": "1",
+        "status": "0",
+        "time_added": "1606881982",
+        "time_updated": "1606882037",
+        "time_read": "0",
+        "time_favorited": "1606882035",
+        "sort_id": 15,
+        "resolved_title": "TRANSFORMATIVE PLANNING FOR COMMUNITY DEVELOPMENT, Part One: Moving From Advocacy Planning to Transformative Planning",
+        "resolved_url": "http://www.plannersnetwork.org/2018/11/transformative-planning-for-community-development-part-one-moving-from-advocacy-planning-to-transformative-planning/",
+        "excerpt": "Unleashing the creative energy of ordinary people wherever we work in the world. Photos by Marie Kennedy. Transformative community planning is a way of working with communities across divisions.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "2448",
+        "lang": "en",
+        "time_to_read": 11,
+        "top_image_url": "http://www.plannersnetwork.org/wp-content/uploads/2019/01/3-1.jpg",
+        "tags": {
+          "cities": {
+            "item_id": "2449255365",
+            "tag": "cities"
+          },
+          "urban planning": {
+            "item_id": "2449255365",
+            "tag": "urban planning"
+          }
+        },
+        "authors": {
+          "103020303": {
+            "item_id": "2449255365",
+            "author_id": "103020303",
+            "name": "Marie Kennedy",
+            "url": "http://www.plannersnetwork.org/author/marie-kennedy/"
+          }
+        },
+        "listen_duration_estimate": 948
+      },
+      "2497056817": {
+        "item_id": "2497056817",
+        "resolved_id": "2497056817",
+        "given_url": "https://www.plannersnetwork.org/case-studies-and-working-papers/transformative-community-planning-empowerment-through-community-development/",
+        "given_title": "Transformative Community Planning: Empowerment Through Community Developmen",
+        "favorite": "1",
+        "status": "0",
+        "time_added": "1606881998",
+        "time_updated": "1606882038",
+        "time_read": "0",
+        "time_favorited": "1606882038",
+        "sort_id": 16,
+        "resolved_title": "Transformative Community Planning: Empowerment Through Community Development",
+        "resolved_url": "http://www.plannersnetwork.org/case-studies-and-working-papers/transformative-community-planning-empowerment-through-community-development/",
+        "excerpt": "Prepared for the 1996 Planners Network Conference, “Renewing Hope, Restoring Vision: Progressive Planning in Our Communities.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "3812",
+        "lang": "en",
+        "time_to_read": 17,
+        "top_image_url": "https://s0.wp.com/i/blank.jpg",
+        "tags": {
+          "cities": {
+            "item_id": "2497056817",
+            "tag": "cities"
+          },
+          "urban planning": {
+            "item_id": "2497056817",
+            "tag": "urban planning"
+          }
+        },
+        "listen_duration_estimate": 1476
+      },
+      "2600940338": {
+        "item_id": "2600940338",
+        "resolved_id": "2600940338",
+        "given_url": "https://www.propublica.org/article/how-some-of-americas-richest-towns-fight-affordable-housing",
+        "given_title": "Separated by Design: How Some of America’s Richest Towns Fight Affordable H",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607206344",
+        "time_updated": "1607206364",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 19,
+        "resolved_title": "Separated by Design: How Some of America’s Richest Towns Fight Affordable Housing",
+        "resolved_url": "https://www.propublica.org/article/how-some-of-americas-richest-towns-fight-affordable-housing",
+        "excerpt": "ProPublica is a nonprofit newsroom that investigates abuses of power. Sign up to receive our biggest stories as soon as they’re published. This article was produced in partnership with the Connecticut Mirror, which is a member of the ProPublica Local Reporting Network.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "5450",
+        "lang": "en",
+        "time_to_read": 25,
+        "amp_url": "https://www.propublica.org/article/how-some-of-americas-richest-towns-fight-affordable-housing/amp",
+        "top_image_url": "https://assets-c3.propublica.org/images/articles/_1200x630_crop_center-center_82_none/20190522-cunningham-1200x630.jpg?mtime=1571340547",
+        "tags": {
+          "affordable housing": {
+            "item_id": "2600940338",
+            "tag": "affordable housing"
+          },
+          "inequalities": {
+            "item_id": "2600940338",
+            "tag": "inequalities"
+          },
+          "urban planning": {
+            "item_id": "2600940338",
+            "tag": "urban planning"
+          }
+        },
+        "authors": {
+          "9537444": {
+            "item_id": "2600940338",
+            "author_id": "9537444",
+            "name": "Jacqueline Rabe Thomas",
+            "url": ""
+          }
+        },
+        "image": {
+          "item_id": "2600940338",
+          "src": "https://assets-c3.propublica.org/images/articles/_threeTwo400w/20190522-cunningham-3x2.jpg",
+          "width": "400",
+          "height": "267"
+        },
+        "images": {
+          "1": {
+            "item_id": "2600940338",
+            "image_id": "1",
+            "src": "https://assets-c3.propublica.org/images/articles/_threeTwo400w/20190522-cunningham-3x2.jpg",
+            "width": "400",
+            "height": "267",
+            "credit": "(Cloe Poisson, special to ProPublica)",
+            "caption": "Ashana Cunningham, center, lives with her wife, India Cunningham, and her three children — Ansoneya Mitchener, 15; Robert Hallums, 12, right; and Brandon Mitchener, 9 — in a three-bedroom apartment in a Bridgeport shelter."
+          },
+          "2": {
+            "item_id": "2600940338",
+            "image_id": "2",
+            "src": "https://assets-c3.propublica.org/images/articles/_threeTwo400w/20190521-mansion-3x2.jpg",
+            "width": "400",
+            "height": "267",
+            "credit": "(Cloe Poisson, special to ProPublica)",
+            "caption": ""
+          },
+          "3": {
+            "item_id": "2600940338",
+            "image_id": "3",
+            "src": "https://assets-c3.propublica.org/images/articles/_threeTwo400w/20190521-cunningham.jpg",
+            "width": "400",
+            "height": "267",
+            "credit": "(Spencer Platt/Getty Images)",
+            "caption": ""
+          },
+          "4": {
+            "item_id": "2600940338",
+            "image_id": "4",
+            "src": "https://assets-c3.propublica.org/images/articles/_threeTwo400w/20190522-mayor.jpg",
+            "width": "400",
+            "height": "267",
+            "credit": "(Jacqueline Rabe Thomas/The Connecticut Mirror)",
+            "caption": ""
+          },
+          "5": {
+            "item_id": "2600940338",
+            "image_id": "5",
+            "src": "https://assets-c3.propublica.org/images/articles/_threeTwo400w/20190521-construction.jpg",
+            "width": "400",
+            "height": "267",
+            "credit": "(Jacqueline Rabe Thomas/The Connecticut Mirror)",
+            "caption": ""
+          },
+          "6": {
+            "item_id": "2600940338",
+            "image_id": "6",
+            "src": "https://assets-c3.propublica.org/images/articles/_threeTwo400w/20190521-garden.jpg",
+            "width": "400",
+            "height": "267",
+            "credit": "(Jacqueline Rabe Thomas/The Connecticut Mirror)",
+            "caption": ""
+          },
+          "7": {
+            "item_id": "2600940338",
+            "image_id": "7",
+            "src": "https://assets-c3.propublica.org/images/articles/_threeTwo400w/20190521-chip.jpg",
+            "width": "400",
+            "height": "267",
+            "credit": "(Jacqueline Rabe Thomas/The Connecticut Mirror)",
+            "caption": ""
+          },
+          "8": {
+            "item_id": "2600940338",
+            "image_id": "8",
+            "src": "https://assets-c3.propublica.org/images/articles/_threeTwo400w/20190521-low-income.jpg",
+            "width": "400",
+            "height": "267",
+            "credit": "(Jacqueline Rabe Thomas/The Connecticut Mirror)",
+            "caption": ""
+          },
+          "9": {
+            "item_id": "2600940338",
+            "image_id": "9",
+            "src": "https://assets-c3.propublica.org/images/articles/_threeTwo400w/20190521-beach.jpg",
+            "width": "400",
+            "height": "267",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "domain_metadata": {
+          "name": "ProPublica",
+          "logo": "https://logo.clearbit.com/propublica.org?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/propublica.org?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 2110
+      },
+      "2852466489": {
+        "item_id": "2852466489",
+        "resolved_id": "2852466489",
+        "given_url": "https://www.theguardian.com/cities/2020/jan/14/my-parkdale-is-gone-how-gentrification-reached-the-one-place-that-seemed-immune",
+        "given_title": "'My Parkdale is gone': how gentrification reached the one place that seemed",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606702495",
+        "time_updated": "1606702505",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 7,
+        "resolved_title": "'My Parkdale is gone': how gentrification reached the one place that seemed immune",
+        "resolved_url": "https://www.theguardian.com/cities/2020/jan/14/my-parkdale-is-gone-how-gentrification-reached-the-one-place-that-seemed-immune",
+        "excerpt": "By now, Michael Nguyen expects them: every month or so, someone representing one international real estate investment firm or another crosses the threshold of the Parkdale Intercultural Association, a non-profit immigrant settlement agency he runs on a busy stretch of Toronto’s Queen Street West.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "4388",
+        "lang": "en",
+        "time_to_read": 20,
+        "amp_url": "https://amp.theguardian.com/cities/2020/jan/14/my-parkdale-is-gone-how-gentrification-reached-the-one-place-that-seemed-immune",
+        "top_image_url": "https://i.guim.co.uk/img/media/09fd298d1657649175797b372aa55f4f5d330f08/0_756_4718_2830/master/4718.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2c3bfc20b122b087634b6e44b0f0c80b",
+        "tags": {
+          "canada": {
+            "item_id": "2852466489",
+            "tag": "canada"
+          },
+          "cities": {
+            "item_id": "2852466489",
+            "tag": "cities"
+          },
+          "gentrification": {
+            "item_id": "2852466489",
+            "tag": "gentrification"
+          }
+        },
+        "authors": {
+          "126616208": {
+            "item_id": "2852466489",
+            "author_id": "126616208",
+            "name": "Murray Whyte in Toronto",
+            "url": ""
+          }
+        },
+        "image": {
+          "item_id": "2852466489",
+          "src": "https://i.guim.co.uk/img/media/09fd298d1657649175797b372aa55f4f5d330f08/0_756_4718_2830/master/4718.jpg?width=300&quality=85&auto=format&fit=max&s=19388a1866b83380514674ff67abe441",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "2852466489",
+            "image_id": "1",
+            "src": "https://i.guim.co.uk/img/media/09fd298d1657649175797b372aa55f4f5d330f08/0_756_4718_2830/master/4718.jpg?width=300&quality=85&auto=format&fit=max&s=19388a1866b83380514674ff67abe441",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "From Crackdale to Vegandale? The attempted ‘rebranding’ of Parkdale in Toronto saw a local backlash.\nPhotograph: Richard Lautens/Toronto Star via Getty Images"
+          },
+          "2": {
+            "item_id": "2852466489",
+            "image_id": "2",
+            "src": "https://i.guim.co.uk/img/media/1ec6238c7e7b2662663810e0847ca4660eaf4d20/0_176_5184_3110/master/5184.jpg?width=300&quality=85&auto=format&fit=max&s=e5ecc52b4bf91f4c870db05a74336083",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "A proposal for a new 19-storey condo development, which prompted resident concern. Photograph: Steve Russell/Toronto Star via Getty Images"
+          },
+          "3": {
+            "item_id": "2852466489",
+            "image_id": "3",
+            "src": "https://i.guim.co.uk/img/media/bf544ff2235f49ceeb2b8806bb37e563a14fc219/0_7_2836_1702/master/2836.jpg?width=300&quality=85&auto=format&fit=max&s=da94b6112549181a0bce155dc17c7d53",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "Rapid industrialization meant that many of Parkdale’s elegant mansions were hastily sold and repurposed as multiple single-room dwellings. Photograph: Boris Spremo/Toronto Star via Getty Images"
+          },
+          "4": {
+            "item_id": "2852466489",
+            "image_id": "4",
+            "src": "https://i.guim.co.uk/img/media/9705d8a877179a22662dc32db24e5eaa7d938026/0_355_5760_3456/master/5760.jpg?width=300&quality=85&auto=format&fit=max&s=31eae56a0aa624f7d79bce3a861adb21",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "Loga and Dolma Yangchen in the kitchen of their Tibetan restaurant, Loga’s Corner. Photograph: Anne-Marie Jackson/Toronto Star via Getty Images"
+          },
+          "5": {
+            "item_id": "2852466489",
+            "image_id": "5",
+            "src": "https://i.guim.co.uk/img/media/1a3b7274fecdad9264ce66bfb9ef8523422f846b/0_0_4864_3520/master/4864.jpg?width=300&quality=85&auto=format&fit=max&s=3eb0d81172dbf2288f8d528045d8b778",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "Kreuzberg Berlin, another district in a ‘desirable’ city that has faced gentrification. Photograph: Alamy"
+          },
+          "6": {
+            "item_id": "2852466489",
+            "image_id": "6",
+            "src": "https://i.guim.co.uk/img/media/76476859c3d73fa74a6367dac0d7f850aff3c9b6/0_135_3600_2160/master/3600.jpg?width=300&quality=85&auto=format&fit=max&s=005ca5c128281cfeabd7fb58bd803223",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "Los Angeles vegan restaurant Doomie’s opened on Queen Street in 2016, swiftly followed by a non-dairy ice cream shop and a lifestyle boutique. Photograph: Vince Talotta/Toronto Star via Getty Images"
+          },
+          "7": {
+            "item_id": "2852466489",
+            "image_id": "7",
+            "src": "https://i.guim.co.uk/img/media/c1d6f7441fb098254e3d8fde66112f9a42892ce3/0_0_4364_3105/master/4364.jpg?width=300&quality=85&auto=format&fit=max&s=3bb2eec2b177a75250f805c42cff3bc0",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "The Vegandale Brewery, one of a number of businesses billed as part of a ‘rebranding’ of Parkdale. Photograph: Randy Risling/Toronto Star via Getty Images"
+          },
+          "8": {
+            "item_id": "2852466489",
+            "image_id": "8",
+            "src": "https://i.guim.co.uk/img/media/139aa446c7655de98c9b26e75799a9ae11495ca3/0_448_6720_4032/master/6720.jpg?width=300&quality=85&auto=format&fit=max&s=3a30c4a96a043335c1e944bf3185d92f",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "Community anger is strong and has resulted in a number of protests and campaigns. Photograph: Rene Johnston/Toronto Star via Getty Images"
+          },
+          "9": {
+            "item_id": "2852466489",
+            "image_id": "9",
+            "src": "https://i.guim.co.uk/img/media/7d6bcd10793bf4b34637d5817c6d02312b1f0622/0_0_3600_2400/master/3600.jpg?width=300&quality=85&auto=format&fit=max&s=60b0bb6bf08eb07fca19acdc265f71c8",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "Tsering Dorjee a community volunteer in the Milky Way vegetable garden, created by a local land trust. Photograph: Vince Talotta/Toronto Star via Getty Images"
+          }
+        },
+        "domain_metadata": {
+          "name": "The Guardian",
+          "logo": "https://logo.clearbit.com/theguardian.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/theguardian.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 1699
+      },
+      "2994937357": {
+        "item_id": "2994937357",
+        "resolved_id": "2994937357",
+        "given_url": "https://medium.com/@didoesdigital/learning-data-viz-with-d3-8b54afcef74",
+        "given_title": "",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1592954068",
+        "time_updated": "1607117051",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 0,
+        "resolved_title": "Learning data viz with D3",
+        "resolved_url": "https://medium.com/@didoesdigital/learning-data-viz-with-d3-8b54afcef74",
+        "excerpt": "It was a Sunday morning in Melbourne. Having watched a few video courses on data viz with D3, I decided to set myself a goal: by the end of 2020, I will feel confident to design data visualizations of the complexity and visual impact of those by the New York Times.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "6639",
+        "lang": "en",
+        "time_to_read": 30,
+        "top_image_url": "https://miro.medium.com/max/1200/0*DtHCYKOLbsHEOSEB",
+        "tags": {
+          "resources": {
+            "item_id": "2994937357",
+            "tag": "resources"
+          }
+        },
+        "authors": {
+          "134665760": {
+            "item_id": "2994937357",
+            "author_id": "134665760",
+            "name": "Diana MacDonald",
+            "url": "https://medium.com/@didoesdigital"
+          }
+        },
+        "image": {
+          "item_id": "2994937357",
+          "src": "https://miro.medium.com/max/10368/0*DtHCYKOLbsHEOSEB",
+          "width": "5184",
+          "height": "3456"
+        },
+        "images": {
+          "1": {
+            "item_id": "2994937357",
+            "image_id": "1",
+            "src": "https://miro.medium.com/max/10368/0*DtHCYKOLbsHEOSEB",
+            "width": "5184",
+            "height": "3456",
+            "credit": "Shahadat Rahman on Unsplash",
+            "caption": ""
+          },
+          "2": {
+            "item_id": "2994937357",
+            "image_id": "2",
+            "src": "https://miro.medium.com/max/5200/0*1mACxrQpqY6qLXoe.jpg",
+            "width": "2600",
+            "height": "1463",
+            "credit": "",
+            "caption": "Hubble’s 30-year legacy by Nadieh Bremer"
+          },
+          "3": {
+            "item_id": "2994937357",
+            "image_id": "3",
+            "src": "https://miro.medium.com/max/2308/1*BdfqAP7nhwUDgkYfTzJpew.png",
+            "width": "1154",
+            "height": "974",
+            "credit": "",
+            "caption": "I use Dash’s integration with Alfred to quickly search D3 docs"
+          },
+          "4": {
+            "item_id": "2994937357",
+            "image_id": "4",
+            "src": "https://miro.medium.com/max/7624/1*Y4JOmH3bFTj3KFyyqjnciw.png",
+            "width": "3812",
+            "height": "1952",
+            "credit": "",
+            "caption": "Observable’s user manual is itself an Observable notebook linking to info about its awesome features"
+          },
+          "5": {
+            "item_id": "2994937357",
+            "image_id": "5",
+            "src": "https://miro.medium.com/max/7624/1*YZnz5G6aT3wtPd2RQC1c6A.png",
+            "width": "3812",
+            "height": "1950",
+            "credit": "",
+            "caption": "The Observable D3 Gallery by Mike Bostock is an amazing resource"
+          },
+          "6": {
+            "item_id": "2994937357",
+            "image_id": "6",
+            "src": "https://miro.medium.com/max/7680/1*NbgMCAGOmOzjgUwA5bAwuw.png",
+            "width": "3840",
+            "height": "1954",
+            "credit": "",
+            "caption": "Vega-Lite is a JSON specification format for rapidly creating charts"
+          },
+          "7": {
+            "item_id": "2994937357",
+            "image_id": "7",
+            "src": "https://miro.medium.com/max/7620/1*lNB15PBqL9VVlH8Iat8vTg.png",
+            "width": "3810",
+            "height": "1952",
+            "credit": "",
+            "caption": "How to learn D3.js by Amelia Wattenberger uses plain English and clear visuals to teach D3"
+          },
+          "8": {
+            "item_id": "2994937357",
+            "image_id": "8",
+            "src": "https://miro.medium.com/max/7620/1*MJ_X_u5xMHTz87ygnCUEZA.png",
+            "width": "3810",
+            "height": "1954",
+            "credit": "",
+            "caption": "My daily journal led to small, consistent effort… and then not wanting to break the chain"
+          },
+          "9": {
+            "item_id": "2994937357",
+            "image_id": "9",
+            "src": "https://miro.medium.com/max/7624/1*Y6Ng-qwquf4KoM8uXJHzWA.png",
+            "width": "3812",
+            "height": "1952",
+            "credit": "",
+            "caption": "I regularly refer back to my reference collection"
+          },
+          "10": {
+            "item_id": "2994937357",
+            "image_id": "10",
+            "src": "https://miro.medium.com/max/3944/1*idDiRlts5bDUFykdlect7A.png",
+            "width": "1972",
+            "height": "976",
+            "credit": "",
+            "caption": "This scatterplot shows a voronoi overlay for triggering tooltips"
+          },
+          "11": {
+            "item_id": "2994937357",
+            "image_id": "11",
+            "src": "https://miro.medium.com/max/1832/1*njPJRHFMztz4OvgTGWeohw.png",
+            "width": "916",
+            "height": "594",
+            "credit": "May 23rd I’d written roughly 863 paragraphs or code blocks",
+            "caption": ""
+          },
+          "12": {
+            "item_id": "2994937357",
+            "image_id": "12",
+            "src": "https://miro.medium.com/max/1822/1*xxFws1fBWt79oKmx5NyjRw.gif",
+            "width": "911",
+            "height": "649",
+            "credit": "",
+            "caption": "This multi-line chart with annotations shows the effect of the Rwandan Civil War on life expectancy"
+          },
+          "13": {
+            "item_id": "2994937357",
+            "image_id": "13",
+            "src": "https://miro.medium.com/max/2216/1*t1cFAa4a9JRobP_SAQm9Xw.png",
+            "width": "1108",
+            "height": "1110",
+            "credit": "",
+            "caption": "Small batch scones are my favourite part of lockdown so far"
+          }
+        },
+        "domain_metadata": {
+          "name": "Medium",
+          "logo": "https://logo.clearbit.com/medium.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/medium.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 2570
+      },
+      "3053681089": {
+        "item_id": "3053681089",
+        "resolved_id": "3053681089",
+        "given_url": "https://politicaltheology.com/john-milbanks-twitter-bombshell-on-the-landscape-of-identity-based-theologies/",
+        "given_title": "John Milbank’s Twitter Bombshell on the Landscape of Identity-Based Theolog",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607116934",
+        "time_updated": "1607116934",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 18,
+        "resolved_title": "John Milbank’s Twitter Bombshell on the Landscape of Identity-Based Theologies",
+        "resolved_url": "https://politicaltheology.com/john-milbanks-twitter-bombshell-on-the-landscape-of-identity-based-theologies/",
+        "excerpt": "An unexpected bomb lobbed in the sometime culture wars of theological education was offered through something as ephemerally fleeting yet au courant as a tweet: John Milbank, Professor Emeritus at the University of Nottingham and the primary architect of the Radical Orthodoxy movement, casually off",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "1703",
+        "lang": "en",
+        "time_to_read": 8,
+        "top_image_url": "https://politicaltheology.com/wp-content/uploads/2020/07/109320135_10112103766272161_5386734427285889015_n-1.jpg",
+        "tags": {
+          "church/theology": {
+            "item_id": "3053681089",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3053681089",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "137242070": {
+            "item_id": "3053681089",
+            "author_id": "137242070",
+            "name": "Stephen Butler Murray",
+            "url": "https://politicaltheology.com/author/stephen-butler-murray/"
+          }
+        },
+        "listen_duration_estimate": 659
+      },
+      "3162934082": {
+        "item_id": "3162934082",
+        "resolved_id": "3162934082",
+        "given_url": "https://nonprofitquarterly.org/infrastructure-for-a-new-world/",
+        "given_title": "Infrastructure for a New World - Non Profit News | Nonprofit Quarterly",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606703945",
+        "time_updated": "1606703945",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 8,
+        "resolved_title": "Infrastructure for a New World",
+        "resolved_url": "https://nonprofitquarterly.org/infrastructure-for-a-new-world/",
+        "excerpt": "For the past three years, NPQ has been exploring the question: Why have conditions for people of color not improved in the past 30 years, despite various DEI and racial justice efforts? 1 Our conversations with leaders of color in the field about what they need to create real social change has conv",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "3497",
+        "lang": "en",
+        "time_to_read": 16,
+        "top_image_url": "https://nonprofitquarterly.org/wp-content/uploads/2020/11/Cyndi-Quote.jpg",
+        "authors": {
+          "142323624": {
+            "item_id": "3162934082",
+            "author_id": "142323624",
+            "name": "Marcus Walton",
+            "url": "https://nonprofitquarterly.org/author/marcus-walton/"
+          }
+        },
+        "image": {
+          "item_id": "3162934082",
+          "src": "https://nonprofitquarterly.org/wp-content/uploads/2020/11/Cyndi-Quote.jpg",
+          "width": "1000",
+          "height": "1000"
+        },
+        "images": {
+          "1": {
+            "item_id": "3162934082",
+            "image_id": "1",
+            "src": "https://nonprofitquarterly.org/wp-content/uploads/2020/11/Cyndi-Quote.jpg",
+            "width": "1000",
+            "height": "1000",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "listen_duration_estimate": 1354
+      },
+      "3184444795": {
+        "item_id": "3184444795",
+        "resolved_id": "3184444795",
+        "given_url": "https://www.theglobeandmail.com/canada/toronto/article-torontos-jennifer-keesmaat-launches-markee-developments-with-a-goal/",
+        "given_title": "Toronto’s Jennifer Keesmaat launches Markee Developments with a goal: affor",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606779873",
+        "time_updated": "1607117727",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 10,
+        "resolved_title": "Toronto’s Jennifer Keesmaat launches Markee Developments with a goal: affordable housing",
+        "resolved_url": "https://www.theglobeandmail.com/canada/toronto/article-torontos-jennifer-keesmaat-launches-markee-developments-with-a-goal/",
+        "excerpt": "Jennifer Keesmaat has a new plan: To build housing. Toronto’s high-profile former chief planner is launching a company called Markee Developments, partnering with veteran real-estate developer Jason Marks. They’re about to introduce their first project, in North York.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "736",
+        "lang": "en",
+        "time_to_read": 3,
+        "top_image_url": "https://www.theglobeandmail.com/resizer/fcxXXOMHLSq1OH4htJQJnl3YtY4=/1200x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/tgam/X5B7S5Y5MRDIVOFEP7CMRKRXWU.JPG",
+        "tags": {
+          "affordable housing": {
+            "item_id": "3184444795",
+            "tag": "affordable housing"
+          },
+          "cities": {
+            "item_id": "3184444795",
+            "tag": "cities"
+          },
+          "toronto": {
+            "item_id": "3184444795",
+            "tag": "toronto"
+          },
+          "urban planning": {
+            "item_id": "3184444795",
+            "tag": "urban planning"
+          }
+        },
+        "authors": {
+          "86203040": {
+            "item_id": "3184444795",
+            "author_id": "86203040",
+            "name": "Alex Bozikovic",
+            "url": "https://www.theglobeandmail.com/authors/alex-bozikovic/"
+          }
+        },
+        "image": {
+          "item_id": "3184444795",
+          "src": "https://www.theglobeandmail.com/resizer/mS5RuF--8JvqHvGwg-u5VEEOBFk=/620x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/tgam/X5B7S5Y5MRDIVOFEP7CMRKRXWU.JPG",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3184444795",
+            "image_id": "1",
+            "src": "https://www.theglobeandmail.com/resizer/mS5RuF--8JvqHvGwg-u5VEEOBFk=/620x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/tgam/X5B7S5Y5MRDIVOFEP7CMRKRXWU.JPG",
+            "width": "0",
+            "height": "0",
+            "credit": "The Planning Partnership/Handout",
+            "caption": "An early conceptual rendering of a community dubbed Tyndale Green, led by Shirley Blumberg of the distinguished KPMB Architects, in Toronto."
+          }
+        },
+        "domain_metadata": {
+          "name": "The Globe and Mail",
+          "logo": "https://logo.clearbit.com/theglobeandmail.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/theglobeandmail.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 285
+      },
+      "3186114592": {
+        "item_id": "3186114592",
+        "resolved_id": "3186114592",
+        "given_url": "https://www.thegospelcoalition.org/podcasts/as-in-heaven/navigating-white-evangelical-spaces/",
+        "given_title": "Navigating White Evangelical Spaces - The Gospel Coalition",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606679668",
+        "time_updated": "1607117749",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 5,
+        "resolved_title": "Navigating White Evangelical Spaces",
+        "resolved_url": "https://www.thegospelcoalition.org/podcasts/as-in-heaven/navigating-white-evangelical-spaces/",
+        "excerpt": "Jim Davis and Mike Aitcheson welcome Jason Cook to share some of the unique relational dynamics of navigating white evangelical spaces as a black pastor.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "170",
+        "lang": "en",
+        "top_image_url": "https://media.thegospelcoalition.org/wp-content/uploads/2020/11/23125058/AIH-Podcast-Thumbnail-1920x1080-Text-JC.jpg",
+        "tags": {
+          "evangelicalism": {
+            "item_id": "3186114592",
+            "tag": "evangelicalism"
+          },
+          "race": {
+            "item_id": "3186114592",
+            "tag": "race"
+          }
+        },
+        "authors": {
+          "130710656": {
+            "item_id": "3186114592",
+            "author_id": "130710656",
+            "name": "Jason Cook",
+            "url": "https://www.thegospelcoalition.org/profile/jason-cook/"
+          },
+          "140229802": {
+            "item_id": "3186114592",
+            "author_id": "140229802",
+            "name": "Jim Davis",
+            "url": "https://www.thegospelcoalition.org/profile/jim-davis/"
+          },
+          "140589417": {
+            "item_id": "3186114592",
+            "author_id": "140589417",
+            "name": "Michael Aitcheson",
+            "url": "https://www.thegospelcoalition.org/profile/michael-aitcheson/"
+          }
+        },
+        "domain_metadata": {
+          "name": "The Gospel Coalition",
+          "logo": "https://logo.clearbit.com/thegospelcoalition.org?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/thegospelcoalition.org?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 66
+      },
+      "3189259525": {
+        "item_id": "3189259525",
+        "resolved_id": "3189259525",
+        "given_url": "https://metropolitics.org/To-Prevent-Worsening-Inequality.html",
+        "given_title": "To Prevent Worsening Inequality, Put Affluent Neighborhoods on NYC Rezoning",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606842979",
+        "time_updated": "1606843253",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 11,
+        "resolved_title": "To Prevent Worsening Inequality, Put Affluent Neighborhoods on NYC Rezoning List",
+        "resolved_url": "https://metropolitics.org/To-Prevent-Worsening-Inequality.html",
+        "excerpt": "In the days of our current housing crunch and focus on transit-oriented development, there are some things one would think would be no-brainers.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "1787",
+        "lang": "en",
+        "time_to_read": 8,
+        "top_image_url": "https://metropolitics.org/IMG/arton904.jpg?1447760830",
+        "tags": {
+          "cities": {
+            "item_id": "3189259525",
+            "tag": "cities"
+          },
+          "gentrification": {
+            "item_id": "3189259525",
+            "tag": "gentrification"
+          },
+          "urban planning": {
+            "item_id": "3189259525",
+            "tag": "urban planning"
+          }
+        },
+        "image": {
+          "item_id": "3189259525",
+          "src": "https://metropolitics.org/local/cache-vignettes/L600xH401/illu-gates-1-09546.jpg?1600094977",
+          "width": "600",
+          "height": "401"
+        },
+        "images": {
+          "1": {
+            "item_id": "3189259525",
+            "image_id": "1",
+            "src": "https://metropolitics.org/local/cache-vignettes/L600xH401/illu-gates-1-09546.jpg?1600094977",
+            "width": "600",
+            "height": "401",
+            "credit": "",
+            "caption": ""
+          },
+          "2": {
+            "item_id": "3189259525",
+            "image_id": "2",
+            "src": "https://metropolitics.org/local/cache-vignettes/L600xH396/illu-gates-2-9e992.jpg?1600094977",
+            "width": "600",
+            "height": "396",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "listen_duration_estimate": 692
+      },
+      "3190315401": {
+        "item_id": "3190315401",
+        "resolved_id": "3190315401",
+        "given_url": "https://sojo.net/media/dont-just-comfort-show-and-come-us",
+        "given_title": "Don't Just Comfort, Show Up and Come With Us | Sojourners",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1606953386",
+        "time_updated": "1606953389",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 17,
+        "resolved_title": "Don't Just Comfort, Show Up and Come With Us",
+        "resolved_url": "https://sojo.net/media/dont-just-comfort-show-and-come-us",
+        "excerpt": "All Audio",
+        "is_article": "0",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "2",
+        "lang": "en",
+        "top_image_url": "https://sojo.net/sites/default/files/images/sotn_brenda_salter_mcneil-02.jpg",
+        "listen_duration_estimate": 1
+      }
+    },
+    "error": null,
+    "search_meta": {
+      "search_type": "normal"
+    },
+    "since": 1607243395
+  }
+}
