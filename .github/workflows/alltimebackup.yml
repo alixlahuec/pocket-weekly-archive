@@ -1,4 +1,4 @@
-name: "Pocket weekly reading list"
+name: "Pocket all-time backup"
 on:
   workflow_dispatch:
 
