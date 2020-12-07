@@ -88,7 +88,7 @@ jobs:
           roam.import[[1]][["children"]][[1]][["children"]] <- lapply(week.items, FUN = format_pocket_item)
           roam.import[[1]][["children"]][[1]][["children"]] <- unname(roam.import[[1]][["children"]][[1]][["children"]])
           roam.import <- recursiveUTF(roam.import)
-          roam.import.json <- jsonlite::toJSON(roam.import)
+          roam.import.json <- jsonlite::toJSON(roam.import, auto_unbox = TRUE)
           write(roam.import.json, "backup/${{ needs.request.outputs.today }}/roam_import.json")
       - name: Commit changes
         uses: elstudio/actions-js-build/commit@v3
