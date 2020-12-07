@@ -34,10 +34,11 @@ jobs:
       - name: Create weekly directory
         run: mkdir -p ${{ github.workspace }}/archives/${{ steps.date.outputs.TODAY }}
       - name: Create weekly file
-        uses: "finnp/create-file-action@master"
-        env:
-          FILE_NAME: 'archives/${{ steps.date.outputs.TODAY }}.json'
-          FILE_DATA: '${{ steps.archive.outputs.output }}'
+        uses: jsdaniell/create-json@1.1.2
+        with:
+          name: '${{ steps.date.outputs.TODAY }}.json'
+          json: '${{ steps.archive.outputs.output }}'
+          dir: 'archives/${{ steps.date.outputs.TODAY }}/'
       - name: Edit the raw JSON to avoid exposing Consumer Key
         uses: jossef/action-set-json-field@v1
         with:
