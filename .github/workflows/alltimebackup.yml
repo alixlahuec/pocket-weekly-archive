@@ -40,10 +40,11 @@ jobs:
         run: |
           # -*- coding: utf-8 -*-
           import ujson
+          import json
           null=None;
-          items = ujson.dumps(${{ steps.archive.outputs.output }})
+          items = json.loads("""${{ steps.archive.outputs.output }}""")
           with open('test/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json', 'w') as f:
-            f.write(items)
+            f.write(ujson.dumps(items))
       - name: Commit changes
         uses: elstudio/actions-js-build/commit@v3
         with:
