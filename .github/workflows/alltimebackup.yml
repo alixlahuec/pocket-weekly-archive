@@ -79,7 +79,8 @@ jobs:
         shell: Rscript {0}
         run: |
           source("functions.R")
-          recursiveUTF <- function(x){if (is.atomic(x)) x <- iconv(x, to = "utf-8") else lapply(x, recursiveUTF)}
+          recursiveUTF <- function(x){if (is.atomic(x)) x <- iconv(x, to = "UTF-8") else lapply(x, recursiveUTF)}
+          iconvlist()
           library(rjson)
           weekly.data <- rjson::fromJSON(file = '${{ needs.request.outputs.filepath }}')
           week.items <- weekly.data[["data"]][["list"]]
