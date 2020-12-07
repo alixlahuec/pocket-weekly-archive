@@ -34,7 +34,7 @@ jobs:
       - name: Create test directory
         run: mkdir -p ${{ github.workspace }}/test/${{ steps.date.outputs.TODAY }}
       - name: Create weekly file
-        run: printf '${{ steps.archive.outputs.output }}' > test/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json
+        run: echo "${{ steps.archive.outputs.output }}" > test/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json
       - name: Commit changes
         uses: elstudio/actions-js-build/commit@v3
         with:
