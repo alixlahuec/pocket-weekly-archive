@@ -9,7 +9,7 @@ jobs:
     timeout-minutes: 5
     outputs:
       today: '${{ steps.date.outputs.TODAY }}'
-      filepath: 'archives/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json'
+      filepath: 'backup/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json'
     steps:
       - uses: actions/checkout@v2
       - name: Get today's date
@@ -32,7 +32,7 @@ jobs:
           method: POST
           payload: '{"consumer_key": "${{ env.POCKET_CONSUMER_KEY }}", "access_token": "${{ env.POCKET_TOKEN }}", "state": "${{ env.PAR_state }}", "sort": "${{ env.PAR_sort }}", "detailType": "${{ env.PAR_detailType }}"}'
       - name: Create test directory
-        run: mkdir -p ${{ github.workspace }}/test/${{ steps.date.outputs.TODAY }}
+        run: mkdir -p ${{ github.workspace }}/backup/${{ steps.date.outputs.TODAY }}
       - name: Get ujson package
         run: python -m pip install ujson
       - name: Create weekly file
@@ -42,18 +42,18 @@ jobs:
           import ujson
           null=None;
           items = ujson.dumps(${{ steps.archive.outputs.output }})
-          with open('test/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json', 'w') as f:
+          with open('backup/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json', 'w') as f:
             f.write(items.replace("\\", ""))
       - name: Edit the raw JSON to avoid exposing Consumer Key
         uses: jossef/action-set-json-field@v1
         with:
-          file: 'archives/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json'
+          file: 'backup/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json'
           field: payload.consumer_key
           value: 'SECRET'
       - name: Edit the raw JSON to avoid exposing Access Token
         uses: jossef/action-set-json-field@v1
         with:
-          file: 'archives/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json'
+          file: 'backup/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json'
           field: payload.access_token
           value: 'SECRET'
       - name: Commit changes
@@ -82,11 +82,12 @@ jobs:
           library(rjson)
           weekly.data <- rjson::fromJSON(file = '${{ needs.request.outputs.filepath }}')
           week.items <- weekly.data[["data"]][["list"]]
-          roam.import <- list(list(title = paste0("[[Pocket Weekly Backlog]]/", lubridate::today()), children = list()))
-          roam.import[[1]][["children"]] <- lapply(week.items, FUN = format_pocket_item)
-          roam.import[[1]][["children"]] <- unname(roam.import[[1]][["children"]])
+          roam.import <- list(list(title = "Pocket Weekly Backlog", children = list()))
+          roam.import[[1]][["children"]] <- list(list(string = paste0(lubridate::today()), children = list()))
+          roam.import[[1]][["children"]][[1]][["children"]] <- lapply(week.items, FUN = format_pocket_item)
+          roam.import[[1]][["children"]][[1]][["children"]] <- unname(roam.import[[1]][["children"]])
           roam.import.json <- rjson::toJSON(roam.import)
-          write(roam.import.json, "archives/${{ needs.request.outputs.today }}/roam_import.json")
+          write(roam.import.json, "backup/${{ needs.request.outputs.today }}/roam_import.json")
       - name: Commit changes
         uses: elstudio/actions-js-build/commit@v3
         with:
