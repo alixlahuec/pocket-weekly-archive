@@ -41,9 +41,9 @@ jobs:
           # -*- coding: utf-8 -*-
           import ujson
           null=None;
-          items = ujson.dumps(${{ steps.archive.outputs.output }})
+          items = ujson.dumps(${{ steps.archive.outputs.output }}, encode_html_chars=False, ensure_ascii=False, escape_forward_slashes = False, indent = 0)
           with open('backup/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json', 'w') as f:
-            f.write(items.replace("\\", ""))
+            f.write(items)
       - name: Edit the raw JSON to avoid exposing Consumer Key
         uses: jossef/action-set-json-field@v1
         with:
