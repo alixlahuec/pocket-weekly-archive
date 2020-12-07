@@ -44,8 +44,51 @@ jobs:
           items = ujson.dumps(${{ steps.archive.outputs.output }})
           with open('test/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json', 'w') as f:
             f.write(items.replace("\\", ""))
+      - name: Edit the raw JSON to avoid exposing Consumer Key
+        uses: jossef/action-set-json-field@v1
+        with:
+          file: 'archives/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json'
+          field: payload.consumer_key
+          value: 'SECRET'
+      - name: Edit the raw JSON to avoid exposing Access Token
+        uses: jossef/action-set-json-field@v1
+        with:
+          file: 'archives/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json'
+          field: payload.access_token
+          value: 'SECRET'
       - name: Commit changes
         uses: elstudio/actions-js-build/commit@v3
         with:
           commitMessage: All-time backup
+  scrapping:
+    name: Processing JSON output into Roam format
+    needs: [request]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Pull changes in repo
+        run: git pull --rebase
+      - uses: r-lib/actions/setup-r@master
+      - name: Installing packages
+        shell: Rscript {0}
+        run: install.packages(c("dplyr", "lubridate", "scales", "rjson"))
+      - name: Checking available locales
+        run: locale -a
+        shell: sh
+      - name: JSON wrangling
+        shell: Rscript {0}
+        run: |
+          source("functions.R")
+          library(rjson)
+          weekly.data <- rjson::fromJSON(file = '${{ needs.request.outputs.filepath }}')
+          week.items <- weekly.data[["data"]][["list"]]
+          roam.import <- list(list(title = paste0("[[Pocket Weekly Backlog]]/", lubridate::today()), children = list()))
+          roam.import[[1]][["children"]] <- lapply(week.items, FUN = format_pocket_item)
+          roam.import[[1]][["children"]] <- unname(roam.import[[1]][["children"]])
+          roam.import.json <- rjson::toJSON(roam.import)
+          write(roam.import.json, "archives/${{ needs.request.outputs.today }}/roam_import.json")
+      - name: Commit changes
+        uses: elstudio/actions-js-build/commit@v3
+        with:
+          commitMessage: Automated Roam formatting (${{ github.event_name }})
 
