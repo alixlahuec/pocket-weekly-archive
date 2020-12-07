@@ -71,7 +71,7 @@ jobs:
       - uses: r-lib/actions/setup-r@master
       - name: Installing packages
         shell: Rscript {0}
-        run: install.packages(c("dplyr", "lubridate", "scales", "rjson"))
+        run: install.packages(c("dplyr", "lubridate", "scales", "jsonlite"))
       - name: Checking available locales
         run: locale -a
         shell: sh
@@ -80,16 +80,15 @@ jobs:
         run: |
           source("functions.R")
           recursiveUTF <- function(x){if (is.atomic(x)) x <- iconv(x, to = "UTF-8") else lapply(x, recursiveUTF)}
-          iconvlist()
-          library(rjson)
-          weekly.data <- rjson::fromJSON(file = '${{ needs.request.outputs.filepath }}')
+          library(jsonlite)
+          weekly.data <- jsonlite::fromJSON(file('${{ needs.request.outputs.filepath }}'))
           week.items <- weekly.data[["data"]][["list"]]
           roam.import <- list(list(title = "Pocket Weekly Backlog", children = list()))
           roam.import[[1]][["children"]] <- list(list(string = paste0(lubridate::today()), children = list()))
           roam.import[[1]][["children"]][[1]][["children"]] <- lapply(week.items, FUN = format_pocket_item)
           roam.import[[1]][["children"]][[1]][["children"]] <- unname(roam.import[[1]][["children"]][[1]][["children"]])
           roam.import <- recursiveUTF(roam.import)
-          roam.import.json <- rjson::toJSON(roam.import)
+          roam.import.json <- jsonlite::toJSON(roam.import)
           write(roam.import.json, "backup/${{ needs.request.outputs.today }}/roam_import.json")
       - name: Commit changes
         uses: elstudio/actions-js-build/commit@v3
