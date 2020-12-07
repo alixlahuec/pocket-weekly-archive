@@ -33,14 +33,10 @@ jobs:
           payload: '{"consumer_key": "${{ env.POCKET_CONSUMER_KEY }}", "access_token": "${{ env.POCKET_TOKEN }}", "state": "${{ env.PAR_state }}", "sort": "${{ env.PAR_sort }}", "detailType": "${{ env.PAR_detailType }}"}'
       - name: Create test directory
         run: mkdir -p ${{ github.workspace }}/test/${{ steps.date.outputs.TODAY }}
-      - name: Setup Node JS
-        uses: actions/setup-node@v1
-        with:
-          node-version: '12'
       - name: Create weekly file
-        run: index.js
-        env:
-          JSONSTRING: '${{ steps.archive.outputs.output }}'
+        run: |
+          DATA='${{ steps.archive.outputs.output }}'
+          printf $DATA > test.json
       - name: Commit changes
         uses: elstudio/actions-js-build/commit@v3
         with:
