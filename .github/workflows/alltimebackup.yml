@@ -42,7 +42,7 @@ jobs:
           import ujson
           import json
           null=None;
-          items = json.loads("""${{ steps.archive.outputs.output }}""")
+          items = json.loads(${{ steps.archive.outputs.output }})
           with open('test/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json', 'w') as f:
             f.write(ujson.dumps(items))
       - name: Commit changes
