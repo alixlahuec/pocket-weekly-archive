@@ -40,7 +40,7 @@ jobs:
         run: |
           # -*- coding: utf-8 -*-
           import ujson
-          items = ujson.dumps("""${{ steps.archive.outputs.output }}""")
+          items = ujson.dumps(${{ steps.archive.outputs.output }})
           with open('test/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json', 'w') as f:
             f.write(items)
       - name: Commit changes
