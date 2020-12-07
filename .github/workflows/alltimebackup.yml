@@ -41,7 +41,7 @@ jobs:
           # -*- coding: utf-8 -*-
           import ujson
           items = ujson.dumps("""${{ steps.archive.outputs.output }}""")
-          with open('archives/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json') as f:
+          with open('archives/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json', 'w') as f:
             f.write(items)
       - name: Edit the raw JSON to avoid exposing Consumer Key
         uses: jossef/action-set-json-field@v1
