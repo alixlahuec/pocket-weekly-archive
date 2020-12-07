@@ -40,6 +40,7 @@ jobs:
         run: |
           # -*- coding: utf-8 -*-
           import ujson
+          null=None;
           items = ujson.dumps(${{ steps.archive.outputs.output }})
           with open('test/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json', 'w') as f:
             f.write(items)
