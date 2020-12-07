@@ -43,7 +43,7 @@ jobs:
           null=None;
           items = ujson.dumps(${{ steps.archive.outputs.output }})
           with open('test/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json', 'w') as f:
-            f.write(items.replace("\", "")
+            f.write(items.replace("\", ""))
       - name: Commit changes
         uses: elstudio/actions-js-build/commit@v3
         with:
