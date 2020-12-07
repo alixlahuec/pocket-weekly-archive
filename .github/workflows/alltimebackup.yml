@@ -80,16 +80,35 @@ jobs:
         run: |
           source("functions.R")
           recursiveUTF <- function(x){if (is.atomic(x)) x <- iconv(x, to = "UTF-8") else lapply(x, recursiveUTF)}
+          split_list <- function(lst, size){
+            output <- list()
+            n <- round(length(lst)/size)
+            for(x in 1:n){output[[x]] <- lst[((x-1)*size+1):min(x*size, length(lst))]}
+            return(output)
+          }
           library(jsonlite)
-          weekly.data <- jsonlite::fromJSON(file('${{ needs.request.outputs.filepath }}'))
-          week.items <- weekly.data[["data"]][["list"]]
-          roam.import <- list(list(title = "Pocket Weekly Backlog", children = list()))
-          roam.import[[1]][["children"]] <- list(list(string = paste0(lubridate::today()), children = list()))
-          roam.import[[1]][["children"]][[1]][["children"]] <- lapply(week.items, FUN = format_pocket_item)
-          roam.import[[1]][["children"]][[1]][["children"]] <- unname(roam.import[[1]][["children"]][[1]][["children"]])
-          roam.import <- recursiveUTF(roam.import)
-          roam.import.json <- jsonlite::toJSON(roam.import, auto_unbox = TRUE)
-          write(roam.import.json, "backup/${{ needs.request.outputs.today }}/roam_import.json")
+          all.data <- jsonlite::fromJSON(file('${{ needs.request.outputs.filepath }}'))
+          all.items <- all.data[["data"]][["list"]]
+          if(length(all.items) <= 100){
+            roam.import <- list(list(title = "Pocket Weekly Backlog", children = list()))
+            roam.import[[1]][["children"]] <- list(list(string = paste0(lubridate::today()), children = list()))
+            roam.import[[1]][["children"]][[1]][["children"]] <- lapply(all.items, FUN = format_pocket_item)
+            roam.import[[1]][["children"]][[1]][["children"]] <- unname(roam.import[[1]][["children"]][[1]][["children"]])
+            roam.import <- recursiveUTF(roam.import)
+            roam.import.json <- jsonlite::toJSON(roam.import, auto_unbox = TRUE)
+            write(roam.import.json, "backup/${{ needs.request.outputs.today }}/roam_import.json")
+          } else {
+            listoflists <- split_list(all.items, size = 100)
+            for(y in 1:length(listoflists)){
+              roam.import <- list(list(title = "Pocket Weekly Backlog", children = list()))
+              roam.import[[1]][["children"]] <- list(list(string = paste("Batch", y), children = list()))
+              roam.import[[1]][["children"]][[1]][["children"]] <- lapply(listoflists[[y]], FUN = format_pocket_item)
+              roam.import[[1]][["children"]][[1]][["children"]] <- unname(roam.import[[1]][["children"]][[1]][["children"]])
+              roam.import <- recursiveUTF(roam.import)
+              roam.import.json <- jsonlite::toJSON(roam.import, auto_unbox = TRUE)
+              write(roam.import.json, paste0("backup/${{ needs.request.outputs.today }}/roam_import_", y,".json"))
+            }
+          }
       - name: Commit changes
         uses: elstudio/actions-js-build/commit@v3
         with:
