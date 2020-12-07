@@ -42,9 +42,10 @@ jobs:
           import ujson
           import json
           null=None;
-          items = json.loads(r'${{ steps.archive.outputs.output }}')
+          items = '${{ steps.archive.outputs.output }}'
+          items_json = json.loads(items.replace("': '", '": "').replace("', '", '", "').replace("{'", '{"').replace("'}", '"}').replace("': \"", '": "').replace("', \"", '", "').replace("\", '", '", "').replace("'", '\\"'))
           with open('test/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json', 'w') as f:
-            f.write(ujson.dumps(items))
+            f.write(ujson.dumps(items_json))
       - name: Commit changes
         uses: elstudio/actions-js-build/commit@v3
         with:
