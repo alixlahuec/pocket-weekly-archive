@@ -38,6 +38,7 @@ jobs:
       - name: Create weekly file
         shell: python
         run: |
+          # -*- coding: utf-8 -*-
           import ujson
           items = ujson.dumps("""${{ steps.archive.outputs.output }}""")
           with open('archives/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json') as f:
