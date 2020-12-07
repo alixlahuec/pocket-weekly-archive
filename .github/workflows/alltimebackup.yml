@@ -33,12 +33,15 @@ jobs:
           payload: '{"consumer_key": "${{ env.POCKET_CONSUMER_KEY }}", "access_token": "${{ env.POCKET_TOKEN }}", "state": "${{ env.PAR_state }}", "sort": "${{ env.PAR_sort }}", "detailType": "${{ env.PAR_detailType }}"}'
       - name: Create weekly directory
         run: mkdir -p ${{ github.workspace }}/archives/${{ steps.date.outputs.TODAY }}
+      - name: Get ujson package
+        run: python -m pip install ujson
       - name: Create weekly file
-        uses: jsdaniell/create-json@1.1.2
-        with:
-          name: '${{ steps.date.outputs.TODAY }}.json'
-          json: '${{ steps.archive.outputs.output }}'
-          dir: 'archives/${{ steps.date.outputs.TODAY }}/'
+        shell: python
+        run: |
+          import ujson
+          items = ujson.dumps("""${{ steps.archive.outputs.output }}""")
+          with open('archives/${{ steps.date.outputs.TODAY }}/${{ steps.date.outputs.TODAY }}.json') as f:
+            f.write(items)
       - name: Edit the raw JSON to avoid exposing Consumer Key
         uses: jossef/action-set-json-field@v1
         with:
