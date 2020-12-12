@@ -80,9 +80,10 @@ jobs:
           library(rjson)
           weekly.data <- rjson::fromJSON(file = '${{ needs.request.outputs.filepath }}')
           week.items <- weekly.data[["data"]][["list"]]
-          roam.import <- list(list(title = paste0("[[Pocket Weekly Backlog]]/", lubridate::today()), children = list()))
-          roam.import[[1]][["children"]] <- lapply(week.items, FUN = format_pocket_item)
-          roam.import[[1]][["children"]] <- unname(roam.import[[1]][["children"]])
+          roam.import <- list(list(title = "Pocket Weekly Backlog", children = list()))
+          roam.import[[1]][["children"]] <- list(list(string = as.character(lubridate::today()), children = list()))
+          roam.import[[1]][["children"]][[1]][["children"]] <- lapply(week.items, FUN = format_pocket_item)
+          roam.import[[1]][["children"]][[1]][["children"]] <- unname(roam.import[[1]][["children"]][[1]][["children"]])
           roam.import.json <- rjson::toJSON(roam.import)
           write(roam.import.json, "archives/${{ needs.request.outputs.today }}/roam_import.json")
       - name: Commit changes
