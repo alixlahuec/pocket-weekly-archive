@@ -1,0 +1,1711 @@
+{
+  "url": "https://getpocket.com/v3/get",
+  "method": "post",
+  "payload": {
+    "consumer_key": "SECRET",
+    "access_token": "SECRET",
+    "state": "unread",
+    "sort": "oldest",
+    "detailType": "complete",
+    "since": "1607243506"
+  },
+  "time": "08:31:46 GMT+0000 (Coordinated Universal Time)",
+  "statusCode": 200,
+  "data": {
+    "status": 1,
+    "complete": 0,
+    "list": {
+      "430332897": {
+        "item_id": "430332897",
+        "resolved_id": "430332897",
+        "given_url": "https://www.theguardian.com/books/2011/oct/14/jane-jacobs-death-and-life-rereading",
+        "given_title": "Rereading: The Death and Life of Great American Cities by Jane Jacobs | Boo",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1605887948",
+        "time_updated": "1607283127",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 2,
+        "resolved_title": "Rereading: The Death and Life of Great American Cities by Jane Jacobs",
+        "resolved_url": "http://www.theguardian.com/books/2011/oct/14/jane-jacobs-death-and-life-rereading",
+        "excerpt": "In Donald Barthelme's 1974 short story \"I Bought a Little City\", the narrator decides one day to purchase Galveston, Texas, where he then tears down some houses, shoots 6,000 dogs, and rearranges what remains into the shape of a giant Mona Lisa jigsaw puzzle visible only from the air.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "1820",
+        "lang": "en",
+        "time_to_read": 8,
+        "amp_url": "https://amp.theguardian.com/books/2011/oct/14/jane-jacobs-death-and-life-rereading",
+        "top_image_url": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2011/10/12/1318435704935/Jane-Jacobs-In-Washington-007.jpg?w=1200&h=630&q=55&auto=format&usm=12&fit=crop&crop=faces%2Centropy&bm=normal&ba=bottom%2Cleft&blend64=aHR0cHM6Ly91cGxvYWRzLmd1aW0uY28udWsvMjAxNi8wNS8yNS9vdmVybGF5LWxvZ28tMTIwMC05MF9vcHQucG5n&s=9730c767e884effa5a821bf0b386fc96",
+        "tags": {
+          "cities": {
+            "item_id": "430332897",
+            "tag": "cities"
+          },
+          "jane jacobs": {
+            "item_id": "430332897",
+            "tag": "jane jacobs"
+          },
+          "urban planning": {
+            "item_id": "430332897",
+            "tag": "urban planning"
+          }
+        },
+        "authors": {
+          "2819908": {
+            "item_id": "430332897",
+            "author_id": "2819908",
+            "name": "Ned Beauman",
+            "url": ""
+          }
+        },
+        "image": {
+          "item_id": "430332897",
+          "src": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2011/10/12/1318435704935/Jane-Jacobs-In-Washington-007.jpg?w=300&q=55&auto=format&usm=12&fit=max&s=a459062ebc2e31a2875009178694fbf2",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "430332897",
+            "image_id": "1",
+            "src": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2011/10/12/1318435704935/Jane-Jacobs-In-Washington-007.jpg?w=300&q=55&auto=format&usm=12&fit=max&s=a459062ebc2e31a2875009178694fbf2",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "domain_metadata": {
+          "name": "The Guardian",
+          "logo": "https://logo.clearbit.com/theguardian.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/theguardian.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 705
+      },
+      "1418131827": {
+        "item_id": "1418131827",
+        "resolved_id": "1418131827",
+        "given_url": "http://www.newyorker.com/magazine/2016/09/26/jane-jacobs-street-smarts",
+        "given_title": "Jane Jacobs’s Street Smarts | The New Yorker",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1605887939",
+        "time_updated": "1607283127",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 1,
+        "resolved_title": "Jane Jacobs’s Street Smarts",
+        "resolved_url": "https://www.newyorker.com/magazine/2016/09/26/jane-jacobs-street-smarts",
+        "excerpt": "I got to talk to Jane Jacobs once, toward the end of her life, an interview that is mentioned, in its properly Lilliputian proportion, in Robert Kanigel’s new biography, “Eyes on the Street: The Life of Jane Jacobs” (Knopf).",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "5284",
+        "lang": "en",
+        "time_to_read": 24,
+        "amp_url": "https://www.newyorker.com/magazine/2016/09/26/jane-jacobs-street-smarts/amp",
+        "top_image_url": "https://media.newyorker.com/photos/59097a2b2179605b11ad8c6c/16:9/w_1200,h_630,c_limit/160926_r28740.jpg",
+        "tags": {
+          "cities": {
+            "item_id": "1418131827",
+            "tag": "cities"
+          },
+          "jane jacobs": {
+            "item_id": "1418131827",
+            "tag": "jane jacobs"
+          },
+          "urban planning": {
+            "item_id": "1418131827",
+            "tag": "urban planning"
+          }
+        },
+        "authors": {
+          "70533374": {
+            "item_id": "1418131827",
+            "author_id": "70533374",
+            "name": "Adam Gopnik",
+            "url": "https://www.newyorker.com/contributors/adam-gopnik"
+          }
+        },
+        "image": {
+          "item_id": "1418131827",
+          "src": "https://media.newyorker.com/photos/59097a2b2179605b11ad8c6c/master/w_727,c_limit/160926_r28740.jpg",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "1418131827",
+            "image_id": "1",
+            "src": "https://media.newyorker.com/photos/59097a2b2179605b11ad8c6c/master/w_727,c_limit/160926_r28740.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "Photograph by Elliott Erwitt / Magnum and John J. Burns Library, Boston College"
+          },
+          "2": {
+            "item_id": "1418131827",
+            "image_id": "2",
+            "src": "https://media.newyorker.com/cartoons/593b67995d2f45736c34d0e6/master/w_727,c_limit/160926_a20255.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          },
+          "3": {
+            "item_id": "1418131827",
+            "image_id": "3",
+            "src": "https://media.newyorker.com/cartoons/593b679bf60db474ba953d2d/master/w_727,c_limit/160926_a20232.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "“If it wasn’t for Starbucks, I wouldn’t know any Italian at all.”"
+          }
+        },
+        "domain_metadata": {
+          "name": "The New Yorker",
+          "logo": "https://logo.clearbit.com/newyorker.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/newyorker.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 2045
+      },
+      "1504810057": {
+        "item_id": "1504810057",
+        "resolved_id": "1504810057",
+        "given_url": "http://www.harvarddesignmagazine.org/issues/42/reading-jane-jacobs-in-the-era-of-blacklivesmatter",
+        "given_title": "Harvard Design Magazine: Reading Jane Jacobs in the Era of #BlackLivesMatte",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1605887857",
+        "time_updated": "1607283127",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 0,
+        "resolved_title": "Reading Jane Jacobs in the Era of #BlackLivesMatter",
+        "resolved_url": "http://www.harvarddesignmagazine.org/issues/42/reading-jane-jacobs-in-the-era-of-blacklivesmatter",
+        "excerpt": "The #BlackLivesMatter movement put fear in the headlines. Not the fear of street crime that has garnered attention for decades in the United States, but the fear of police among black people.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "991",
+        "lang": "en",
+        "time_to_read": 5,
+        "top_image_url": "http://www.harvarddesignmagazine.org/uploads/image/attachment/1952/c8_42_Schrader_GettyImages-483574394.jpg",
+        "tags": {
+          "cities": {
+            "item_id": "1504810057",
+            "tag": "cities"
+          },
+          "jane jacobs": {
+            "item_id": "1504810057",
+            "tag": "jane jacobs"
+          },
+          "race": {
+            "item_id": "1504810057",
+            "tag": "race"
+          }
+        },
+        "authors": {
+          "20170103": {
+            "item_id": "1504810057",
+            "author_id": "20170103",
+            "name": "Contributors",
+            "url": "http://www.harvarddesignmagazine.org/browse/contributors"
+          }
+        },
+        "image": {
+          "item_id": "1504810057",
+          "src": "http://www.harvarddesignmagazine.org/uploads/image/attachment/1952/full_screen_42_Schrader_GettyImages-483574394.jpg",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "1504810057",
+            "image_id": "1",
+            "src": "http://www.harvarddesignmagazine.org/uploads/image/attachment/1952/full_screen_42_Schrader_GettyImages-483574394.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "Police officers get behind their squad cars after shots were red on West Florissant Avenue on Sunday, August 9, 2015, on the one year anniversary of Michael Brown’s death in Ferguson, Missouri."
+          },
+          "2": {
+            "item_id": "1504810057",
+            "image_id": "2",
+            "src": "http://www.harvarddesignmagazine.org/uploads/image/attachment/1953/full_screen_42_SchraderJacobsBook.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "Brooklyn, New York, March 2016."
+          }
+        },
+        "listen_duration_estimate": 384
+      },
+      "2274843482": {
+        "item_id": "2274843482",
+        "resolved_id": "2274843482",
+        "given_url": "https://streets.mn/2018/07/30/two-perspectives-on-the-housing-crisis-affordable-housing-vs-housing-affordability/",
+        "given_title": "Two Perspectives On The Housing Crisis: Affordable Housing vs Housing Affor",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607351471",
+        "time_updated": "1607351480",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 4,
+        "resolved_title": "Two Perspectives On The Housing Crisis: Affordable Housing vs Housing Affordability",
+        "resolved_url": "https://streets.mn/2018/07/30/two-perspectives-on-the-housing-crisis-affordable-housing-vs-housing-affordability/",
+        "excerpt": "The battlefield of the urban housing crisis is a confusing place to find oneself these days. At a time when American politics are as starkly divided as they have been in a century, housing politics do not fit comfortably into the familiar right-left narrative.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "3226",
+        "lang": "en",
+        "time_to_read": 15,
+        "top_image_url": "https://streets.mn/wp-content/uploads/2018/07/fourplex.jpg",
+        "authors": {
+          "65794634": {
+            "item_id": "2274843482",
+            "author_id": "65794634",
+            "name": "Alex Schieferdecker",
+            "url": "https://streets.mn/author/aschieferdecker/"
+          }
+        },
+        "listen_duration_estimate": 1249
+      },
+      "2392529346": {
+        "item_id": "2392529346",
+        "resolved_id": "2392529346",
+        "given_url": "https://theconversation.com/domicology-a-new-way-to-fight-blight-before-buildings-are-even-constructed-82582",
+        "given_title": "Domicology: A new way to fight blight before buildings are even constructed",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607279499",
+        "time_updated": "1607279504",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 3,
+        "resolved_title": "Domicology: A new way to fight blight before buildings are even constructed",
+        "resolved_url": "https://theconversation.com/domicology-a-new-way-to-fight-blight-before-buildings-are-even-constructed-82582",
+        "excerpt": "Detroit has been demolishing about 200 vacant houses per week since December 2014, with a goal to take down 6,000 houses in one year.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "1085",
+        "lang": "en",
+        "time_to_read": 5,
+        "amp_url": "https://theconversation.com/amp/domicology-a-new-way-to-fight-blight-before-buildings-are-even-constructed-82582",
+        "top_image_url": "https://images.theconversation.com/files/246033/original/file-20181116-194503-1553ppp.jpg?ixlib=rb-1.1.0&rect=24%2C59%2C3295%2C1645&q=45&auto=format&w=1356&h=668&fit=crop",
+        "authors": {
+          "136352112": {
+            "item_id": "2392529346",
+            "author_id": "136352112",
+            "name": "Rex LaMore",
+            "url": "https://theconversation.com/profiles/rex-lamore-395731"
+          }
+        },
+        "image": {
+          "item_id": "2392529346",
+          "src": "https://images.theconversation.com/files/246033/original/file-20181116-194503-1553ppp.jpg?ixlib=rb-1.1.0&rect=133%2C39%2C2791%2C1793&q=45&auto=format&w=496&fit=clip",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "2392529346",
+            "image_id": "1",
+            "src": "https://images.theconversation.com/files/246033/original/file-20181116-194503-1553ppp.jpg?ixlib=rb-1.1.0&rect=133%2C39%2C2791%2C1793&q=45&auto=format&w=496&fit=clip",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          },
+          "2": {
+            "item_id": "2392529346",
+            "image_id": "2",
+            "src": "https://images.theconversation.com/files/246034/original/file-20181116-194513-14hjnzq.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "As people abandon homes the effects ripple through the community."
+          },
+          "3": {
+            "item_id": "2392529346",
+            "image_id": "3",
+            "src": "https://images.theconversation.com/files/245646/original/file-20181114-194506-cuhlvh.JPG?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "To make deconstruction a viable alternative to demolition on a large scale, some things need to change."
+          }
+        },
+        "domain_metadata": {
+          "name": "The Conversation",
+          "logo": "https://logo.clearbit.com/theconversation.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/theconversation.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 420
+      },
+      "3011765726": {
+        "item_id": "3011765726",
+        "resolved_id": "3011765726",
+        "given_url": "https://www.propublica.org/article/the-police-have-been-spying-on-black-reporters-and-activists-for-years-i-know-because-im-one-of-them",
+        "given_title": "The Police Have Been Spying on Black Reporters and Activists for Years. I K",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607372227",
+        "time_updated": "1607372241",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 5,
+        "resolved_title": "The Police Have Been Spying on Black Reporters and Activists for Years. I Know Because I’m One of Them.",
+        "resolved_url": "https://www.propublica.org/article/the-police-have-been-spying-on-black-reporters-and-activists-for-years-i-know-because-im-one-of-them",
+        "excerpt": "ProPublica is a nonprofit newsroom that investigates abuses of power. Sign up to receive our biggest stories as soon as they’re published. This article was produced in partnership with the MLK50: Justice Through Journalism, a member of the ProPublica Local Reporting Network.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "2462",
+        "lang": "en",
+        "time_to_read": 11,
+        "amp_url": "https://www.propublica.org/article/the-police-have-been-spying-on-black-reporters-and-activists-for-years-i-know-because-im-one-of-them?token=pnmZCKup_9SO_Q1DvGQOooKLHsrJG0Fr/amp",
+        "top_image_url": "https://assets-c3.propublica.org/images/articles/_1200x630_crop_center-center_82_none/20200608-Wendi-1200x630.jpg?mtime=1591655530",
+        "tags": {
+          "police": {
+            "item_id": "3011765726",
+            "tag": "police"
+          },
+          "race": {
+            "item_id": "3011765726",
+            "tag": "race"
+          }
+        },
+        "authors": {
+          "18335107": {
+            "item_id": "3011765726",
+            "author_id": "18335107",
+            "name": "Wendi C. Thomas",
+            "url": ""
+          }
+        },
+        "image": {
+          "item_id": "3011765726",
+          "src": "https://assets-c3.propublica.org/images/articles/_oneOne300w/20200608-Wendi-3000x3000.jpg",
+          "width": "300",
+          "height": "300"
+        },
+        "images": {
+          "1": {
+            "item_id": "3011765726",
+            "image_id": "1",
+            "src": "https://assets-c3.propublica.org/images/articles/_oneOne300w/20200608-Wendi-3000x3000.jpg",
+            "width": "300",
+            "height": "300",
+            "credit": "(Andrea Morales)",
+            "caption": "Wendi C. Thomas learned during a police surveillance trial that the Memphis Police Department spied on her and three other journalists."
+          }
+        },
+        "domain_metadata": {
+          "name": "ProPublica",
+          "logo": "https://logo.clearbit.com/propublica.org?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/propublica.org?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 953
+      },
+      "3149953534": {
+        "item_id": "3149953534",
+        "resolved_id": "3149953534",
+        "given_url": "https://archive.curbed.com/2018/11/16/18098432/rent-housing-affordable-generation-priced-out",
+        "given_title": "Why affordable housing is scarce in progressive cities - Curbed",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607835058",
+        "time_updated": "1607835064",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 30,
+        "resolved_title": "Why affordable housing is scarce in progressive cities",
+        "resolved_url": "https://archive.curbed.com/2018/11/16/18098432/rent-housing-affordable-generation-priced-out",
+        "excerpt": "In Generation Priced Out, activist Randy Shaw shows how policies have pushed up rent and excluded many long-time residents",
+        "is_article": "0",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "0",
+        "lang": "en",
+        "top_image_url": "https://cdn.vox-cdn.com/thumbor/Ty9_t7xUtN-iDGp-L7J88Z5ulkE=/133x0:3227x1620/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/13447995/shutterstock_360093452.jpg",
+        "authors": {
+          "141306730": {
+            "item_id": "3149953534",
+            "author_id": "141306730",
+            "name": "Patrick Sisson",
+            "url": "https://archive.curbed.com/authors/patrick-sisson"
+          }
+        },
+        "listen_duration_estimate": 0
+      },
+      "3188364326": {
+        "item_id": "3188364326",
+        "resolved_id": "3188364326",
+        "given_url": "https://www.christianitytoday.com/ct/2020/december-web-only/advent-suffering-waiting-jesus-pandemic-celebrating.html",
+        "given_title": "How to Do Advent When Nothing Seems Worth Celebrating",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607612029",
+        "time_updated": "1607612029",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 24,
+        "resolved_title": "How to Do Advent When Nothing Seems Worth Celebrating",
+        "resolved_url": "https://www.christianitytoday.com/ct/2020/december-web-only/advent-suffering-waiting-jesus-pandemic-celebrating.html",
+        "excerpt": "As we approach Christmas this year, we are confronted with an uncomfortable question: Is there really anything worth celebrating? We’re now in the season of Advent, an annual rhythm meant to slow us down as we prepare to celebrate the birth of Jesus.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "1321",
+        "lang": "en",
+        "time_to_read": 6,
+        "top_image_url": "https://www-images.christianitytoday.com/images/120708.jpg?w=220",
+        "tags": {
+          "church/theology": {
+            "item_id": "3188364326",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3188364326",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "143461377": {
+            "item_id": "3188364326",
+            "author_id": "143461377",
+            "name": "Chris Pappalardo",
+            "url": "https://www.christianitytoday.com/ct/search?type=author&query=Chris%20Pappalardo"
+          }
+        },
+        "image": {
+          "item_id": "3188364326",
+          "src": "https://www-images.christianitytoday.com/images/120708.jpg?w=600",
+          "width": "600",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3188364326",
+            "image_id": "1",
+            "src": "https://www-images.christianitytoday.com/images/120708.jpg?w=600",
+            "width": "600",
+            "height": "0",
+            "credit": "",
+            "caption": "Image: Illustration by Rick Szuecs / Source images: H Shaw / Haydn Golden / Rom Matibag / Janine Robinson / Unsplash / Envato"
+          }
+        },
+        "domain_metadata": {
+          "name": "Christianity Today",
+          "logo": "https://logo.clearbit.com/christianitytoday.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/christianitytoday.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 511
+      },
+      "3189090322": {
+        "item_id": "3189090322",
+        "resolved_id": "3189090322",
+        "given_url": "https://www.christianitytoday.com/ct/2020/december/food-migrant-farmworker-ministry-agriculture-pandemic.html",
+        "given_title": "Meet the People Who Minister in America’s Food Chain",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607612026",
+        "time_updated": "1607612026",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 23,
+        "resolved_title": "Meet the People Who Minister in America’s Food Chain",
+        "resolved_url": "https://www.christianitytoday.com/ct/2020/december/food-migrant-farmworker-ministry-agriculture-pandemic.html",
+        "excerpt": "In early spring, the coronavirus pandemic sent the global food supply chain into disarray. In US grocery stores, prices surged, and many items—not just toilet paper—simply disappeared from shelves.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "3882",
+        "lang": "en",
+        "time_to_read": 18,
+        "top_image_url": "https://www-images.christianitytoday.com/images/120452.jpg?w=220",
+        "tags": {
+          "church/theology": {
+            "item_id": "3189090322",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3189090322",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "143494056": {
+            "item_id": "3189090322",
+            "author_id": "143494056",
+            "name": "Bekah McNeel",
+            "url": "https://www.christianitytoday.com/ct/search?type=author&query=Bekah%20McNeel"
+          }
+        },
+        "image": {
+          "item_id": "3189090322",
+          "src": "https://www-images.christianitytoday.com/images/120452.jpg?w=600",
+          "width": "600",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3189090322",
+            "image_id": "1",
+            "src": "https://www-images.christianitytoday.com/images/120452.jpg?w=600",
+            "width": "600",
+            "height": "0",
+            "credit": "Image: Brian L. Frank",
+            "caption": ""
+          },
+          "2": {
+            "item_id": "3189090322",
+            "image_id": "2",
+            "src": "https://www-images.christianitytoday.com/images/120432.jpg?h=801&w=1200",
+            "width": "1200",
+            "height": "0",
+            "credit": "Image: Brian L. Frank",
+            "caption": "Tom Rios preaches to agriculture workers at a barbeque at Kingsburg Orchards near Fresno, California. CLICK TO SEE MORE IMAGES"
+          },
+          "3": {
+            "item_id": "3189090322",
+            "image_id": "3",
+            "src": "https://www-images.christianitytoday.com/images/120440.jpg?h=800&w=1200",
+            "width": "1200",
+            "height": "0",
+            "credit": "Image: Brian L. Frank",
+            "caption": "Workers sort apples in California’s San Joaquin Valley. Pack houses, which often employ women to work in tight quarters, are a potential source of rapid spread of the coronavirus. CLICK TO SEE MORE IMAGES"
+          },
+          "4": {
+            "item_id": "3189090322",
+            "image_id": "4",
+            "src": "https://www-images.christianitytoday.com/images/120445.jpg?h=800&w=1200",
+            "width": "1200",
+            "height": "0",
+            "credit": "Image: Brian L. Frank",
+            "caption": "Diane Martinez worked with her church to start an Immigrant Hope legal clinic after other community outreach efforts fell flat. CLICK TO SEE MORE IMAGES"
+          },
+          "5": {
+            "item_id": "3189090322",
+            "image_id": "5",
+            "src": "https://www-images.christianitytoday.com/images/120447.jpg?h=800&w=1200",
+            "width": "1200",
+            "height": "0",
+            "credit": "Image: Brian L. Frank",
+            "caption": "Immigrant Hope provides civics classes to help farm workers and other immigrants attain US citizenship."
+          },
+          "6": {
+            "item_id": "3189090322",
+            "image_id": "6",
+            "src": "https://www-images.christianitytoday.com/images/120450.jpg?h=800&w=1200",
+            "width": "1200",
+            "height": "0",
+            "credit": "Image: Brian L. Frank",
+            "caption": "Baldemar Velasquez, FLOC union president. CLICK TO SEE MORE IMAGES"
+          },
+          "7": {
+            "item_id": "3189090322",
+            "image_id": "7",
+            "src": "https://www-images.christianitytoday.com/images/120574.jpg?h=801&w=1200",
+            "width": "1200",
+            "height": "0",
+            "credit": "Image: Brian L. Frank",
+            "caption": "FLOC represents migrant farm workers in the American Midwest and in North Carolina, where many of its members harvest tobacco. CLICK FOR MORE IMAGES"
+          }
+        },
+        "domain_metadata": {
+          "name": "Christianity Today",
+          "logo": "https://logo.clearbit.com/christianitytoday.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/christianitytoday.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 1503
+      },
+      "3190170212": {
+        "item_id": "3190170212",
+        "resolved_id": "3190170212",
+        "given_url": "https://www.missioalliance.org/advent-for-the-rest-of-us-avoiding-exclusion-welcoming-wonder/",
+        "given_title": "Advent for “the Rest of Us”: Avoiding Exclusion, Welcoming Wonder",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607612023",
+        "time_updated": "1607612023",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 22,
+        "resolved_title": "Advent for “the Rest of Us”: Avoiding Exclusion, Welcoming Wonder",
+        "resolved_url": "https://www.missioalliance.org/advent-for-the-rest-of-us-avoiding-exclusion-welcoming-wonder/",
+        "excerpt": "For younger ex-evangelicals, discovering the historic liturgies of the church after being raised in the “thin-lyrics” of megachurch worship (what I once called “feel-good pep rally” worship), the church calendar has been all the rage for the past few decades.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "1758",
+        "lang": "en",
+        "time_to_read": 8,
+        "top_image_url": "https://www.missioalliance.org/wp-content/uploads/2020/12/julian-hochgesang-JbJ49eJPSRQ-unsplash-scaled.jpg",
+        "tags": {
+          "church/theology": {
+            "item_id": "3190170212",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3190170212",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "90263874": {
+            "item_id": "3190170212",
+            "author_id": "90263874",
+            "name": "David Fitch",
+            "url": "https://www.missioalliance.org/author/davidfitch/"
+          }
+        },
+        "listen_duration_estimate": 681
+      },
+      "3190666378": {
+        "item_id": "3190666378",
+        "resolved_id": "3190666378",
+        "given_url": "https://www.tvo.org/article/how-a-non-profit-is-tackling-the-housing-crisis-in-this-toronto-neighbourhood",
+        "given_title": "How a non-profit is tackling the housing crisis in this Toronto neighbourho",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607385632",
+        "time_updated": "1607385637",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 7,
+        "resolved_title": "How a non-profit is tackling the housing crisis in this Toronto neighbourhood",
+        "resolved_url": "https://www.tvo.org/article/how-a-non-profit-is-tackling-the-housing-crisis-in-this-toronto-neighbourhood",
+        "excerpt": "Joshua Barndt didn’t think a bank would be much help to the Parkdale Neighbourhood Land Trust.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "955",
+        "lang": "en",
+        "time_to_read": 4,
+        "amp_url": "https://www.tvo.org/article/how-a-non-profit-is-tackling-the-housing-crisis-in-this-toronto-neighbourhood?amp",
+        "top_image_url": "https://assets.tvo.org/prod/s3fs-public/media-library/parkdale.jpg?bvIkP7C1fzUC_Ske9YOlGRvUpCXMwfSE",
+        "authors": {
+          "123295728": {
+            "item_id": "3190666378",
+            "author_id": "123295728",
+            "name": "Josh Sherman",
+            "url": "https://www.tvo.org/author/josh-sherman"
+          }
+        },
+        "listen_duration_estimate": 370
+      },
+      "3191397242": {
+        "item_id": "3191397242",
+        "resolved_id": "3191397242",
+        "given_url": "https://www.christianitytoday.com/news/2020/december/southern-baptist-critical-race-theory-debate-crt-seminary-s.html",
+        "given_title": "Southern Baptists Keep Quarreling Over Critical Race Theory",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607612021",
+        "time_updated": "1607612021",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 21,
+        "resolved_title": "Southern Baptists Keep Quarreling Over Critical Race Theory",
+        "resolved_url": "https://www.christianitytoday.com/news/2020/december/southern-baptist-critical-race-theory-debate-crt-seminary-s.html",
+        "excerpt": "A year and a half after passing a controversial resolution on critical race theory, Southern Baptists are debating the topic again.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "1086",
+        "lang": "en",
+        "time_to_read": 5,
+        "tags": {
+          "church/theology": {
+            "item_id": "3191397242",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3191397242",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "136675823": {
+            "item_id": "3191397242",
+            "author_id": "136675823",
+            "name": "Kate Shellnutt",
+            "url": "https://www.christianitytoday.com/news/search/?query=Kate%20Shellnutt"
+          }
+        },
+        "image": {
+          "item_id": "3191397242",
+          "src": "https://www-images.christianitytoday.com/images/120792.jpg?w=600",
+          "width": "600",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3191397242",
+            "image_id": "1",
+            "src": "https://www-images.christianitytoday.com/images/120792.jpg?w=600",
+            "width": "600",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "domain_metadata": {
+          "name": "Christianity Today",
+          "logo": "https://logo.clearbit.com/christianitytoday.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/christianitytoday.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 420
+      },
+      "3194930711": {
+        "item_id": "3194930711",
+        "resolved_id": "3194930711",
+        "given_url": "https://www.christianitytoday.com/edstetzer/2020/december/when-culture-tilts-away-from-your-church.html",
+        "given_title": "When Culture Tilts Away from your Church",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607398622",
+        "time_updated": "1607398622",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 15,
+        "resolved_title": "When Culture Tilts Away from your Church",
+        "resolved_url": "https://www.christianitytoday.com/edstetzer/2020/december/when-culture-tilts-away-from-your-church.html",
+        "excerpt": "Thinking differently can be difficult. Our ruts testify to our staggering preferences for the familiar. Even if they slow us down to a creeping clamber, they’re ‘our ruts,’ and we prefer what we know.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "915",
+        "lang": "en",
+        "time_to_read": 4,
+        "tags": {
+          "church/theology": {
+            "item_id": "3194930711",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3194930711",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "93733692": {
+            "item_id": "3194930711",
+            "author_id": "93733692",
+            "name": "Bio",
+            "url": "https://www.christianitytoday.com/edstetzer/contributors/jeff-christopherson.html"
+          }
+        },
+        "image": {
+          "item_id": "3194930711",
+          "src": "https://www-images.christianitytoday.com/images/120883.png?w=600",
+          "width": "600",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3194930711",
+            "image_id": "1",
+            "src": "https://www-images.christianitytoday.com/images/120883.png?w=600",
+            "width": "600",
+            "height": "0",
+            "credit": "Image: John Cafazza/Unsplash",
+            "caption": ""
+          }
+        },
+        "domain_metadata": {
+          "name": "Christianity Today",
+          "logo": "https://logo.clearbit.com/christianitytoday.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/christianitytoday.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 354
+      },
+      "3195166305": {
+        "item_id": "3195166305",
+        "resolved_id": "3195166305",
+        "given_url": "https://jofum.com/case-studies/voices-in-the-violence-how-black-churches-in-brooklyn-can-help-us-find-our-voice-as-we-minister-in-violent-contexts/?s=09",
+        "given_title": "",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607385061",
+        "time_updated": "1607385107",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 6,
+        "resolved_title": "",
+        "resolved_url": "https://jofum.com/case-studies/voices-in-the-violence-how-black-churches-in-brooklyn-can-help-us-find-our-voice-as-we-minister-in-violent-contexts/?s=09",
+        "excerpt": "",
+        "is_article": "0",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "0",
+        "lang": "",
+        "tags": {
+          "cities": {
+            "item_id": "3195166305",
+            "tag": "cities"
+          },
+          "urban[[presence]]": {
+            "item_id": "3195166305",
+            "tag": "urban[[presence]]"
+          },
+          "violence": {
+            "item_id": "3195166305",
+            "tag": "violence"
+          }
+        },
+        "listen_duration_estimate": 0
+      },
+      "3195205106": {
+        "item_id": "3195205106",
+        "resolved_id": "3195205106",
+        "given_url": "https://jofum.com/reviews/review-rethinking-incarceration-advocating-for-justice-that-restores/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=review-rethinking-incarceration-advocating-for-justice-that-restores",
+        "given_title": "Review: Rethinking Incarceration: Advocating for Justice that Restores",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607388867",
+        "time_updated": "1607388868",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 8,
+        "resolved_title": "",
+        "resolved_url": "https://jofum.com/reviews/review-rethinking-incarceration-advocating-for-justice-that-restores/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=review-rethinking-incarceration-advocating-for-justice-that-restores",
+        "excerpt": "",
+        "is_article": "0",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "0",
+        "lang": "",
+        "tags": {
+          "church/theology": {
+            "item_id": "3195205106",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3195205106",
+            "tag": "inoreader"
+          }
+        },
+        "listen_duration_estimate": 0
+      },
+      "3195205177": {
+        "item_id": "3195205177",
+        "resolved_id": "3195205177",
+        "given_url": "https://jofum.com/urban-voices/executing-grace/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=executing-grace",
+        "given_title": "Executing Grace",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607388875",
+        "time_updated": "1607388876",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 9,
+        "resolved_title": "",
+        "resolved_url": "https://jofum.com/urban-voices/executing-grace/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=executing-grace",
+        "excerpt": "",
+        "is_article": "0",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "0",
+        "lang": "",
+        "tags": {
+          "church/theology": {
+            "item_id": "3195205177",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3195205177",
+            "tag": "inoreader"
+          }
+        },
+        "listen_duration_estimate": 0
+      },
+      "3195205254": {
+        "item_id": "3195205254",
+        "resolved_id": "3195205254",
+        "given_url": "https://jofum.com/articles/restorative-vs-retributive-justice-and-the-implications-for-public-life/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=restorative-vs-retributive-justice-and-the-implications-for-public-life",
+        "given_title": "Restorative vs. Retributive Justice and the Implications for Public Life",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607388882",
+        "time_updated": "1607388883",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 10,
+        "resolved_title": "",
+        "resolved_url": "https://jofum.com/articles/restorative-vs-retributive-justice-and-the-implications-for-public-life/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=restorative-vs-retributive-justice-and-the-implications-for-public-life",
+        "excerpt": "",
+        "is_article": "0",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "0",
+        "lang": "",
+        "tags": {
+          "church/theology": {
+            "item_id": "3195205254",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3195205254",
+            "tag": "inoreader"
+          }
+        },
+        "listen_duration_estimate": 0
+      },
+      "3195205605": {
+        "item_id": "3195205605",
+        "resolved_id": "3195205605",
+        "given_url": "https://jofum.com/reviews/review-becoming-a-just-church-cultivating-communities-of-gods-shalom/",
+        "given_title": "Review: Becoming a Just Church: Cultivating Communities of God’s Shalom | J",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607388920",
+        "time_updated": "1607388931",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 11,
+        "resolved_title": "Review: Becoming a Just Church: Cultivating Communities of God’s Shalom",
+        "resolved_url": "https://jofum.com/reviews/review-becoming-a-just-church-cultivating-communities-of-gods-shalom/",
+        "excerpt": "Title: Becoming a Just Church: Cultivating Communities of God’s Shalom Author: Adam L. Gustine Publisher: Downers Grove, IL: InterVarsity Press, 2019 Pages: 204 plus end notes Reviewer: Susan S. Baker",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "2147",
+        "lang": "en",
+        "time_to_read": 10,
+        "top_image_url": "https://jofum.com/wp-content/uploads/2020/05/510pYkQukWL._SX331_BO1204203200_.jpg",
+        "tags": {
+          "church": {
+            "item_id": "3195205605",
+            "tag": "church"
+          },
+          "justice": {
+            "item_id": "3195205605",
+            "tag": "justice"
+          }
+        },
+        "authors": {
+          "124466371": {
+            "item_id": "3195205605",
+            "author_id": "124466371",
+            "name": "Susan S. Baker",
+            "url": "https://jofum.com/author/susan-s-baker/"
+          }
+        },
+        "image": {
+          "item_id": "3195205605",
+          "src": "https://jofum.com/wp-content/uploads/2020/05/510pYkQukWL._SX331_BO1204203200_.jpg",
+          "width": "333",
+          "height": "499"
+        },
+        "images": {
+          "1": {
+            "item_id": "3195205605",
+            "image_id": "1",
+            "src": "https://jofum.com/wp-content/uploads/2020/05/510pYkQukWL._SX331_BO1204203200_.jpg",
+            "width": "333",
+            "height": "499",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "listen_duration_estimate": 831
+      },
+      "3195205827": {
+        "item_id": "3195205827",
+        "resolved_id": "3195205827",
+        "given_url": "https://jofum.com/articles/taking-the-narrow-gate/",
+        "given_title": "Taking the Narrow Gate: How Lament Shapes Multicultural Ministry and Discip",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607388945",
+        "time_updated": "1607388952",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 12,
+        "resolved_title": "Taking the Narrow Gate: How Lament Shapes Multicultural Ministry and Discipleship",
+        "resolved_url": "https://jofum.com/articles/taking-the-narrow-gate/",
+        "excerpt": "A narrow gate is more difficult to pass through than a wide gate. So why take the narrow gate? Christ once charged his disciples with these words: “Enter through the narrow gate; for the gate is wide and the road is easy that leads to destruction, and there are many who take it.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "7185",
+        "lang": "en",
+        "time_to_read": 33,
+        "top_image_url": "https://jofum.com/wp-content/uploads/2019/11/Man-from-Mina-FS.jpg",
+        "tags": {
+          "discipleship": {
+            "item_id": "3195205827",
+            "tag": "discipleship"
+          },
+          "lament": {
+            "item_id": "3195205827",
+            "tag": "lament"
+          }
+        },
+        "authors": {
+          "143774871": {
+            "item_id": "3195205827",
+            "author_id": "143774871",
+            "name": "Sahr Mbriwa",
+            "url": "https://jofum.com/author/sahr-mbriwa/"
+          }
+        },
+        "listen_duration_estimate": 2781
+      },
+      "3195206224": {
+        "item_id": "3195206224",
+        "resolved_id": "3195206224",
+        "given_url": "https://jofum.com/case-studies/urban-exegesis-in-seattles-rainier-valley/",
+        "given_title": "Urban Exegesis in Seattle’s Rainier Valley | Journal of Urban Mission",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607388989",
+        "time_updated": "1607389001",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 13,
+        "resolved_title": "Urban Exegesis in Seattle’s Rainier Valley",
+        "resolved_url": "https://jofum.com/case-studies/urban-exegesis-in-seattles-rainier-valley/",
+        "excerpt": "Urban exegesis, a theological reading of the city, can be an insightful and effective lens for observing and interpreting any urban community.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "6656",
+        "lang": "en",
+        "time_to_read": 30,
+        "top_image_url": "https://jofum.com/wp-content/uploads/2010/07/C.Plaza-Mural-1.thumbnail.jpg",
+        "tags": {
+          "cities": {
+            "item_id": "3195206224",
+            "tag": "cities"
+          },
+          "incarnation": {
+            "item_id": "3195206224",
+            "tag": "incarnation"
+          },
+          "urban[[presence]]": {
+            "item_id": "3195206224",
+            "tag": "urban[[presence]]"
+          }
+        },
+        "authors": {
+          "143774885": {
+            "item_id": "3195206224",
+            "author_id": "143774885",
+            "name": "David Leong",
+            "url": "https://jofum.com/author/david_leong/"
+          }
+        },
+        "image": {
+          "item_id": "3195206224",
+          "src": "https://jofum.com/wp-content/uploads/2010/07/C.Plaza-Mural-1.thumbnail.jpg",
+          "width": "649",
+          "height": "649"
+        },
+        "images": {
+          "1": {
+            "item_id": "3195206224",
+            "image_id": "1",
+            "src": "https://jofum.com/wp-content/uploads/2010/07/C.Plaza-Mural-1.thumbnail.jpg",
+            "width": "649",
+            "height": "649",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "listen_duration_estimate": 2577
+      },
+      "3195303754": {
+        "item_id": "3195303754",
+        "resolved_id": "3195303754",
+        "given_url": "https://jofum.com/articles/prison-education-and-the-church/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=prison-education-and-the-church",
+        "given_title": "Prison Education and the Church",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607398619",
+        "time_updated": "1607398619",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 14,
+        "resolved_title": "",
+        "resolved_url": "https://jofum.com/articles/prison-education-and-the-church/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=prison-education-and-the-church",
+        "excerpt": "",
+        "is_article": "0",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "0",
+        "lang": "",
+        "tags": {
+          "church/theology": {
+            "item_id": "3195303754",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3195303754",
+            "tag": "inoreader"
+          }
+        },
+        "listen_duration_estimate": 0
+      },
+      "3195710894": {
+        "item_id": "3195710894",
+        "resolved_id": "3195710894",
+        "given_url": "https://www.christianitytoday.com/ct/2020/december/global-church-american-politics-evangelicalism.html",
+        "given_title": "Why I Claim the ‘Global Evangelical’ Label",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607612017",
+        "time_updated": "1607612017",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 20,
+        "resolved_title": "Why I Claim the ‘Global Evangelical’ Label",
+        "resolved_url": "https://www.christianitytoday.com/ct/2020/december/global-church-american-politics-evangelicalism.html",
+        "excerpt": "The bishop who ordained me was ordained by African bishops. My priesthood is a gift granted by the global body of Christ. As a result, the rise of the church in the Global South has never felt like a distant sociological fact. It is personal and vital to my work.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "279",
+        "lang": "en",
+        "top_image_url": "https://www-images.christianitytoday.com/images/120512.jpg?w=220",
+        "tags": {
+          "church/theology": {
+            "item_id": "3195710894",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3195710894",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "138658137": {
+            "item_id": "3195710894",
+            "author_id": "138658137",
+            "name": "Tish Harrison Warren",
+            "url": "https://www.christianitytoday.com/ct/search?type=author&query=Tish%20Harrison%20Warren"
+          }
+        },
+        "image": {
+          "item_id": "3195710894",
+          "src": "https://www-images.christianitytoday.com/images/120512.jpg?w=600",
+          "width": "600",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3195710894",
+            "image_id": "1",
+            "src": "https://www-images.christianitytoday.com/images/120512.jpg?w=600",
+            "width": "600",
+            "height": "0",
+            "credit": "Image: Illustration  Prixel Creative / Lightstock / Edits  Rick Szuecs",
+            "caption": ""
+          }
+        },
+        "domain_metadata": {
+          "name": "Christianity Today",
+          "logo": "https://logo.clearbit.com/christianitytoday.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/christianitytoday.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 108
+      },
+      "3196881525": {
+        "item_id": "3196881525",
+        "resolved_id": "3196881525",
+        "given_url": "https://www.missioalliance.org/allowing-god-to-love-us-through-centering-prayer/",
+        "given_title": "Allowing God to Love us Through Centering Prayer",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607547110",
+        "time_updated": "1607547110",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 16,
+        "resolved_title": "Allowing God to Love us Through Centering Prayer",
+        "resolved_url": "https://www.missioalliance.org/allowing-god-to-love-us-through-centering-prayer/",
+        "excerpt": "Do you think that you have a prophetic voice that will bring justice and change, and must be heard? Do you shout so loudly that you wonder why people have stopped listening? Are you dissatisfied again? What is at the heart of your anger? Is it the hurt inside that calls out or the stirring work of G",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "1294",
+        "lang": "en",
+        "time_to_read": 6,
+        "top_image_url": "https://www.missioalliance.org/wp-content/uploads/2020/12/cameron-stow-W0wxbLr67CY-unsplash-scaled.jpg",
+        "tags": {
+          "church/theology": {
+            "item_id": "3196881525",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3196881525",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "97388555": {
+            "item_id": "3196881525",
+            "author_id": "97388555",
+            "name": "Karina Kreminski",
+            "url": "https://www.missioalliance.org/author/karinakreminski/"
+          }
+        },
+        "listen_duration_estimate": 501
+      },
+      "3197545056": {
+        "item_id": "3197545056",
+        "resolved_id": "3197545056",
+        "given_url": "https://www.thestar.com/news/gta/2020/12/10/8-canadian-voices-on-what-they-mean-when-they-say-defund-the-police.html",
+        "given_title": "8 Canadian voices on what they mean when they say: ‘Defund the police’ - th",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607696500",
+        "time_updated": "1607696516",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 26,
+        "resolved_title": "8 Canadian voices on what they mean when they say: ‘Defund the police’",
+        "resolved_url": "https://www.thestar.com/news/gta/2020/12/10/8-canadian-voices-on-what-they-mean-when-they-say-defund-the-police.html",
+        "excerpt": "This year, discussion about defunding the police has become part of the mainstream — a thought that had been unthinkable for many.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "1561",
+        "lang": "en",
+        "time_to_read": 7,
+        "top_image_url": "https://images.thestar.com/0C2JzlubmxAh-vfxdMSqsf-TlKE=/1200x800/smart/filters:cb(1607554277395)/https:/www.thestar.com/content/dam/thestar/news/gta/2020/12/10/8-canadian-voices-on-what-they-mean-when-they-say-defund-the-police/composite_defunding_voices.jpg",
+        "tags": {
+          "canada": {
+            "item_id": "3197545056",
+            "tag": "canada"
+          },
+          "police": {
+            "item_id": "3197545056",
+            "tag": "police"
+          },
+          "thisweek": {
+            "item_id": "3197545056",
+            "tag": "thisweek"
+          }
+        },
+        "authors": {
+          "54245269": {
+            "item_id": "3197545056",
+            "author_id": "54245269",
+            "name": "Jim Rankin",
+            "url": "https://www.thestar.com/authors.rankin_jim.html"
+          }
+        },
+        "image": {
+          "item_id": "3197545056",
+          "src": "https://images.thestar.com/rCCBwHy-ChlwiGz6-aIWxWNauIE=/1086x724/smart/filters:cb(1607554277395)/https:/www.thestar.com/content/dam/thestar/news/gta/2020/12/10/8-canadian-voices-on-what-they-mean-when-they-say-defund-the-police/composite_defunding_voices.jpg",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3197545056",
+            "image_id": "1",
+            "src": "https://images.thestar.com/rCCBwHy-ChlwiGz6-aIWxWNauIE=/1086x724/smart/filters:cb(1607554277395)/https:/www.thestar.com/content/dam/thestar/news/gta/2020/12/10/8-canadian-voices-on-what-they-mean-when-they-say-defund-the-police/composite_defunding_voices.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "Staff Reporter",
+            "caption": ""
+          }
+        },
+        "domain_metadata": {
+          "name": "Toronto Star",
+          "logo": "https://logo.clearbit.com/thestar.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/thestar.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 604
+      },
+      "3197545077": {
+        "item_id": "3197545077",
+        "resolved_id": "3197545077",
+        "given_url": "https://www.thestar.com/news/gta/2020/12/10/defund-the-police-and-then-what-what-toronto-can-learn-from-the-places-out-in-front-of-a-global-movement.html",
+        "given_title": "Defund the police — and then what? What Toronto can learn from the places o",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607610300",
+        "time_updated": "1607610320",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 17,
+        "resolved_title": "Defund the police — and then what? What Toronto can learn from the places out in front of a global movement",
+        "resolved_url": "https://www.thestar.com/news/gta/2020/12/10/defund-the-police-and-then-what-what-toronto-can-learn-from-the-places-out-in-front-of-a-global-movement.html",
+        "excerpt": "It has become a rallying cry across North America, a slogan shouted at demonstrations, scrawled on protest signs and writ large across major streets — including in bright pink letters on College Street, just outside Toronto police headquarters.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "3108",
+        "lang": "en",
+        "time_to_read": 14,
+        "top_image_url": "https://images.thestar.com/HaxhcOcazmlj3YwnA7s3I0tm5Hg=/1200x740/smart/filters:cb(1607726397853)/https:/www.thestar.com/content/dam/thestar/news/gta/2020/12/10/defund-the-police-and-then-what-what-toronto-can-learn-from-the-places-out-in-front-of-a-global-movement/_1_main_oakland.jpg",
+        "tags": {
+          "police": {
+            "item_id": "3197545077",
+            "tag": "police"
+          },
+          "thisweek": {
+            "item_id": "3197545077",
+            "tag": "thisweek"
+          },
+          "toronto": {
+            "item_id": "3197545077",
+            "tag": "toronto"
+          }
+        },
+        "authors": {
+          "53800770": {
+            "item_id": "3197545077",
+            "author_id": "53800770",
+            "name": "Wendy Gillis",
+            "url": "https://www.thestar.com/authors.gillis_wendy.html"
+          }
+        },
+        "image": {
+          "item_id": "3197545077",
+          "src": "https://images.thestar.com/7UNTW0RFCroG3C-oJH-pfA-AD58=/1086x670/smart/filters:cb(1607726397853)/https:/www.thestar.com/content/dam/thestar/news/gta/2020/12/10/defund-the-police-and-then-what-what-toronto-can-learn-from-the-places-out-in-front-of-a-global-movement/_1_main_oakland.jpg",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3197545077",
+            "image_id": "1",
+            "src": "https://images.thestar.com/7UNTW0RFCroG3C-oJH-pfA-AD58=/1086x670/smart/filters:cb(1607726397853)/https:/www.thestar.com/content/dam/thestar/news/gta/2020/12/10/defund-the-police-and-then-what-what-toronto-can-learn-from-the-places-out-in-front-of-a-global-movement/_1_main_oakland.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "Staff Reporter",
+            "caption": ""
+          }
+        },
+        "domain_metadata": {
+          "name": "Toronto Star",
+          "logo": "https://logo.clearbit.com/thestar.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/thestar.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 1203
+      },
+      "3197615226": {
+        "item_id": "3197615226",
+        "resolved_id": "3197615226",
+        "given_url": "https://sojo.net/magazine/january-2021/how-do-we-heal-family-histories-entangled-colonization",
+        "given_title": "How Do We Heal Family Histories Entangled With Colonization?",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607612011",
+        "time_updated": "1607612011",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 18,
+        "resolved_title": "How Do We Heal Family Histories Entangled With Colonization?",
+        "resolved_url": "https://sojo.net/magazine/january-2021/how-do-we-heal-family-histories-entangled-colonization",
+        "excerpt": "A FEW YEARS AGO, Ched Myers and I discovered this graffiti in my old suburban neighborhood in Saskatoon, Saskatchewan, scrawled across a fence just a block from where I grew up: “... as long as the sun shines, as long as the waters flow downhill, and as long as the grass grows green ...",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "111",
+        "lang": "en",
+        "top_image_url": "https://sojo.net/sites/default/files/magazine/enns_1_1_1_1_1.png",
+        "tags": {
+          "church/theology": {
+            "item_id": "3197615226",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3197615226",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "143885625": {
+            "item_id": "3197615226",
+            "author_id": "143885625",
+            "name": "Elaine Enns",
+            "url": "https://sojo.net/biography/elaine-enns-0"
+          }
+        },
+        "listen_duration_estimate": 43
+      },
+      "3197754416": {
+        "item_id": "3197754416",
+        "resolved_id": "3197754416",
+        "given_url": "https://sojo.net/magazine/january-2021/rich-shall-destroy-earth",
+        "given_title": "The Rich Shall Destroy the Earth",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607612014",
+        "time_updated": "1607612020",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 19,
+        "resolved_title": "The Rich Shall Destroy the Earth",
+        "resolved_url": "https://sojo.net/magazine/january-2021/rich-shall-destroy-earth",
+        "excerpt": "WHEN WE SAY that “humans are heating up the planet,” we are technically correct, and yet misleading. Humans are indubitably driving climate change—but only some of us.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "225",
+        "lang": "en",
+        "top_image_url": "https://sojo.net/sites/default/files/magazine/rch_1.png",
+        "tags": {
+          "church/theology": {
+            "item_id": "3197754416",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3197754416",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "42218787": {
+            "item_id": "3197754416",
+            "author_id": "42218787",
+            "name": "Bill McKibben",
+            "url": "https://sojo.net/biography/bill-mckibben"
+          }
+        },
+        "listen_duration_estimate": 87
+      },
+      "3197754616": {
+        "item_id": "3197754616",
+        "resolved_id": "3197754616",
+        "given_url": "https://sojo.net/magazine/january-2021/latinx-church-history-church-history",
+        "given_title": "Latinx Church History Is Church History",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607612033",
+        "time_updated": "1607612038",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 25,
+        "resolved_title": "Latinx Church History Is Church History",
+        "resolved_url": "https://sojo.net/magazine/january-2021/latinx-church-history-church-history",
+        "excerpt": "AS A LATINA, I waited with eager anticipation for the publication of Robert Chao Romero’s Brown Church: Five Centuries of Latina/o Social Justice, Theology, and Identity .",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "229",
+        "lang": "en",
+        "top_image_url": "https://sojo.net/sites/default/files/magazine/brownchurcj.png",
+        "tags": {
+          "church/theology": {
+            "item_id": "3197754616",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3197754616",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "100902228": {
+            "item_id": "3197754616",
+            "author_id": "100902228",
+            "name": "Karen González",
+            "url": "https://sojo.net/biography/karen-gonz-lez"
+          }
+        },
+        "listen_duration_estimate": 89
+      },
+      "3197826329": {
+        "item_id": "3197826329",
+        "resolved_id": "3197826329",
+        "given_url": "https://www.missioalliance.org/the-2020-ezer-surge/",
+        "given_title": "The 2020 Ezer Surge",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607835016",
+        "time_updated": "1607835016",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 29,
+        "resolved_title": "The 2020 Ezer Surge",
+        "resolved_url": "https://www.missioalliance.org/the-2020-ezer-surge/",
+        "excerpt": "For a lot of people, 2020 is the year we’d most like to forget. 2020 will always remind us of the global Covid-19 pandemic. It’s been a year of irreparable loss of loved ones, jobs, businesses, even homes. Shutdowns have been hard and isolating.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "1173",
+        "lang": "en",
+        "time_to_read": 5,
+        "top_image_url": "https://www.missioalliance.org/wp-content/uploads/2020/12/8BC99DDC-BB84-4A34-BFE9-F9683CA071B4.jpeg",
+        "tags": {
+          "church/theology": {
+            "item_id": "3197826329",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3197826329",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "92158811": {
+            "item_id": "3197826329",
+            "author_id": "92158811",
+            "name": "Carolyn Custis James",
+            "url": "https://www.missioalliance.org/author/carolyncustisjames/"
+          }
+        },
+        "listen_duration_estimate": 454
+      },
+      "3198646602": {
+        "item_id": "3198646602",
+        "resolved_id": "3198455938",
+        "given_url": "https://twitter.com/lucy_hunt/status/1337031131607261184?s=09",
+        "given_title": "",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607738596",
+        "time_updated": "1607738614",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 27,
+        "resolved_title": "Lucy Hunt",
+        "resolved_url": "https://twitter.com/lucy_hunt/status/1337031131607261184",
+        "excerpt": "The best email signature I've ever seen: \"It is normal for me to take 2 days to read my emails and 2 more days to reflect on the matter and respond calmly. The culture of immediacy and the constant fragmentation of time are not very compatible with the kind of life I lead.\"",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "51",
+        "lang": "en",
+        "tags": {
+          "email": {
+            "item_id": "3198646602",
+            "tag": "email"
+          },
+          "resources": {
+            "item_id": "3198646602",
+            "tag": "resources"
+          }
+        },
+        "authors": {
+          "143923083": {
+            "item_id": "3198646602",
+            "author_id": "143923083",
+            "name": "Lucy Hunt",
+            "url": "https://twitter.com/lucy_hunt"
+          }
+        },
+        "domain_metadata": {
+          "name": "Twitter",
+          "logo": "https://logo.clearbit.com/twitter.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/twitter.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 20
+      },
+      "3198761957": {
+        "item_id": "3198761957",
+        "resolved_id": "3198761957",
+        "given_url": "https://www.christianitytoday.com/ct/2020/december-web-only/search-me-o-god-and-know-my-political-heart.html",
+        "given_title": "Search Me, O God, and Know My Political Heart",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1607835014",
+        "time_updated": "1607835015",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 28,
+        "resolved_title": "Search Me, O God, and Know My Political Heart",
+        "resolved_url": "https://www.christianitytoday.com/ct/2020/december-web-only/search-me-o-god-and-know-my-political-heart.html",
+        "excerpt": "The end of 2020 is finally nigh, and my impulse, encouraged by the expectant mindset of Advent—to say nothing of the truly remarkable pace at which COVID-19 vaccines have been developed—is to look forward to new and better things.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "1196",
+        "lang": "en",
+        "time_to_read": 5,
+        "top_image_url": "https://www-images.christianitytoday.com/images/120973.jpg?w=220",
+        "tags": {
+          "church/theology": {
+            "item_id": "3198761957",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3198761957",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "136982745": {
+            "item_id": "3198761957",
+            "author_id": "136982745",
+            "name": "Bonnie Kristian",
+            "url": "https://www.christianitytoday.com/ct/search?type=author&query=Bonnie%20Kristian"
+          }
+        },
+        "image": {
+          "item_id": "3198761957",
+          "src": "https://www-images.christianitytoday.com/images/120973.jpg?w=600",
+          "width": "600",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3198761957",
+            "image_id": "1",
+            "src": "https://www-images.christianitytoday.com/images/120973.jpg?w=600",
+            "width": "600",
+            "height": "0",
+            "credit": "Image: Illustration  Rick Szuecs / Source image: Bruce Mars / Unsplash / Envato",
+            "caption": ""
+          }
+        },
+        "domain_metadata": {
+          "name": "Christianity Today",
+          "logo": "https://logo.clearbit.com/christianitytoday.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/christianitytoday.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 463
+      }
+    },
+    "error": null,
+    "search_meta": {
+      "search_type": "normal"
+    },
+    "since": 1607848307
+  }
+}
