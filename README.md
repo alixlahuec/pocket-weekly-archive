@@ -1,6 +1,9 @@
 # pocket-weekly-archive
 
-This repository uses a GitHub Action to make a weekly API call to Pocket, request complete data for all unread items added in the last week, and stores the output in 2 JSON files (raw data + formatted JSON for import as a Roam page). The data is scraped and formatted using an R script.
+The main function of this repository is a GitHub Workflow (**weeklyarchive.yml**) which makes a weekly API call to Pocket, requests complete data for all unread items added in the last week, and stores the output in 2 JSON files (raw data + formatted JSON for import to a Roam page). The data is scraped and formatted using an R script. 
+Another workflow is available (**alltimebackup.yml**) - it sets up a one-time API call to request all unread items, stores the raw data, and saves the formatted output into files that contain a specified maximum number of items (default is 100 ; Roam has an - unknown - limit for JSON import of blocks, and experimentally I've figured out that importing ~100 Pocket items with 5 blocks each is under the limit, but for example trying to import ~800 items doesn't work). 
+
+Information below is geared towards describing what **weeklyarchive.yml** does, but both scripts rely on the same building blocks.
 
 ### Step 1 : Get Pocket Secrets
 
