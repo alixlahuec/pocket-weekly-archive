@@ -1,0 +1,872 @@
+{
+  "url": "https://getpocket.com/v3/get",
+  "method": "post",
+  "payload": {
+    "consumer_key": "SECRET",
+    "access_token": "SECRET",
+    "state": "unread",
+    "sort": "oldest",
+    "detailType": "complete",
+    "since": "1609663788"
+  },
+  "time": "08:49:48 GMT+0000 (Coordinated Universal Time)",
+  "statusCode": 200,
+  "data": {
+    "status": 1,
+    "complete": 0,
+    "list": {
+      "171326375": {
+        "item_id": "171326375",
+        "resolved_id": "171326375",
+        "given_url": "https://www.christianitytoday.com/ct/2008/february/22.22.html",
+        "given_title": "The Future Lies in the Past | Christianity Today",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1609902902",
+        "time_updated": "1609902915",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 4,
+        "resolved_title": "The Future Lies in the Past",
+        "resolved_url": "https://www.christianitytoday.com/ct/2008/february/22.22.html",
+        "excerpt": "Last spring, something was stirring under the white steeple of the Billy Graham Center at Wheaton College. A motley group of young and clean-cut, goateed and pierced, white-haired and bespectacled filled the center's Barrows Auditorium.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "232",
+        "lang": "en",
+        "top_image_url": "https://www-images.christianitytoday.com/images/113090.jpg?w=220",
+        "tags": {
+          "early church": {
+            "item_id": "171326375",
+            "tag": "early church"
+          },
+          "evangelicalism": {
+            "item_id": "171326375",
+            "tag": "evangelicalism"
+          }
+        },
+        "authors": {
+          "140873731": {
+            "item_id": "171326375",
+            "author_id": "140873731",
+            "name": "Chris Armstrong",
+            "url": "https://www.christianitytoday.com/ct/search?type=author&query=Chris%20Armstrong"
+          }
+        },
+        "image": {
+          "item_id": "171326375",
+          "src": "https://www-images.christianitytoday.com/images/113090.jpg?w=600",
+          "width": "600",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "171326375",
+            "image_id": "1",
+            "src": "https://www-images.christianitytoday.com/images/113090.jpg?w=600",
+            "width": "600",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "domain_metadata": {
+          "name": "Christianity Today",
+          "logo": "https://logo.clearbit.com/christianitytoday.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/christianitytoday.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 90
+      },
+      "3201429221": {
+        "item_id": "3201429221",
+        "resolved_id": "3201429221",
+        "given_url": "https://www.strongtowns.org/journal/2020/12/13/john-pattison-from-slow-food-to-slow-church",
+        "given_title": "John Pattison: From Slow Food to Slow Church",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1610245467",
+        "time_updated": "1610245467",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 8,
+        "resolved_title": "John Pattison: From Slow Food to Slow Church",
+        "resolved_url": "https://www.strongtowns.org/journal/2020/12/13/john-pattison-from-slow-food-to-slow-church",
+        "excerpt": "In 1986, the Italian journalist Carlo Petrini organized a protest of the opening of a McDonald’s restaurant near the Spanish Steps in Rome. Holding bowls of penne pasta, the protestors chanted, “We don’t want fast food, we want slow food.”",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "445",
+        "lang": "en",
+        "top_image_url": "http://static1.squarespace.com/static/53dd6676e4b0fedfbc26ea91/54b6c509e4b062126976d942/5fd6aa0c154d727871f720e6/1607965257742/Pattison.png?format=1500w",
+        "tags": {
+          "cities": {
+            "item_id": "3201429221",
+            "tag": "cities"
+          },
+          "inoreader": {
+            "item_id": "3201429221",
+            "tag": "inoreader"
+          }
+        },
+        "image": {
+          "item_id": "3201429221",
+          "src": "https://images.squarespace-cdn.com/content/v1/53dd6676e4b0fedfbc26ea91/1607926505963-FDZFDA0ZOAX8W36WVSYL/ke17ZwdGBToddI8pDm48kPZoFzfdH-BtuMfavJKf2H9Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PI6uq3lIRrTFlZLAXXG0jAbzUCoswZ2f3i4aYUGxdW5WAKMshLAGzx4R3EDFOm1kBS/IMG_5024.jpeg",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3201429221",
+            "image_id": "1",
+            "src": "https://images.squarespace-cdn.com/content/v1/53dd6676e4b0fedfbc26ea91/1607926505963-FDZFDA0ZOAX8W36WVSYL/ke17ZwdGBToddI8pDm48kPZoFzfdH-BtuMfavJKf2H9Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PI6uq3lIRrTFlZLAXXG0jAbzUCoswZ2f3i4aYUGxdW5WAKMshLAGzx4R3EDFOm1kBS/IMG_5024.jpeg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "listen_duration_estimate": 172
+      },
+      "3202570016": {
+        "item_id": "3202570016",
+        "resolved_id": "3202570016",
+        "given_url": "https://www.strongtowns.org/journal/2020/12/15/best-of-2020-how-sharing-food-can-strengthen-communities",
+        "given_title": "Best of 2020: How Sharing Food Can Strengthen Communities",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1610245563",
+        "time_updated": "1610245563",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 14,
+        "resolved_title": "Best of 2020: How Sharing Food Can Strengthen Communities",
+        "resolved_url": "https://www.strongtowns.org/journal/2020/12/15/best-of-2020-how-sharing-food-can-strengthen-communities",
+        "excerpt": "One of our favorite articles of the year happens to be written by one of my favorite neighbors. That’s not a disclaimer; there were multiple staff people who nominated my friend Hilary Dumitrescu’s article to be included in this year’s “Best of…” series.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "299",
+        "lang": "en",
+        "top_image_url": "http://static1.squarespace.com/static/53dd6676e4b0fedfbc26ea91/54b6c509e4b062126976d942/5fd90e3400bc18606336606e/1608066015056/pexels-fauxels-3184193.jpg?format=1500w",
+        "tags": {
+          "cities": {
+            "item_id": "3202570016",
+            "tag": "cities"
+          },
+          "inoreader": {
+            "item_id": "3202570016",
+            "tag": "inoreader"
+          }
+        },
+        "image": {
+          "item_id": "3202570016",
+          "src": "https://images.squarespace-cdn.com/content/v1/53dd6676e4b0fedfbc26ea91/1603845554034-P9ORP8XQ0OX80IONR6B9/ke17ZwdGBToddI8pDm48kHHm4eAFvs1X4JedVjNAk7FZw-zPPgdn4jUwVcJE1ZvWEtT5uBSRWt4vQZAgTJucoTqqXjS3CfNDSuuf31e0tVEzYnsvN4j2BiT5DOriMxHzhMzTQk4cD-UDUyh6w-LkxFtO8nJtk629tZGIWiyY3XQ/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_44d9fb43-9ff8-44c1-beb0-ae1d84eac67f_420x294+%281%29.png",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3202570016",
+            "image_id": "1",
+            "src": "https://images.squarespace-cdn.com/content/v1/53dd6676e4b0fedfbc26ea91/1603845554034-P9ORP8XQ0OX80IONR6B9/ke17ZwdGBToddI8pDm48kHHm4eAFvs1X4JedVjNAk7FZw-zPPgdn4jUwVcJE1ZvWEtT5uBSRWt4vQZAgTJucoTqqXjS3CfNDSuuf31e0tVEzYnsvN4j2BiT5DOriMxHzhMzTQk4cD-UDUyh6w-LkxFtO8nJtk629tZGIWiyY3XQ/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_44d9fb43-9ff8-44c1-beb0-ae1d84eac67f_420x294+%281%29.png",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "https://some.ly/zC5Z2MP/"
+          }
+        },
+        "listen_duration_estimate": 116
+      },
+      "3203358673": {
+        "item_id": "3203358673",
+        "resolved_id": "3203358673",
+        "given_url": "https://www.strongtowns.org/journal/2020/12/16/best-of-2020-against-cartoon-villains",
+        "given_title": "Best of 2020: We Don't Live in a World of Cartoon Villains",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1610245567",
+        "time_updated": "1610245568",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 15,
+        "resolved_title": "Best of 2020: We Don't Live in a World of Cartoon Villains",
+        "resolved_url": "https://www.strongtowns.org/journal/2020/12/16/best-of-2020-against-cartoon-villains",
+        "excerpt": "In the run-up to November, we talked a lot as a staff about what to publish during election week. On the one hand, we didn’t want to run a bunch of extended, hard-hitting content when the nation’s attention would, naturally, be elsewhere.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "207",
+        "lang": "en",
+        "top_image_url": "http://static1.squarespace.com/static/53dd6676e4b0fedfbc26ea91/54b6c509e4b062126976d942/5fd967ec3e884d70d5deccbf/1608138026933/dima-pechurin-oBZRJEETU-o-unsplash.jpg?format=1500w",
+        "tags": {
+          "cities": {
+            "item_id": "3203358673",
+            "tag": "cities"
+          },
+          "inoreader": {
+            "item_id": "3203358673",
+            "tag": "inoreader"
+          }
+        },
+        "image": {
+          "item_id": "3203358673",
+          "src": "https://images.squarespace-cdn.com/content/v1/53dd6676e4b0fedfbc26ea91/1604361467724-8OTQW8G3CFXBFPL1D6KU/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/dima-pechurin-oBZRJEETU-o-unsplash.jpg",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3203358673",
+            "image_id": "1",
+            "src": "https://images.squarespace-cdn.com/content/v1/53dd6676e4b0fedfbc26ea91/1604361467724-8OTQW8G3CFXBFPL1D6KU/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/dima-pechurin-oBZRJEETU-o-unsplash.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "Image via Unsplash."
+          }
+        },
+        "listen_duration_estimate": 80
+      },
+      "3203485986": {
+        "item_id": "3203485986",
+        "resolved_id": "3203485986",
+        "given_url": "https://www.strongtowns.org/journal/2020/12/16/best-of-2020-edmonton-becomes-a-model-for-parking-reform",
+        "given_title": "Best of 2020: Edmonton Becomes a Model for Parking Reform",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1610245571",
+        "time_updated": "1610245571",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 16,
+        "resolved_title": "Best of 2020: Edmonton Becomes a Model for Parking Reform",
+        "resolved_url": "https://www.strongtowns.org/journal/2020/12/16/best-of-2020-edmonton-becomes-a-model-for-parking-reform",
+        "excerpt": "You see it all the time. Local officials are interested in enacting a much-needed reform—say, relaxing zoning codes to give homeowners the flexibility to create accessory dwelling units, which can provide rental income, ease the pressure on housing costs, keep grandma close, etc.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "385",
+        "lang": "en",
+        "top_image_url": "http://static1.squarespace.com/static/53dd6676e4b0fedfbc26ea91/54b6c509e4b062126976d942/5fda356358f707396d60fb53/1608148208347/27573134775_6de5334976_5k.jpg?format=1500w",
+        "tags": {
+          "cities": {
+            "item_id": "3203485986",
+            "tag": "cities"
+          },
+          "inoreader": {
+            "item_id": "3203485986",
+            "tag": "inoreader"
+          }
+        },
+        "image": {
+          "item_id": "3203485986",
+          "src": "https://images.squarespace-cdn.com/content/v1/53dd6676e4b0fedfbc26ea91/1608142749559-VXO3NDAHP7TIMFDO251B/ke17ZwdGBToddI8pDm48kAo2l52cbHStWXyDRJuTYPJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmVrWDWeGQMsPES3mXg7qhykX1A5knGOHN2P0EeU1lLyTWa1LFOGkwGF4OeZKjH83n/Screen%2BShot%2B2020-05-13%2Bat%2B5.26.45%2BPM.png",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3203485986",
+            "image_id": "1",
+            "src": "https://images.squarespace-cdn.com/content/v1/53dd6676e4b0fedfbc26ea91/1608142749559-VXO3NDAHP7TIMFDO251B/ke17ZwdGBToddI8pDm48kAo2l52cbHStWXyDRJuTYPJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmVrWDWeGQMsPES3mXg7qhykX1A5knGOHN2P0EeU1lLyTWa1LFOGkwGF4OeZKjH83n/Screen%2BShot%2B2020-05-13%2Bat%2B5.26.45%2BPM.png",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "Areas in red show space allocated to parking in different locations in Edmonton. From top left to bottom right: mature neighborhood, Strathcona, Downtown, developing neighborhood/suburb."
+          }
+        },
+        "listen_duration_estimate": 149
+      },
+      "3204297103": {
+        "item_id": "3204297103",
+        "resolved_id": "3204297103",
+        "given_url": "https://www.strongtowns.org/journal/2020/12/17/best-of-2020-the-local-case-for-reparations",
+        "given_title": "Best of 2020: The Local Case for Reparations",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1610245537",
+        "time_updated": "1610245537",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 9,
+        "resolved_title": "Best of 2020: The Local Case for Reparations",
+        "resolved_url": "https://www.strongtowns.org/journal/2020/12/17/best-of-2020-the-local-case-for-reparations",
+        "excerpt": "Of all the writing we do at Strong Towns, I am proudest of those pieces which seek to complicate people’s preconceived narratives and reopen doors they may have closed in their minds. The below piece, “The Local Case for Reparations” by my colleague Chuck Marohn, is an example.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "909",
+        "lang": "en",
+        "time_to_read": 4,
+        "top_image_url": "http://static1.squarespace.com/static/53dd6676e4b0fedfbc26ea91/54b6c509e4b062126976d942/5fda79d3bc3bba669515aa5f/1608224406273/Mural_at_31st_and_Troost_Ave_low_angle.jpg?format=1500w",
+        "tags": {
+          "cities": {
+            "item_id": "3204297103",
+            "tag": "cities"
+          },
+          "inoreader": {
+            "item_id": "3204297103",
+            "tag": "inoreader"
+          }
+        },
+        "image": {
+          "item_id": "3204297103",
+          "src": "https://images.squarespace-cdn.com/content/v1/53dd6676e4b0fedfbc26ea91/1600609350559-RQ04QPT1ZWUJEVV3MOZB/ke17ZwdGBToddI8pDm48kJ_nno0-TuE5M6X5l7R5Wop7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYpX0B6W4VjK1xoobLRVu4YljDLeOfES39CNzYywMkKe3HQ7Y2WlVdMid7sjic-hZA/Mural_at_31st_and_Troost_Ave_low_angle.jpg",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3204297103",
+            "image_id": "1",
+            "src": "https://images.squarespace-cdn.com/content/v1/53dd6676e4b0fedfbc26ea91/1600609350559-RQ04QPT1ZWUJEVV3MOZB/ke17ZwdGBToddI8pDm48kJ_nno0-TuE5M6X5l7R5Wop7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYpX0B6W4VjK1xoobLRVu4YljDLeOfES39CNzYywMkKe3HQ7Y2WlVdMid7sjic-hZA/Mural_at_31st_and_Troost_Ave_low_angle.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "Mural at 31st and Troost in Kansas City. Image source."
+          }
+        },
+        "listen_duration_estimate": 352
+      },
+      "3204460375": {
+        "item_id": "3204460375",
+        "resolved_id": "3204460375",
+        "given_url": "https://www.strongtowns.org/journal/2020/12/10/bottom-up-sheleita-miller",
+        "given_title": "The Bottom-Up Revolution is... Bridging Divides Between Neighbors and Gover",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1610245540",
+        "time_updated": "1610245540",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 10,
+        "resolved_title": "The Bottom-Up Revolution is... Bridging Divides Between Neighbors and Government",
+        "resolved_url": "https://www.strongtowns.org/journal/2020/12/10/bottom-up-sheleita-miller",
+        "excerpt": "Today’s episode of the Bottom-Up Revolution Podcast features Strong Towns member, Sheleita Miller. She’s an accountant and citizen activist based in Gary, Indiana.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "255",
+        "lang": "en",
+        "top_image_url": "http://static1.squarespace.com/static/53dd6676e4b0fedfbc26ea91/54b6c509e4b062126976d942/5fd8c2debf84161920092366/1608238822799/BUR+%282%29.png?format=1500w",
+        "tags": {
+          "cities": {
+            "item_id": "3204460375",
+            "tag": "cities"
+          },
+          "inoreader": {
+            "item_id": "3204460375",
+            "tag": "inoreader"
+          }
+        },
+        "image": {
+          "item_id": "3204460375",
+          "src": "https://images.squarespace-cdn.com/content/v1/53dd6676e4b0fedfbc26ea91/1608041539611-ZJA148GTZMBW110QYMOQ/ke17ZwdGBToddI8pDm48kNmv4sTEyGhlLOUe2pZzh2R7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmv1ihXzK27xJYOPbUG3fJTyJfwPsaUTNcuMukMxtKPW5Ldvb183IGbZMy24nnMhq1/20201121_100540_%25281%2529.jpg",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3204460375",
+            "image_id": "1",
+            "src": "https://images.squarespace-cdn.com/content/v1/53dd6676e4b0fedfbc26ea91/1608041539611-ZJA148GTZMBW110QYMOQ/ke17ZwdGBToddI8pDm48kNmv4sTEyGhlLOUe2pZzh2R7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmv1ihXzK27xJYOPbUG3fJTyJfwPsaUTNcuMukMxtKPW5Ldvb183IGbZMy24nnMhq1/20201121_100540_%25281%2529.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "listen_duration_estimate": 99
+      },
+      "3210066877": {
+        "item_id": "3210066877",
+        "resolved_id": "3210066877",
+        "given_url": "https://cityobservatory.org/city-observatory-on-housing-supply-and-affordability/",
+        "given_title": "City Observatory on housing supply and affordability",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1610245551",
+        "time_updated": "1610245551",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 11,
+        "resolved_title": "City Observatory - City Observatory on housing supply and affordability",
+        "resolved_url": "https://cityobservatory.org/city-observatory-on-housing-supply-and-affordability/",
+        "excerpt": "",
+        "is_article": "0",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "0",
+        "lang": "en",
+        "top_image_url": "http://cityobservatory.org/wp-content/themes/ocd/img/cityicon.png",
+        "tags": {
+          "cities": {
+            "item_id": "3210066877",
+            "tag": "cities"
+          },
+          "inoreader": {
+            "item_id": "3210066877",
+            "tag": "inoreader"
+          }
+        },
+        "listen_duration_estimate": 0
+      },
+      "3213774680": {
+        "item_id": "3213774680",
+        "resolved_id": "3213774680",
+        "given_url": "https://www.christianitytoday.com/edstetzer/2020/december/spiritual-formation-for-different-personality-types.html",
+        "given_title": "Spiritual Formation That Fits You",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1609811731",
+        "time_updated": "1609811731",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 3,
+        "resolved_title": "Spiritual Formation That Fits You",
+        "resolved_url": "https://www.christianitytoday.com/edstetzer/2020/december/spiritual-formation-for-different-personality-types.html",
+        "excerpt": "As we prepare for the new year, it may be helpful to consider how you’d like to pursue spiritual formation in the year ahead.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "1075",
+        "lang": "en",
+        "time_to_read": 5,
+        "tags": {
+          "church/theology": {
+            "item_id": "3213774680",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3213774680",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "93690598": {
+            "item_id": "3213774680",
+            "author_id": "93690598",
+            "name": "Bio",
+            "url": "https://www.christianitytoday.com/edstetzer/contributors/ed-stetzer.html"
+          }
+        },
+        "image": {
+          "item_id": "3213774680",
+          "src": "https://www-images.christianitytoday.com/images/121224.png?w=600",
+          "width": "600",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3213774680",
+            "image_id": "1",
+            "src": "https://www-images.christianitytoday.com/images/121224.png?w=600",
+            "width": "600",
+            "height": "0",
+            "credit": "Image: Patrick Fore/Unsplash",
+            "caption": ""
+          }
+        },
+        "domain_metadata": {
+          "name": "Christianity Today",
+          "logo": "https://logo.clearbit.com/christianitytoday.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/christianitytoday.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 416
+      },
+      "3214701786": {
+        "item_id": "3214701786",
+        "resolved_id": "3214701786",
+        "given_url": "https://www.christianitytoday.com/edstetzer/2020/december/loss-of-civility-and-hard-work-of-reconciliation.html",
+        "given_title": "The Loss of Civility and the Hard Work of Reconciliation",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1609811728",
+        "time_updated": "1609811728",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 2,
+        "resolved_title": "The Loss of Civility and the Hard Work of Reconciliation",
+        "resolved_url": "https://www.christianitytoday.com/edstetzer/2020/december/loss-of-civility-and-hard-work-of-reconciliation.html",
+        "excerpt": "Harsh winds and frozen grounds have set in for what is expected to be the Dark Winter of 2020. All that was lush, and flourishing is now fallow-limp on the ground and rotting.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "837",
+        "lang": "en",
+        "time_to_read": 4,
+        "tags": {
+          "church/theology": {
+            "item_id": "3214701786",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3214701786",
+            "tag": "inoreader"
+          }
+        },
+        "image": {
+          "item_id": "3214701786",
+          "src": "https://www-images.christianitytoday.com/images/121225.png?w=600",
+          "width": "600",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3214701786",
+            "image_id": "1",
+            "src": "https://www-images.christianitytoday.com/images/121225.png?w=600",
+            "width": "600",
+            "height": "0",
+            "credit": "Image: Aarón Blanco Tejedor/Unsplash",
+            "caption": ""
+          }
+        },
+        "domain_metadata": {
+          "name": "Christianity Today",
+          "logo": "https://logo.clearbit.com/christianitytoday.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/christianitytoday.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 324
+      },
+      "3216090304": {
+        "item_id": "3216090304",
+        "resolved_id": "3216090304",
+        "given_url": "https://cityobservatory.org/2020-the-year-observed/",
+        "given_title": "2020: The Year Observed",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1610245551",
+        "time_updated": "1610245551",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 12,
+        "resolved_title": "City Observatory - 2020: The Year Observed",
+        "resolved_url": "https://cityobservatory.org/2020-the-year-observed/",
+        "excerpt": "",
+        "is_article": "0",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "0",
+        "lang": "en",
+        "top_image_url": "https://cityobservatory.org/wp-content/uploads/2014/10/City-Report.png",
+        "tags": {
+          "cities": {
+            "item_id": "3216090304",
+            "tag": "cities"
+          },
+          "inoreader": {
+            "item_id": "3216090304",
+            "tag": "inoreader"
+          }
+        },
+        "listen_duration_estimate": 0
+      },
+      "3216228036": {
+        "item_id": "3216228036",
+        "resolved_id": "3216228036",
+        "given_url": "https://www.christiancentury.org/article/faith-matters/tending-love-time-trauma",
+        "given_title": "Tending love in a time of trauma",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1609811723",
+        "time_updated": "1609811723",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 0,
+        "resolved_title": "Tending love in a time of trauma",
+        "resolved_url": "https://www.christiancentury.org/article/faith-matters/tending-love-time-trauma",
+        "excerpt": "Between saying good-bye to 2020 and wondering what a new year and a new presidency will bring, I am filled with ambivalence. The prospect of normalcy feels impossible, and not just in terms of gathering, eating out, and traveling.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "963",
+        "lang": "en",
+        "time_to_read": 4,
+        "top_image_url": "https://www.christiancentury.org/sites/default/files/images/detail/011321house-violence.jpg",
+        "tags": {
+          "church/theology": {
+            "item_id": "3216228036",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3216228036",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "64218231": {
+            "item_id": "3216228036",
+            "author_id": "64218231",
+            "name": "Brian Bantum",
+            "url": "https://www.christiancentury.org/contributor/brian-bantum"
+          }
+        },
+        "listen_duration_estimate": 373
+      },
+      "3220336850": {
+        "item_id": "3220336850",
+        "resolved_id": "3220336850",
+        "given_url": "https://jofum.com/urban-voices/prophetic-resilience-and-the-work-of-justice-reflecting-on-dr-king/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=prophetic-resilience-and-the-work-of-justice-reflecting-on-dr-king",
+        "given_title": "Prophetic Resilience and the Work of Justice: Reflecting on Dr. King",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1609811725",
+        "time_updated": "1609811727",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 1,
+        "resolved_title": "",
+        "resolved_url": "https://jofum.com/urban-voices/prophetic-resilience-and-the-work-of-justice-reflecting-on-dr-king/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=prophetic-resilience-and-the-work-of-justice-reflecting-on-dr-king",
+        "excerpt": "",
+        "is_article": "0",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "0",
+        "lang": "",
+        "tags": {
+          "church/theology": {
+            "item_id": "3220336850",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3220336850",
+            "tag": "inoreader"
+          }
+        },
+        "listen_duration_estimate": 0
+      },
+      "3221706058": {
+        "item_id": "3221706058",
+        "resolved_id": "3221706058",
+        "given_url": "https://www.strongtowns.org/journal/2021/1/5/want-to-change-the-way-our-world-is-built-you-wont-do-it-by-fighting-a-culture-war",
+        "given_title": "Want to Change the Way Our World is Built? You Won't Do it by Fighting a Cu",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1610245553",
+        "time_updated": "1610245553",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 13,
+        "resolved_title": "Want to Change the Way Our World is Built? You Won't Do it by Fighting a Culture War.",
+        "resolved_url": "https://www.strongtowns.org/journal/2021/1/5/want-to-change-the-way-our-world-is-built-you-wont-do-it-by-fighting-a-culture-war",
+        "excerpt": "A couple months ago I went to buy a set of used patio furniture, way out in the exurbs of my city. I live near downtown, so I drove... and drove... and drove.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "837",
+        "lang": "en",
+        "time_to_read": 4,
+        "top_image_url": "http://static1.squarespace.com/static/53dd6676e4b0fedfbc26ea91/t/5ff4f27dc783e72603822112/1609888396520/avi-waxman-f9qZuKoZYoY-unsplash+%281%29.jpg?format=1500w",
+        "tags": {
+          "cities": {
+            "item_id": "3221706058",
+            "tag": "cities"
+          },
+          "inoreader": {
+            "item_id": "3221706058",
+            "tag": "inoreader"
+          }
+        },
+        "image": {
+          "item_id": "3221706058",
+          "src": "https://images.squarespace-cdn.com/content/v1/53dd6676e4b0fedfbc26ea91/1609869354682-HGW8CGTMHYXMT5JN0EDA/ke17ZwdGBToddI8pDm48kGLi6xYBB2UyCEqI0Pc_jBN7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0pTKqSDRwmMK43IUI3HojJVdZThTGgElTCcWgxjJC2dUInFyZ-f2O8sIFPjwN2fwLw/deltierra.jpg",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3221706058",
+            "image_id": "1",
+            "src": "https://images.squarespace-cdn.com/content/v1/53dd6676e4b0fedfbc26ea91/1609869354682-HGW8CGTMHYXMT5JN0EDA/ke17ZwdGBToddI8pDm48kGLi6xYBB2UyCEqI0Pc_jBN7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0pTKqSDRwmMK43IUI3HojJVdZThTGgElTCcWgxjJC2dUInFyZ-f2O8sIFPjwN2fwLw/deltierra.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "View fullsize"
+          },
+          "2": {
+            "item_id": "3221706058",
+            "image_id": "2",
+            "src": "https://images.squarespace-cdn.com/content/v1/53dd6676e4b0fedfbc26ea91/1609888314363-QKM6BMQ5ZY30G24AASH8/ke17ZwdGBToddI8pDm48kHurx3fBdIeZgkINxEYikuJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0hReLB75oIvKxcDxwlnLXaYxx2rsRFRO1wRK_rkZV1RAl5oC2R-qVYkbBJkzr4SD3g/avi-waxman-f9qZuKoZYoY-unsplash+%281%29.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": "Image via Avi Waxman on Unsplash."
+          }
+        },
+        "listen_duration_estimate": 324
+      },
+      "3223261230": {
+        "item_id": "3223261230",
+        "resolved_id": "3223261230",
+        "given_url": "https://www.inheritancemag.com/stories/naming-as-way-finding",
+        "given_title": "Naming as Way-Finding",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1610061761",
+        "time_updated": "1610061766",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 5,
+        "resolved_title": "Naming as Way-Finding",
+        "resolved_url": "https://www.inheritancemag.com/stories/naming-as-way-finding",
+        "excerpt": "Jordan Aspiras: Thirteen letters. Part of the challenge of having ancestors from such a heavily colonized place like the Philippines is that stories get lost over time. In fact, formal surnames were not used, or at least documented by historians, in the same capacity that they are used today.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "1120",
+        "lang": "en",
+        "time_to_read": 5,
+        "top_image_url": "https://assets-global.website-files.com/562ec8a423de0f67085846ee/5ff7464cd36e70304bd3ae4b_wayfinding-seo.jpg",
+        "tags": {
+          "church/theology": {
+            "item_id": "3223261230",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3223261230",
+            "tag": "inoreader"
+          }
+        },
+        "image": {
+          "item_id": "3223261230",
+          "src": "https://assets-global.website-files.com/562ec8a423de0f67085846ee/5ff747ce8ef71d43240bf81e_wayfinding.jpg",
+          "width": "0",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3223261230",
+            "image_id": "1",
+            "src": "https://assets-global.website-files.com/562ec8a423de0f67085846ee/5ff747ce8ef71d43240bf81e_wayfinding.jpg",
+            "width": "0",
+            "height": "0",
+            "credit": "",
+            "caption": ""
+          }
+        },
+        "listen_duration_estimate": 434
+      },
+      "3223555794": {
+        "item_id": "3223555794",
+        "resolved_id": "3223555794",
+        "given_url": "https://www.christiancentury.org/article/first-person/search-sanctuary",
+        "given_title": "In search of sanctuary",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1610114289",
+        "time_updated": "1610114289",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 6,
+        "resolved_title": "In search of sanctuary",
+        "resolved_url": "https://www.christiancentury.org/article/first-person/search-sanctuary",
+        "excerpt": "“There’s a family in sanctuary at St. George’s right now,” my priest texted me midmorning on an ordinary day in June. We had declared ourselves a sanctuary church four years earlier, but it wasn’t until this particular day that we had been called upon to act.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "2369",
+        "lang": "en",
+        "time_to_read": 11,
+        "top_image_url": "https://www.christiancentury.org/sites/default/files/images/detail/0113221sanctuaryuncropped.jpg",
+        "tags": {
+          "church/theology": {
+            "item_id": "3223555794",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3223555794",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "38728595": {
+            "item_id": "3223555794",
+            "author_id": "38728595",
+            "name": "Amy Frykholm",
+            "url": "https://www.christiancentury.org/contributor/amy-frykholm"
+          }
+        },
+        "listen_duration_estimate": 917
+      },
+      "3224781599": {
+        "item_id": "3224781599",
+        "resolved_id": "3224781599",
+        "given_url": "https://www.christianitytoday.com/edstetzer/2021/january/reading-bible-with-our-whole-selves.html",
+        "given_title": "Reading the Bible With Your Heart (Without Losing Your Head)",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1610245378",
+        "time_updated": "1610245378",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 7,
+        "resolved_title": "Reading the Bible With Your Heart (Without Losing Your Head)",
+        "resolved_url": "https://www.christianitytoday.com/edstetzer/2021/january/reading-bible-with-our-whole-selves.html",
+        "excerpt": "This article is brought to The Exchange by BibleProject. BibleProject is a non-profit animation studio that produces short-form, fully animated videos to make the biblical story accessible to everyone, everywhere.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "1",
+        "word_count": "1307",
+        "lang": "en",
+        "time_to_read": 6,
+        "tags": {
+          "church/theology": {
+            "item_id": "3224781599",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3224781599",
+            "tag": "inoreader"
+          }
+        },
+        "image": {
+          "item_id": "3224781599",
+          "src": "https://www-images.christianitytoday.com/images/121436.jpg?w=600",
+          "width": "600",
+          "height": "0"
+        },
+        "images": {
+          "1": {
+            "item_id": "3224781599",
+            "image_id": "1",
+            "src": "https://www-images.christianitytoday.com/images/121436.jpg?w=600",
+            "width": "600",
+            "height": "0",
+            "credit": "Image: BibleProject",
+            "caption": ""
+          }
+        },
+        "domain_metadata": {
+          "name": "Christianity Today",
+          "logo": "https://logo.clearbit.com/christianitytoday.com?size=800",
+          "greyscale_logo": "https://logo.clearbit.com/christianitytoday.com?size=800&greyscale=true"
+        },
+        "listen_duration_estimate": 506
+      }
+    },
+    "error": null,
+    "search_meta": {
+      "search_type": "normal"
+    },
+    "since": 1610268588
+  }
+}
