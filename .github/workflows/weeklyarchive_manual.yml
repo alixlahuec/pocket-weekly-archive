@@ -5,7 +5,7 @@ on:
       ending:
         description: "Date of week's end"
         required: true
-        default: echo "${date + '%Y-%m-%d'}"
+        default: YYYY-MM-DD
 
 jobs:
   request:
@@ -22,7 +22,7 @@ jobs:
         run: echo "::set-output name=TODAY::${{ github.event.inputs.ending }}"
       - name: Calculate Unix timestamp from a week ago
         id: since
-        run: echo "::set-output name=SINCE::$(date +%Y-%m-%d -d '${{ github.event.inputs.ending }} -7 days')"
+        run: echo "::set-output name=SINCE::$(date +%Y-%m-%d -d '${{ github.event.inputs.ending }} -7 days' +%s)"
       - name: Request the data from the Pocket API (POST)
         id: archive
         uses: Satak/webrequest-action@v1.2.3
@@ -83,9 +83,10 @@ jobs:
           library(rjson)
           weekly.data <- rjson::fromJSON(file = '${{ needs.request.outputs.filepath }}')
           week.items <- weekly.data[["data"]][["list"]]
+          week.items.filtered <- week.items[lapply(week.items, function(x){unix_to_date(x[["time_added"]])}) <= as.Date(as.POSIXct('${{ needs.request.outputs.today }}', origin = '1970-01-01'))]
           roam.import <- list(list(title = "Pocket Weekly Backlog", children = list()))
           roam.import[[1]][["children"]] <- list(list(string = '${{ needs.request.outputs.today }}', children = list()))
-          roam.import[[1]][["children"]][[1]][["children"]] <- lapply(week.items, FUN = format_pocket_item)
+          roam.import[[1]][["children"]][[1]][["children"]] <- lapply(week.items.filtered, FUN = format_pocket_item)
           roam.import[[1]][["children"]][[1]][["children"]] <- unname(roam.import[[1]][["children"]][[1]][["children"]])
           roam.import.json <- rjson::toJSON(roam.import)
           write(roam.import.json, "archives/${{ needs.request.outputs.today }}/roam_import.json")
