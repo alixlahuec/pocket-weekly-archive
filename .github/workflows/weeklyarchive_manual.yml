@@ -22,7 +22,7 @@ jobs:
         run: echo "::set-output name=TODAY::${{ github.event.inputs.ending }}"
       - name: Calculate Unix timestamp from a week ago
         id: since
-        run: echo "::set-output name=SINCE::$(date +%Y-%m-%d -d '${{ github.event.inputs.ending }} -7 days' +%s)"
+        run: echo "::set-output name=SINCE::$(date +%s -d '${{ github.event.inputs.ending }} -7 days')"
       - name: Request the data from the Pocket API (POST)
         id: archive
         uses: Satak/webrequest-action@v1.2.3
