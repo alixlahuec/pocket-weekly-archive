@@ -1,4 +1,4 @@
-name: "Pocket weekly reading list"
+name: "Pocket weekly reading list - MANUAL"
 on:
   workflow_dispatch:
     inputs:
@@ -93,4 +93,4 @@ jobs:
         uses: elstudio/actions-js-build/commit@v3
         with:
           commitMessage: Automated Roam formatting (${{ github.event_name }})
-© 2021 GitHub, Inc.
+
