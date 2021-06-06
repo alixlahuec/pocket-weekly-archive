@@ -1,0 +1,135 @@
+{
+  "url": "https://getpocket.com/v3/get",
+  "method": "post",
+  "payload": {
+    "consumer_key": "SECRET",
+    "access_token": "SECRET",
+    "state": "unread",
+    "sort": "oldest",
+    "detailType": "complete",
+    "since": "1622365278"
+  },
+  "time": "09:01:18 GMT+0000 (Coordinated Universal Time)",
+  "statusCode": 200,
+  "data": {
+    "status": 1,
+    "complete": 0,
+    "list": {
+      "3346154307": {
+        "item_id": "3346154307",
+        "resolved_id": "3346154307",
+        "given_url": "https://scotmcknight.substack.com/p/inerrancy-or-inerrancies",
+        "given_title": "Inerrancy or Inerrancies? - Scot’s Newsletter",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1622602021",
+        "time_updated": "1622602025",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 1,
+        "resolved_title": "Inerrancy or Inerrancies?",
+        "resolved_url": "https://scotmcknight.substack.com/p/inerrancy-or-inerrancies",
+        "excerpt": "I’m sorry, but I meant for this post to appear Tuesday. It was accidentally sent Saturday but here it is again but with some revisions and additions. When in 1976 Harold Lindsell published The Battle for the Bible the evangelical world was rocked. Split would be a good word.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "3565",
+        "lang": "en",
+        "time_to_read": 16,
+        "top_image_url": "https://cdn.substack.com/image/fetch/w_1200,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe74dd245-5bb1-4f65-9957-fa4497b9d0ae_1622x722.png",
+        "authors": {
+          "146543426": {
+            "item_id": "3346154307",
+            "author_id": "146543426",
+            "name": "Scot McKnight",
+            "url": "https://scotmcknight.substack.com/people/27107797-scot-mcknight"
+          }
+        },
+        "listen_duration_estimate": 1380
+      },
+      "3346520897": {
+        "item_id": "3346520897",
+        "resolved_id": "3346520897",
+        "given_url": "http://www.postost.net/2021/06/interview-people-who-started-urban-monastics",
+        "given_title": "An interview with the people who started Urban Monastics",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1622582046",
+        "time_updated": "1622582048",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 0,
+        "resolved_title": "An interview with the people who started Urban Monastics",
+        "resolved_url": "https://www.postost.net/2021/06/interview-people-who-started-urban-monastics",
+        "excerpt": "Here’s another podcast in the “mission in post-Christian Europe” category. It’s an interview with Paul and Jordan Prins and Sheila Wittenberg about their Urban Monastics project. They have some really good things to say about cross-cultural mission in Western Europe, their reasons for starting an “ecumenical monastic community,” and the values and vision that they are seeking to put into practice.",
+        "is_article": "0",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "0",
+        "lang": "en",
+        "top_image_url": "https://www.postost.net/sites/default/files/styles/mainimage/public/urban_monastics_0.jpeg",
+        "tags": {
+          "church/theology": {
+            "item_id": "3346520897",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3346520897",
+            "tag": "inoreader"
+          }
+        },
+        "listen_duration_estimate": 0
+      },
+      "3347610663": {
+        "item_id": "3347610663",
+        "resolved_id": "3347610663",
+        "given_url": "https://www.christiancentury.org/article/critical-essay/how-white-christians-turned-syncretism-insult",
+        "given_title": "How White Christians turned &lt;em&gt;syncretism&lt;/em&gt; into an insult",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1622728425",
+        "time_updated": "1622728425",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 2,
+        "resolved_title": "How White Christians turned syncretism into an insult",
+        "resolved_url": "https://www.christiancentury.org/article/critical-essay/how-white-christians-turned-syncretism-insult",
+        "excerpt": "Theology doesn’t have many insults. This is a good thing, because insults diminish another’s humanity and make light of the Creator of that humanity. I take it as a positive sign for the health of Christian theology that it has so few of them.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "2152",
+        "lang": "en",
+        "time_to_read": 10,
+        "top_image_url": "https://www.christiancentury.org/sites/default/files/images/detail/061621syncretism.jpg",
+        "tags": {
+          "church/theology": {
+            "item_id": "3347610663",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3347610663",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "45366432": {
+            "item_id": "3347610663",
+            "author_id": "45366432",
+            "name": "Ross Kane",
+            "url": "https://www.christiancentury.org/contributor/ross-kane"
+          }
+        },
+        "listen_duration_estimate": 833
+      }
+    },
+    "error": null,
+    "search_meta": {
+      "search_type": "normal"
+    },
+    "since": 1622970079
+  }
+}
