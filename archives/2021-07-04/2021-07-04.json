@@ -1,0 +1,68 @@
+{
+  "url": "https://getpocket.com/v3/get",
+  "method": "post",
+  "payload": {
+    "consumer_key": "SECRET",
+    "access_token": "SECRET",
+    "state": "unread",
+    "sort": "oldest",
+    "detailType": "complete",
+    "since": "1624782386"
+  },
+  "time": "08:26:26 GMT+0000 (Coordinated Universal Time)",
+  "statusCode": 200,
+  "data": {
+    "status": 1,
+    "complete": 0,
+    "list": {
+      "3367550984": {
+        "item_id": "3367550984",
+        "resolved_id": "3367550984",
+        "given_url": "https://politicaltheology.com/minjung-theology-as-a-dialogue-bridge-the-crucified-people-of-asia-and-their-struggle-for-subjectivity/",
+        "given_title": "Minjung Theology as a Dialogue Bridge? The Crucified People of Asia and The",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1624824440",
+        "time_updated": "1624824445",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 0,
+        "resolved_title": "Minjung Theology as a Dialogue Bridge? The Crucified People of Asia and Their Struggle for Subjectivity",
+        "resolved_url": "https://politicaltheology.com/minjung-theology-as-a-dialogue-bridge-the-crucified-people-of-asia-and-their-struggle-for-subjectivity/",
+        "excerpt": "In discussions with communist scholars of religion in Beijing a few years ago, I found that they had a keen interest in liberation theologies, especially South Korean minjung theology, due to its social analysis and engagement.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "1232",
+        "lang": "en",
+        "time_to_read": 6,
+        "top_image_url": "https://politicaltheology.com/wp-content/uploads/2021/06/Screen-Shot-2021-06-24-at-12.25.00-PM.png",
+        "tags": {
+          "church/theology": {
+            "item_id": "3367550984",
+            "tag": "church/theology"
+          },
+          "inoreader": {
+            "item_id": "3367550984",
+            "tag": "inoreader"
+          }
+        },
+        "authors": {
+          "152781622": {
+            "item_id": "3367550984",
+            "author_id": "152781622",
+            "name": "Volker Küster",
+            "url": "https://politicaltheology.com/author/volkerkuster/"
+          }
+        },
+        "listen_duration_estimate": 477
+      }
+    },
+    "error": null,
+    "search_meta": {
+      "search_type": "normal"
+    },
+    "since": 1625387187
+  }
+}
