@@ -1,0 +1,55 @@
+{
+  "url": "https://getpocket.com/v3/get",
+  "method": "post",
+  "payload": {
+    "consumer_key": "SECRET",
+    "access_token": "SECRET",
+    "state": "unread",
+    "sort": "oldest",
+    "detailType": "complete",
+    "since": "1649579436"
+  },
+  "time": "08:30:36 GMT+0000 (Coordinated Universal Time)",
+  "statusCode": 200,
+  "data": {
+    "status": 1,
+    "complete": 0,
+    "list": {
+      "14878635": {
+        "item_id": "14878635",
+        "resolved_id": "14878635",
+        "given_url": "http://www.paulgraham.com/makersschedule.html",
+        "given_title": "Maker's Schedule, Manager's Schedule",
+        "favorite": "0",
+        "status": "0",
+        "time_added": "1650162332",
+        "time_updated": "1650162350",
+        "time_read": "0",
+        "time_favorited": "0",
+        "sort_id": 0,
+        "resolved_title": "Maker's Schedule, Manager's Schedule",
+        "resolved_url": "https://www.paulgraham.com/makersschedule.html",
+        "excerpt": "One reason programmers dislike meetings so much is that they're on a different type of schedule from other people. Meetings cost them more. There are two types of schedule, which I'll call the manager's schedule and the maker's schedule. The manager's schedule is for bosses.",
+        "is_article": "1",
+        "is_index": "0",
+        "has_video": "0",
+        "has_image": "0",
+        "word_count": "1131",
+        "lang": "en",
+        "time_to_read": 5,
+        "tags": {
+          "time management": {
+            "item_id": "14878635",
+            "tag": "time management"
+          }
+        },
+        "listen_duration_estimate": 438
+      }
+    },
+    "error": null,
+    "search_meta": {
+      "search_type": "normal"
+    },
+    "since": 1650184236
+  }
+}
