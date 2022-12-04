@@ -1,0 +1,24 @@
+{
+  "url": "https://getpocket.com/v3/get",
+  "method": "post",
+  "payload": {
+    "consumer_key": "SECRET",
+    "access_token": "SECRET",
+    "state": "unread",
+    "sort": "oldest",
+    "detailType": "complete",
+    "since": "1669536976"
+  },
+  "time": "08:16:16 GMT+0000 (Coordinated Universal Time)",
+  "statusCode": 200,
+  "data": {
+    "status": 2,
+    "complete": 0,
+    "list": [],
+    "error": null,
+    "search_meta": {
+      "search_type": "normal"
+    },
+    "since": 1670141777
+  }
+}
